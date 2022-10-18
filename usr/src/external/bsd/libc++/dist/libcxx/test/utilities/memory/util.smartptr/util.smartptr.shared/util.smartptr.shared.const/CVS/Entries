@@ -1,0 +1,21 @@
+/auto_ptr.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/default.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/nullptr_t.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/nullptr_t_deleter.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/nullptr_t_deleter_allocator.pass.cpp/1.1.1.2/Sat Jan  4 21:32:06 2014//Tnetbsd-9-3-RELEASE
+/nullptr_t_deleter_allocator_throw.pass.cpp/1.1.1.2/Sat Jan  4 21:32:06 2014//Tnetbsd-9-3-RELEASE
+/nullptr_t_deleter_throw.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/pointer.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/pointer_deleter.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/pointer_deleter_allocator.pass.cpp/1.1.1.2/Sat Jan  4 21:32:06 2014//Tnetbsd-9-3-RELEASE
+/pointer_deleter_allocator_throw.pass.cpp/1.1.1.2/Sat Jan  4 21:32:06 2014//Tnetbsd-9-3-RELEASE
+/pointer_deleter_throw.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/pointer_throw.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/shared_ptr.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/shared_ptr_Y.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/shared_ptr_Y_rv.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/shared_ptr_pointer.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/shared_ptr_rv.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/unique_ptr.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/weak_ptr.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+D

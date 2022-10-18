@@ -1,0 +1,12 @@
+/atexit.h/1.2/Fri Jul 14 19:24:12 2017//Tnetbsd-9-3-RELEASE
+/env.h/1.3/Tue Jan 20 18:31:25 2015//Tnetbsd-9-3-RELEASE
+/extern.h/1.25/Thu Jan 12 00:43:55 2017//Tnetbsd-9-3-RELEASE
+/fd_setsize.h/1.1/Thu May 20 22:26:22 2004//Tnetbsd-9-3-RELEASE
+/namespace.h/1.196/Wed Jan 17 01:24:29 2018//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.6/Thu May 29 14:51:25 2008//Tnetbsd-9-3-RELEASE
+/port_after.h/1.1/Thu May 20 22:26:22 2004//Tnetbsd-9-3-RELEASE
+/port_before.h/1.4/Thu Mar 20 17:25:23 2014//Tnetbsd-9-3-RELEASE
+/reentrant.h/1.20/Wed Feb  8 18:00:37 2017//Tnetbsd-9-3-RELEASE
+/resolv_mt.h/1.1.1.3/Sun Apr 12 16:35:44 2009//Tnetbsd-9-3-RELEASE
+/tsd.h/1.1/Tue Mar  5 01:35:52 2019//Tnetbsd-9-3-RELEASE
+D/isc////

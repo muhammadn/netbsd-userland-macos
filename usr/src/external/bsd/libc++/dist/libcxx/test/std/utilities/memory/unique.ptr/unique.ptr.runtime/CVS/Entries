@@ -1,0 +1,21 @@
+/move01.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move01.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move02.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move03.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move04.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert01.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert02.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert03.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert04.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert05.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert06.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert07.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert08.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/move_convert09.fail.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/null_asgn.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/null_ctor.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/nullptr_asgn.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/pointer_type.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+D/unique.ptr.runtime.ctor////
+D/unique.ptr.runtime.modifiers////
+D/unique.ptr.runtime.observers////

@@ -1,0 +1,11 @@
+/Makefile/1.20/Sun Aug 11 05:42:41 2013//Tnetbsd-9-3-RELEASE
+/extern.h/1.7/Sun Aug 11 05:42:41 2013//Tnetbsd-9-3-RELEASE
+/getty.8/1.18/Wed May 29 15:02:12 2013//Tnetbsd-9-3-RELEASE
+/gettytab.5/1.40/Mon Jul 15 01:26:15 2019//Tnetbsd-9-3-RELEASE
+/gettytab.h/1.17/Sun Aug 11 05:42:41 2013//Tnetbsd-9-3-RELEASE
+/init.c/1.18/Sun Aug 11 05:42:41 2013//Tnetbsd-9-3-RELEASE
+/main.c/1.66/Tue Jan 10 21:08:15 2017//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.9/Mon Feb  4 15:27:20 2008//Tnetbsd-9-3-RELEASE
+/subr.c/1.35/Sun Aug 11 16:36:30 2013//Tnetbsd-9-3-RELEASE
+/ttys.5/1.20/Thu Feb 12 07:32:09 2015//Tnetbsd-9-3-RELEASE
+D

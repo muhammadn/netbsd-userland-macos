@@ -1,0 +1,12 @@
+/Makefile/1.12/Sun Aug 14 14:55:42 2016//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.4/Fri Jan 13 21:30:39 2017//Tnetbsd-9-3-RELEASE
+D/audio////
+D/cgd////
+D/clock_subr////
+D/dm////
+D/fss////
+D/md////
+D/raidframe////
+D/scsipi////
+D/sysmon////
+D/usb////

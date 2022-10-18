@@ -1,0 +1,21 @@
+/abs_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/acos_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/asin_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/atan2_valarray_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/atan2_valarray_value.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/atan2_value_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/atan_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/cos_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/cosh_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/exp_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/log10_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/log_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/pow_valarray_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/pow_valarray_value.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/pow_value_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/sin_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/sinh_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/sqrt_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/tan_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/tanh_valarray.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,14 @@
+/Makefile/1.25/Sat Aug 10 18:42:29 2013//Tnetbsd-9-3-RELEASE
+/bcrypt.c/1.19/Wed Aug 28 17:47:07 2013//Tnetbsd-9-3-RELEASE
+/blowfish.c/1.4/Sat Dec 24 21:11:16 2005//Tnetbsd-9-3-RELEASE
+/crypt-sha1.c/1.8.28.1/Sun Oct 31 14:47:04 2021//Tnetbsd-9-3-RELEASE
+/crypt.3/1.27/Fri Mar 23 18:08:35 2012//Tnetbsd-9-3-RELEASE
+/crypt.c/1.34/Wed Jun 17 00:15:26 2015//Tnetbsd-9-3-RELEASE
+/crypt.h/1.4/Fri Oct 27 18:22:56 2006//Tnetbsd-9-3-RELEASE
+/hmac.c/1.3/Mon May 16 10:39:12 2011//Tnetbsd-9-3-RELEASE
+/hmac_sha1.c/1.1/Fri Oct 27 18:22:56 2006//Tnetbsd-9-3-RELEASE
+/md5crypt.c/1.14/Wed Aug 28 17:47:07 2013//Tnetbsd-9-3-RELEASE
+/pw_gensalt.c/1.7/Sun Jan 18 12:15:27 2009//Tnetbsd-9-3-RELEASE
+/shlib_version/1.6/Sun Jan 11 03:07:47 2009//Tnetbsd-9-3-RELEASE
+/util.c/1.1/Fri Jul  2 00:05:23 2004//Tnetbsd-9-3-RELEASE
+D

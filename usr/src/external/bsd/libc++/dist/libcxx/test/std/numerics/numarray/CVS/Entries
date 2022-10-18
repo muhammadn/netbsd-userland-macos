@@ -1,0 +1,11 @@
+/version.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+D/class.gslice////
+D/class.slice////
+D/template.gslice.array////
+D/template.indirect.array////
+D/template.mask.array////
+D/template.slice.array////
+D/template.valarray////
+D/valarray.nonmembers////
+D/valarray.range////
+D/valarray.syn////

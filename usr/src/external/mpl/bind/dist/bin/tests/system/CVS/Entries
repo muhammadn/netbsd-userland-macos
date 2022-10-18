@@ -1,0 +1,140 @@
+/Makefile.in/1.1.1.3.4.1/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/README/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/ans.pl/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/clean.sh/1.1.1.2/Sun Feb 24 18:56:39 2019//Tnetbsd-9-3-RELEASE
+/cleanall.sh/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/cleanpkcs11.sh/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/conf.sh.common/1.1.1.1.4.2/Thu Oct 17 19:34:15 2019//Tnetbsd-9-3-RELEASE
+/conf.sh.in/1.1.1.3.4.1/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/conf.sh.win32/1.1.1.3.4.2/Thu Oct 17 19:34:15 2019//Tnetbsd-9-3-RELEASE
+/digcomp.pl/1.1.1.2/Wed Jan  9 16:48:15 2019//Tnetbsd-9-3-RELEASE
+/ditch.pl/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/feature-test.c/1.5.4.1/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/genzone.sh/1.1.1.3.4.1/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/ifconfig.bat/1.1.1.2.4.1/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/ifconfig.sh/1.1.1.3.4.1/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/org.isc.bind.system/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/org.isc.bind.system.plist/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/packet.pl/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/parallel.sh/1.1.1.1.2.2/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/run.sh/1.1.1.2.4.1/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/runall.sh/1.1.1.1.6.2/Thu Oct 17 19:34:15 2019//Tnetbsd-9-3-RELEASE
+/runsequential.sh/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/send.pl/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/setup.sh/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/start.pl/1.1.1.3/Sat Apr 27 23:47:19 2019//Tnetbsd-9-3-RELEASE
+/start.sh/1.1.1.2/Wed Jan  9 16:48:15 2019//Tnetbsd-9-3-RELEASE
+/stop.pl/1.1.1.4.4.1/Thu Sep 12 19:18:01 2019//Tnetbsd-9-3-RELEASE
+/stop.sh/1.1.1.2/Wed Jan  9 16:48:15 2019//Tnetbsd-9-3-RELEASE
+/stopall.sh/1.1.1.1/Sun Aug 12 12:07:28 2018//Tnetbsd-9-3-RELEASE
+/testcrypto.sh/1.1.1.2/Wed Jan  9 16:48:15 2019//Tnetbsd-9-3-RELEASE
+/testsock.pl/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/testsock6.pl/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+/testsummary.sh/1.1.1.1/Sun Aug 12 12:07:27 2018//Tnetbsd-9-3-RELEASE
+D/acl////
+D/additional////
+D/addzone////
+D/allow-query////
+D/auth////
+D/autosign////
+D/builtin////
+D/cacheclean////
+D/case////
+D/catz////
+D/cds////
+D/chain////
+D/checkconf////
+D/checkds////
+D/checknames////
+D/checkzone////
+D/common////
+D/cookie////
+D/coverage////
+D/database////
+D/delzone////
+D/dialup////
+D/digdelv////
+D/dlv////
+D/dlz////
+D/dlzexternal////
+D/dns64////
+D/dnssec////
+D/dnstap////
+D/dscp////
+D/dsdigest////
+D/dupsigs////
+D/dyndb////
+D/ecdsa////
+D/eddsa////
+D/ednscompliance////
+D/emptyzones////
+D/fetchlimit////
+D/filter-aaaa////
+D/formerr////
+D/forward////
+D/geoip////
+D/geoip2////
+D/glue////
+D/idna////
+D/inline////
+D/integrity////
+D/ixfr////
+D/keepalive////
+D/keymgr////
+D/legacy////
+D/limits////
+D/logfileconfig////
+D/masterfile////
+D/masterformat////
+D/metadata////
+D/mirror////
+D/mkeys////
+D/names////
+D/notify////
+D/nslookup////
+D/nsupdate////
+D/nzd2nzf////
+D/padding////
+D/pending////
+D/pipelined////
+D/pkcs11////
+D/qmin////
+D/reclimit////
+D/redirect////
+D/resolver////
+D/rndc////
+D/rootkeysentinel////
+D/rpz////
+D/rpzrecurse////
+D/rrchecker////
+D/rrl////
+D/rrsetorder////
+D/rsabigexponent////
+D/runtime////
+D/serve-stale////
+D/sfcache////
+D/smartsign////
+D/sortlist////
+D/spf////
+D/staticstub////
+D/statistics////
+D/statschannel////
+D/stress////
+D/stub////
+D/synthfromdnssec////
+D/tcp////
+D/tkey////
+D/tools////
+D/tsig////
+D/tsiggss////
+D/ttl////
+D/unknown////
+D/upforwd////
+D/verify////
+D/views////
+D/wildcard////
+D/win32////
+D/xfer////
+D/xferquota////
+D/zero////
+D/zonechecks////

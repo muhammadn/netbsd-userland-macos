@@ -1,0 +1,15 @@
+/forward.pass.cpp/1.1.1.2/Thu Aug 15 22:38:20 2013//Tnetbsd-9-3-RELEASE
+/forward1.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/forward2.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/forward3.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/forward4.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/forward5.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/forward6.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/move_copy.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/move_if_noexcept.pass.cpp/1.1.1.2/Thu Aug 15 22:38:20 2013//Tnetbsd-9-3-RELEASE
+/move_only.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/move_only1.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/move_only2.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/move_only3.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/move_only4.fail.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+D

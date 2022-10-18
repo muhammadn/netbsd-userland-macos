@@ -1,0 +1,14 @@
+/version.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+D/arithmetic.operations////
+D/bind////
+D/bitwise.operations////
+D/comparisons////
+D/func.def////
+D/func.invoke////
+D/func.memfn////
+D/func.require////
+D/func.wrap////
+D/logical.operations////
+D/negators////
+D/refwrap////
+D/unord.hash////

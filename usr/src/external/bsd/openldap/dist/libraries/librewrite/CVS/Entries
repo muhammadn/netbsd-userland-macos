@@ -1,0 +1,19 @@
+/Copyright/1.1.1.1/Thu May 22 14:20:36 2008//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/RATIONALE/1.1.1.1/Thu May 22 14:20:36 2008//Tnetbsd-9-3-RELEASE
+/config.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/context.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/info.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/ldapmap.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/map.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/params.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/parse.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/rewrite-int.h/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/rewrite-map.h/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/rewrite.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/rule.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/session.c/1.4.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/subst.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/var.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+/xmap.c/1.1.1.6.6.1/Sat Aug 10 06:17:16 2019//Tnetbsd-9-3-RELEASE
+D

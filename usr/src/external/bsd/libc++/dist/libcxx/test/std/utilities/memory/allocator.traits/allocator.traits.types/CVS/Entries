@@ -1,0 +1,12 @@
+/const_pointer.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/const_void_pointer.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/difference_type.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/is_always_equal.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/pointer.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/propagate_on_container_copy_assignment.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/propagate_on_container_move_assignment.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/propagate_on_container_swap.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/rebind_alloc.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/size_type.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/void_pointer.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+D

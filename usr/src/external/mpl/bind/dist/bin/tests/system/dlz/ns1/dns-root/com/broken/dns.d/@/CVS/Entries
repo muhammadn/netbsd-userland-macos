@@ -1,0 +1,4 @@
+/DNAME=10=example.net.=/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/NS=10=example.com.=/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/SOA=10=ns.example.com.=root.example.com.=None=None=None=None=None=/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,12 @@
+/curve448.c/1.1.1.2.4.1/Mon Apr 27 14:47:21 2020//Tnetbsd-9-3-RELEASE
+/curve448_local.h/1.1.1.1.4.2/Mon Apr 27 14:47:21 2020//Tnetbsd-9-3-RELEASE
+/curve448_tables.c/1.1.1.2/Sun Jun  9 17:47:43 2019//Tnetbsd-9-3-RELEASE
+/curve448utils.h/1.1.1.2.4.1/Mon Apr 27 14:47:21 2020//Tnetbsd-9-3-RELEASE
+/ed448.h/1.1.1.1.6.1/Mon Apr 27 14:47:21 2020//Tnetbsd-9-3-RELEASE
+/eddsa.c/1.1.1.2.4.1/Mon Apr 27 14:47:21 2020//Tnetbsd-9-3-RELEASE
+/f_generic.c/1.1.1.2/Sun Jun  9 17:47:43 2019//Tnetbsd-9-3-RELEASE
+/field.h/1.1.1.1.6.1/Mon Apr 27 14:47:21 2020//Tnetbsd-9-3-RELEASE
+/point_448.h/1.1.1.2.4.1/Mon Apr 27 14:47:21 2020//Tnetbsd-9-3-RELEASE
+/scalar.c/1.1.1.2/Sun Jun  9 17:47:43 2019//Tnetbsd-9-3-RELEASE
+/word.h/1.1.1.1.6.1/Mon Apr 27 14:47:21 2020//Tnetbsd-9-3-RELEASE
+D/arch_32////

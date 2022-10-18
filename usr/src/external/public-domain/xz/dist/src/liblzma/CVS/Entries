@@ -1,0 +1,12 @@
+/liblzma.map/1.1.1.1/Fri Apr 17 18:24:55 2015//Tnetbsd-9-3-RELEASE
+/liblzma.pc.in/1.1.1.2/Fri Apr 17 18:24:55 2015//Tnetbsd-9-3-RELEASE
+/liblzma_w32res.rc/1.1.1.1/Tue Nov  2 15:20:39 2010//Tnetbsd-9-3-RELEASE
+/validate_map.sh/1.1.1.1/Fri Apr 17 18:24:55 2015//Tnetbsd-9-3-RELEASE
+D/api////
+D/check////
+D/common////
+D/delta////
+D/lz////
+D/lzma////
+D/rangecoder////
+D/simple////

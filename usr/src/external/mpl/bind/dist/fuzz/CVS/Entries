@@ -1,0 +1,8 @@
+/FUZZING.md/1.1.1.1/Wed Jan  9 16:48:23 2019//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.1.6.1/Thu Sep 12 19:18:14 2019//Tnetbsd-9-3-RELEASE
+/dns_name_fromtext_target.c/1.2/Wed Jan  9 16:55:11 2019//Tnetbsd-9-3-RELEASE
+/dns_rdata_fromwire_text.c/1.2.2.3/Thu Oct 17 19:34:20 2019//Tnetbsd-9-3-RELEASE
+/fuzz.h/1.2/Wed Jan  9 16:55:11 2019//Tnetbsd-9-3-RELEASE
+/main.c/1.2/Wed Jan  9 16:55:11 2019//Tnetbsd-9-3-RELEASE
+D/dns_name_fromtext_target.in////
+D/dns_rdata_fromwire_text.in////

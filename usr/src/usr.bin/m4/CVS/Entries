@@ -1,0 +1,19 @@
+/Makefile/1.19/Thu Jan 29 19:26:20 2015//Tnetbsd-9-3-RELEASE
+/NOTES/1.1/Sun Jun 19 03:58:25 1994//Tnetbsd-9-3-RELEASE
+/eval.c/1.27/Mon Jul 30 22:58:09 2018//Tnetbsd-9-3-RELEASE
+/expr.c/1.21/Tue Mar 26 23:31:45 2019//Tnetbsd-9-3-RELEASE
+/extern.h/1.19.18.1/Tue Jul  7 10:40:46 2020//Tnetbsd-9-3-RELEASE
+/gnum4.c/1.10/Sat Jan 16 16:59:18 2016//Tnetbsd-9-3-RELEASE
+/look.c/1.13/Sat Jan 16 17:00:07 2016//Tnetbsd-9-3-RELEASE
+/m4.1/1.27.18.1/Tue Jul  7 10:40:46 2020//Tnetbsd-9-3-RELEASE
+/main.c/1.48.2.1/Tue Jul  7 10:40:46 2020//Tnetbsd-9-3-RELEASE
+/mdef.h/1.17/Sat Jan 16 18:31:29 2016//Tnetbsd-9-3-RELEASE
+/misc.c/1.24/Sat Jan 16 17:01:22 2016//Tnetbsd-9-3-RELEASE
+/parser.y/1.3/Sun Jan  4 18:31:09 2015//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.15/Tue Mar  8 23:55:19 2011//Tnetbsd-9-3-RELEASE
+/stdd.h/1.4/Thu Aug  7 11:14:34 2003//Tnetbsd-9-3-RELEASE
+/tokenizer.l/1.6/Tue Mar 20 20:34:58 2012//Tnetbsd-9-3-RELEASE
+/trace.c/1.8.34.1/Tue Jul  7 10:40:46 2020//Tnetbsd-9-3-RELEASE
+D/PSD.doc////
+D/TEST////
+D/lib////

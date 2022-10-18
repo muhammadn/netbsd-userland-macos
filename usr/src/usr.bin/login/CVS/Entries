@@ -1,0 +1,9 @@
+/Makefile/1.57/Sun Feb 25 00:16:49 2018//Tnetbsd-9-3-RELEASE
+/common.c/1.8/Wed Oct 28 07:27:24 2015//Tnetbsd-9-3-RELEASE
+/common.h/1.4/Sat May 19 00:02:44 2012//Tnetbsd-9-3-RELEASE
+/k5login.c/1.33/Tue Apr 24 16:52:26 2012//Tnetbsd-9-3-RELEASE
+/login.1/1.30/Wed Nov 19 17:56:53 2008//Tnetbsd-9-3-RELEASE
+/login.c/1.105/Wed Nov 12 22:23:38 2014//Tnetbsd-9-3-RELEASE
+/login_pam.c/1.25/Thu Oct 29 11:31:52 2015//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.6/Thu Aug  7 11:14:26 2003//Tnetbsd-9-3-RELEASE
+D

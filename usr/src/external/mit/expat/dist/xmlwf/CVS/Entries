@@ -1,0 +1,18 @@
+/Makefile.am/1.1.1.1.4.2/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.1.4.2/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/codepage.c/1.1.1.3.8.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/codepage.h/1.1.1.1.44.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/ct.c/1.1.1.1.44.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/filemap.h/1.1.1.2.8.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/readfilemap.c/1.1.1.4.8.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/unixfilemap.c/1.1.1.3.8.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/win32filemap.c/1.1.1.2.8.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/xmlfile.c/1.1.1.3.8.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/xmlfile.h/1.1.1.1.44.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/xmlmime.c/1.1.1.1.44.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/xmlmime.h/1.1.1.1.44.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/xmltchar.h/1.1.1.1.44.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/xmlwf.c/1.1.1.5.8.1/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/xmlwf_helpgen.py/1.1.1.1.4.2/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+/xmlwf_helpgen.sh/1.1.1.1.4.2/Tue Sep 17 19:51:15 2019//Tnetbsd-9-3-RELEASE
+D

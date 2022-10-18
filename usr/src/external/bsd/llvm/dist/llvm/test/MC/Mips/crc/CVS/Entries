@@ -1,0 +1,9 @@
+/invalid.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+/invalid64.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+/module-crc.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+/module-nocrc.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+/set-crc-directive.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+/set-nocrc-directive.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+/valid.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+/valid64.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+D

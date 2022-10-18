@@ -1,0 +1,12 @@
+/Makefile.am/1.1.1.1/Mon Jan  7 14:57:24 2019//Tnetbsd-9-3-RELEASE
+/daa_debug.c/1.1.1.1/Mon Jan  7 14:57:24 2019//Tnetbsd-9-3-RELEASE
+/daa_debug.h/1.1.1.1/Mon Jan  7 14:57:24 2019//Tnetbsd-9-3-RELEASE
+/daa_parameter.c/1.1.1.1/Sat Jan 28 01:36:32 2012//Tnetbsd-9-3-RELEASE
+/daa_structs.c/1.1.1.2/Mon Jan  7 14:57:24 2019//Tnetbsd-9-3-RELEASE
+/test_sign.c/1.1.1.1/Mon Jan  7 14:57:24 2019//Tnetbsd-9-3-RELEASE
+D/big_integer////
+D/daa_anonymityrevocation////
+D/daa_issuer////
+D/daa_platform////
+D/daa_verifier////
+D/utils////

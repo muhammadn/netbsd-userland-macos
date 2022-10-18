@@ -1,0 +1,37 @@
+/Makefile.am/1.1.1.5/Tue Apr  7 16:49:10 2015//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.11/Sat Apr  7 00:15:51 2018//Tnetbsd-9-3-RELEASE
+/README/1.1.1.2/Fri Dec 27 23:31:08 2013//Tnetbsd-9-3-RELEASE
+/invoke-plot_summary.menu/1.1.1.1/Fri Dec 27 23:31:08 2013//Tnetbsd-9-3-RELEASE
+/invoke-plot_summary.texi/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/invoke-summary.menu/1.1.1.1/Fri Dec 27 23:31:08 2013//Tnetbsd-9-3-RELEASE
+/invoke-summary.texi/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/ntpver.in/1.1.1.2/Fri Dec 27 23:31:08 2013//Tnetbsd-9-3-RELEASE
+/plot_summary-opts/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/plot_summary-opts.def/1.1.1.3/Fri Jun  3 20:19:15 2016//Tnetbsd-9-3-RELEASE
+/plot_summary.1plot_summaryman/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/plot_summary.1plot_summarymdoc/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/plot_summary.html/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/plot_summary.in/1.2/Sat Sep 29 21:52:34 2018//Tnetbsd-9-3-RELEASE
+/plot_summary.man.in/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/plot_summary.mdoc.in/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/plot_summary.texi/1.1.1.1/Fri Dec 27 23:31:08 2013//Tnetbsd-9-3-RELEASE
+/summary-opts/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/summary-opts.def/1.1.1.2/Fri Dec 19 20:37:43 2014//Tnetbsd-9-3-RELEASE
+/summary.1summaryman/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/summary.1summarymdoc/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/summary.html/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/summary.in/1.2/Sat Sep 29 21:52:34 2018//Tnetbsd-9-3-RELEASE
+/summary.man.in/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/summary.mdoc.in/1.1.1.12/Sat Sep 29 17:28:41 2018//Tnetbsd-9-3-RELEASE
+/summary.texi/1.1.1.1/Fri Dec 27 23:31:08 2013//Tnetbsd-9-3-RELEASE
+D/build////
+D/calc_tickadj////
+D/deprecated////
+D/lib////
+D/monitoring////
+D/ntp-wait////
+D/ntpsweep////
+D/ntptrace////
+D/rc////
+D/stats////
+D/update-leap////

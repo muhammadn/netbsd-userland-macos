@@ -1,0 +1,20 @@
+/clockstuff.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/config.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/gaa_compat.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/hopf_PCI_io.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/msvc_ssl_autolib.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/netdb.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/ntp_iocompletionport.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/ntp_iocplmem.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/ntp_iocpltypes.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/ntp_timer.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/ntservice.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/stdint.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/stdnoreturn.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/syslog.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/termios.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/timepps.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/unistd.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/win32_io.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+D/arpa////
+D/sys////

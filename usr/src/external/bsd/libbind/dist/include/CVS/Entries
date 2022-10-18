@@ -1,0 +1,12 @@
+/Makefile.in/1.1.1.2/Sun Sep  9 16:07:48 2012//Tnetbsd-9-3-RELEASE
+/fd_setsize.h/1.1.1.1/Sun Apr 12 15:33:32 2009//Tnetbsd-9-3-RELEASE
+/hesiod.h/1.1.1.2/Sun Sep  9 16:07:48 2012//Tnetbsd-9-3-RELEASE
+/irp.h/1.1.1.2/Sun Sep  9 16:07:47 2012//Tnetbsd-9-3-RELEASE
+/irs.h/1.1.1.2/Sun Sep  9 16:07:48 2012//Tnetbsd-9-3-RELEASE
+/netdb.h/1.1.1.2/Sun Sep  9 16:07:48 2012//Tnetbsd-9-3-RELEASE
+/netgroup.h/1.1.1.1/Sun Apr 12 15:33:32 2009//Tnetbsd-9-3-RELEASE
+/res_update.h/1.1.1.2/Sun Sep  9 16:07:48 2012//Tnetbsd-9-3-RELEASE
+/resolv.h/1.1.1.2/Sun Sep  9 16:07:48 2012//Tnetbsd-9-3-RELEASE
+/resolv_mt.h/1.1.1.1/Sun Apr 12 15:33:32 2009//Tnetbsd-9-3-RELEASE
+D/arpa////
+D/isc////

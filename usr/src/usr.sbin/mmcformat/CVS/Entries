@@ -1,0 +1,9 @@
+/Makefile/1.2/Wed Apr 22 15:23:05 2009//Tnetbsd-9-3-RELEASE
+/defs.h/1.2/Mon Feb 16 06:46:54 2009//Tnetbsd-9-3-RELEASE
+/mmcformat.8/1.6/Tue Mar 18 18:20:47 2014//Tnetbsd-9-3-RELEASE
+/mmcformat.c/1.5/Mon Feb  4 09:53:41 2019//Tnetbsd-9-3-RELEASE
+/uscsi_sense.c/1.1/Wed May 14 16:49:48 2008//Tnetbsd-9-3-RELEASE
+/uscsi_subr.c/1.2/Tue May 28 08:59:36 2019//Tnetbsd-9-3-RELEASE
+/uscsilib.h/1.1/Wed May 14 16:49:48 2008//Tnetbsd-9-3-RELEASE
+/uscsilib_machdep.h/1.1/Wed May 14 16:49:48 2008//Tnetbsd-9-3-RELEASE
+D

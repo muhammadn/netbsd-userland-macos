@@ -1,0 +1,15 @@
+/common.vsprops/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/debug-x64.vsprops/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/debug.vsprops/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/ntp.sln/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/release-x64.vsprops/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/release.vsprops/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+D/instsrv////
+D/libntp////
+D/loopback-pps////
+D/ntp-keygen////
+D/ntpd////
+D/ntpd-keyword-gen////
+D/ntpdate////
+D/ntpdc////
+D/ntpq////

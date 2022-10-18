@@ -1,0 +1,7 @@
+/deleter.h/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+/nothing_to_do.pass.cpp/1.1.1.1/Fri May 17 23:02:32 2013//Tnetbsd-9-3-RELEASE
+D/unique.ptr.create////
+D/unique.ptr.dltr////
+D/unique.ptr.runtime////
+D/unique.ptr.single////
+D/unique.ptr.special////

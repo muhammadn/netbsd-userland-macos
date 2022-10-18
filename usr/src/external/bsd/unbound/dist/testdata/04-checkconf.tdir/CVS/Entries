@@ -1,0 +1,12 @@
+/04-checkconf.dsc/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/04-checkconf.test/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/bad.badfwd/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/bad.badif/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/bad.badip/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/bad.bind/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/bad.user/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/good.all/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/good.ifport/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/good.include/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+/warn.algo/1.1.1.1/Tue Feb  6 02:39:36 2018//Tnetbsd-9-3-RELEASE
+D

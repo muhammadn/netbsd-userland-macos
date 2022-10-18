@@ -1,0 +1,11 @@
+/bool.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/dereference.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/dereference_const.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/op_arrow.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/op_arrow_const.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/value.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/value_const.fail.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/value_const.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/value_or.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+/value_or_const.pass.cpp/1.1.1.2/Thu Nov 28 13:45:10 2013//Tnetbsd-9-3-RELEASE
+D

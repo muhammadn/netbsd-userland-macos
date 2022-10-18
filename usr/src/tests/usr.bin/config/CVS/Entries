@@ -1,0 +1,11 @@
+/Makefile/1.2/Wed Oct 29 16:24:32 2014//Tnetbsd-9-3-RELEASE
+/d_deffs_redef/1.1/Sat Mar 17 16:33:12 2012//Tnetbsd-9-3-RELEASE
+/d_loop/1.1/Sat Mar 17 16:33:12 2012//Tnetbsd-9-3-RELEASE
+/d_loop2/1.1/Sat Mar 17 16:33:12 2012//Tnetbsd-9-3-RELEASE
+/d_min/1.1/Wed Oct 29 16:24:32 2014//Tnetbsd-9-3-RELEASE
+/d_no_pseudo/1.1/Sat Mar 17 16:33:12 2012//Tnetbsd-9-3-RELEASE
+/d_postponed_orphan/1.1/Sat Mar 17 16:33:12 2012//Tnetbsd-9-3-RELEASE
+/d_pseudo_parent/1.1/Sat Mar 17 16:33:12 2012//Tnetbsd-9-3-RELEASE
+/d_shadow_instance/1.1/Sat Mar 17 16:33:12 2012//Tnetbsd-9-3-RELEASE
+/t_config.sh/1.8/Sat Aug 27 12:08:14 2016//Tnetbsd-9-3-RELEASE
+D/support////

@@ -1,0 +1,19 @@
+/BUGS/1.1.1.1/Sun Mar 21 09:45:37 1993//Tnetbsd-9-3-RELEASE
+/Makefile/1.30/Tue Aug 16 10:14:40 2011//Tnetbsd-9-3-RELEASE
+/atc.6/1.24/Sun Jul 26 22:22:24 2015//Tnetbsd-9-3-RELEASE
+/def.h/1.7/Sat Mar 22 22:58:56 2014//Tnetbsd-9-3-RELEASE
+/extern.c/1.12/Fri Jun 19 06:02:31 2015//Tnetbsd-9-3-RELEASE
+/extern.h/1.19/Thu Jun 25 05:33:02 2015//Tnetbsd-9-3-RELEASE
+/grammar.y/1.12/Fri Jun 19 06:02:31 2015//Tnetbsd-9-3-RELEASE
+/graphics.c/1.20/Thu Jun 25 05:33:02 2015//Tnetbsd-9-3-RELEASE
+/input.c/1.29/Fri Jun 19 06:02:31 2015//Tnetbsd-9-3-RELEASE
+/lex.l/1.9/Fri Jun 19 06:02:31 2015//Tnetbsd-9-3-RELEASE
+/list.c/1.9/Fri Jun 19 06:02:31 2015//Tnetbsd-9-3-RELEASE
+/log.c/1.24/Tue Mar 19 00:11:34 2019//Tnetbsd-9-3-RELEASE
+/main.c/1.24/Thu Jun 25 05:33:02 2015//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.4/Thu Aug  7 09:36:54 2003//Tnetbsd-9-3-RELEASE
+/struct.h/1.10/Sat Mar 22 22:58:56 2014//Tnetbsd-9-3-RELEASE
+/tunable.c/1.5/Thu Aug  7 09:36:55 2003//Tnetbsd-9-3-RELEASE
+/tunable.h/1.4/Thu Aug  7 09:36:55 2003//Tnetbsd-9-3-RELEASE
+/update.c/1.27/Thu Jun 25 05:33:02 2015//Tnetbsd-9-3-RELEASE
+D/games////

@@ -1,0 +1,16 @@
+/Makefile.am/1.1.1.4/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/NTMakefile/1.1.1.1/Wed Apr 13 18:16:02 2011//Tnetbsd-9-3-RELEASE
+/cov.sh/1.1.1.1/Wed Apr 13 18:16:02 2011//Tnetbsd-9-3-RELEASE
+/heimdal-gssapi.pc.in/1.1.1.3/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/heimdal-kadm-client.pc.in/1.1.1.1/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/heimdal-kadm-server.pc.in/1.1.1.1/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/heimdal-krb5.pc.in/1.1.1.1/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/kadm-client.pc.in/1.1.1.1/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/kadm-server.pc.in/1.1.1.1/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/kafs.pc.in/1.1.1.1/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/kdc-log-analyze.pl/1.1.1.2/Thu Apr 14 14:09:52 2011//Tnetbsd-9-3-RELEASE
+/krb5-config.1/1.2/Sat Jan 28 21:31:51 2017//Tnetbsd-9-3-RELEASE
+/krb5-config.in/1.1.1.3/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/krb5-gssapi.pc.in/1.1.1.1/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+/krb5.pc.in/1.1.1.1/Sat Jan 28 20:46:56 2017//Tnetbsd-9-3-RELEASE
+D

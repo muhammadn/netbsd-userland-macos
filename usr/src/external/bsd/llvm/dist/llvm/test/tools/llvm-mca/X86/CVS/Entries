@@ -1,0 +1,39 @@
+/bextr-read-after-ld.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/bzhi-read-after-ld.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/cpus.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/default-iterations.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/dispatch_width.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/fma3-read-after-ld-1.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/fma3-read-after-ld-2.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/in-order-cpu.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/intel-syntax.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/invalid-assembly-sequence.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/invalid-cpu.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/invalid-empty-file.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/llvm-mca-markers-1.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/llvm-mca-markers-2.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/llvm-mca-markers-3.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/llvm-mca-markers-4.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/llvm-mca-markers-5.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/llvm-mca-markers-6.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/llvm-mca-markers-7.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/no-sched-model.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/option-all-stats-1.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/option-all-stats-2.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/option-all-views-1.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/option-all-views-2.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/register-file-statistics.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/scheduler-queue-usage.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/variable-blend-read-after-ld-1.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+/variable-blend-read-after-ld-2.s/1.1.1.1/Tue Jul 17 18:36:02 2018//Tnetbsd-9-3-RELEASE
+D/Atom////
+D/Broadwell////
+D/BtVer2////
+D/Generic////
+D/Haswell////
+D/SLM////
+D/SandyBridge////
+D/SkylakeClient////
+D/SkylakeServer////
+D/Znver1////

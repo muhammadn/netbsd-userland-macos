@@ -1,0 +1,26 @@
+/address-spaces.cu/1.1.1.5/Tue Jul 17 18:31:44 2018//Tnetbsd-9-3-RELEASE
+/alias.cu/1.1.1.2/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/amdgpu-kernel-attrs.cu/1.1.1.1/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/convergent.cu/1.1.1.2/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/cuda-builtin-vars.cu/1.1.1.2/Wed Jan 11 10:38:31 2017//Tnetbsd-9-3-RELEASE
+/device-stub.cu/1.1.1.5/Tue Jul 17 18:31:44 2018//Tnetbsd-9-3-RELEASE
+/device-var-init.cu/1.1.1.2/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/device-vtable.cu/1.1.1.2/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/filter-decl.cu/1.1.1.6/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/flush-denormals.cu/1.1.1.2/Tue Aug  1 19:34:23 2017//Tnetbsd-9-3-RELEASE
+/fp-contract.cu/1.1.1.2/Tue Aug  1 19:34:23 2017//Tnetbsd-9-3-RELEASE
+/function-overload.cu/1.1.1.2/Wed Jan 11 10:38:31 2017//Tnetbsd-9-3-RELEASE
+/kernel-amdgcn.cu/1.1.1.1/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/kernel-args-alignment.cu/1.1.1.1/Wed Jan 11 10:38:31 2017//Tnetbsd-9-3-RELEASE
+/kernel-args.cu/1.1.1.1/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/kernel-call.cu/1.1.1.3/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/launch-bounds.cu/1.1.1.4/Wed Jan 11 10:38:31 2017//Tnetbsd-9-3-RELEASE
+/library-builtin.cu/1.1.1.1/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/link-device-bitcode.cu/1.1.1.3/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/llvm-used.cu/1.1.1.1/Wed Mar 18 17:26:43 2015//Tnetbsd-9-3-RELEASE
+/nothrow.cu/1.1.1.1/Wed Jan 11 10:38:31 2017//Tnetbsd-9-3-RELEASE
+/printf-aggregate.cu/1.1.1.1/Wed Jan 11 10:38:31 2017//Tnetbsd-9-3-RELEASE
+/printf.cu/1.1.1.1/Wed Jan 11 10:38:31 2017//Tnetbsd-9-3-RELEASE
+/propagate-metadata.cu/1.1.1.2/Tue Jul 17 18:31:43 2018//Tnetbsd-9-3-RELEASE
+/ptx-kernels.cu/1.1.1.5/Wed Jan 11 10:38:31 2017//Tnetbsd-9-3-RELEASE
+D/Inputs////

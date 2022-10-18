@@ -1,0 +1,20 @@
+/bc.1/1.2/Mon Apr 17 14:01:19 2017//Tnetbsd-9-3-RELEASE
+/bc.y/1.2/Mon Apr 10 15:13:04 2017//Tnetbsd-9-3-RELEASE
+/bcdefs.h/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/config.h/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/const.h/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/execute.c/1.2/Tue Apr 18 04:35:18 2017//Tnetbsd-9-3-RELEASE
+/global.c/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/global.h/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/libmath.b/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/libmath.h/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/load.c/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/main.c/1.2/Tue Apr 18 04:35:18 2017//Tnetbsd-9-3-RELEASE
+/number.c/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/number.h/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/proto.h/1.2/Mon Apr 10 15:13:22 2017//Tnetbsd-9-3-RELEASE
+/scan.l/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/storage.c/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+/util.c/1.2/Tue Apr 18 04:35:18 2017//Tnetbsd-9-3-RELEASE
+/warranty.c/1.1/Mon Apr 10 02:28:23 2017//Tnetbsd-9-3-RELEASE
+D

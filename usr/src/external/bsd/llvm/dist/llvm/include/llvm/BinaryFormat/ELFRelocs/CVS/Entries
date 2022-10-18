@@ -1,0 +1,17 @@
+/AArch64.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/AMDGPU.def/1.1.1.2/Tue Jul 17 18:36:20 2018//Tnetbsd-9-3-RELEASE
+/ARC.def/1.1.1.1/Tue Jul 17 18:36:20 2018//Tnetbsd-9-3-RELEASE
+/ARM.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/AVR.def/1.1.1.2/Tue Jul 17 18:36:20 2018//Tnetbsd-9-3-RELEASE
+/BPF.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/Hexagon.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/Lanai.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/Mips.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/PowerPC.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/PowerPC64.def/1.1.1.2/Tue Jul 17 18:36:20 2018//Tnetbsd-9-3-RELEASE
+/RISCV.def/1.1.1.2/Tue Jul 17 18:36:20 2018//Tnetbsd-9-3-RELEASE
+/Sparc.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/SystemZ.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/i386.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+/x86_64.def/1.1.1.1/Tue Aug  1 19:31:23 2017//Tnetbsd-9-3-RELEASE
+D

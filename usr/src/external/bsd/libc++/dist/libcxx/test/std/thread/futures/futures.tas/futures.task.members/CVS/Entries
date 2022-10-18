@@ -1,0 +1,16 @@
+/assign_copy.fail.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/assign_move.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/ctor1.fail.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/ctor2.fail.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/ctor_copy.fail.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/ctor_default.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/ctor_func.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/ctor_func_alloc.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/ctor_move.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/dtor.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/get_future.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/make_ready_at_thread_exit.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/operator.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/reset.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/swap.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+D

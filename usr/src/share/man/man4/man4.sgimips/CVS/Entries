@@ -1,0 +1,20 @@
+/Makefile/1.11/Fri Apr 13 03:48:48 2007//Tnetbsd-9-3-RELEASE
+/crime.4/1.5/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/dpclock.4/1.6/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/dsclock.4/1.5/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/gio.4/1.21/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/giopci.4/1.9/Mon Jul  3 21:30:59 2017//Tnetbsd-9-3-RELEASE
+/grtwo.4/1.4/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/haltwo.4/1.4/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/hpc.4/1.13/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/imc.4/1.9/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/intro.4/1.21/Sat Feb 18 22:39:01 2017//Tnetbsd-9-3-RELEASE
+/light.4/1.2/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/mace.4/1.7/Sat Feb 18 22:39:01 2017//Tnetbsd-9-3-RELEASE
+/mavb.4/1.2/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/mec.4/1.6/Sat Feb 18 22:39:01 2017//Tnetbsd-9-3-RELEASE
+/newport.4/1.7/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/pic.4/1.6/Fri Feb 17 22:24:47 2017//Tnetbsd-9-3-RELEASE
+/sq.4/1.7/Sat Feb 18 22:39:01 2017//Tnetbsd-9-3-RELEASE
+/wdsc.4/1.12/Sat Feb 18 22:39:01 2017//Tnetbsd-9-3-RELEASE
+D

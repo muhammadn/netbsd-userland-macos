@@ -1,0 +1,8 @@
+/Makefile/1.1/Wed Apr 13 19:16:56 2011//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.6/Sun Feb 25 00:16:48 2018//Tnetbsd-9-3-RELEASE
+D/digest-service////
+D/hpropd////
+D/ipropd-master////
+D/ipropd-slave////
+D/kadmind////
+D/kpasswdd////

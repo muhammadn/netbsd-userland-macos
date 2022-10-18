@@ -1,0 +1,18 @@
+/debug-info-embed-source.c/1.1.1.1/Tue Jul 17 18:31:33 2018//Tnetbsd-9-3-RELEASE
+/debug-info-file-checksum.c/1.1.1.1/Wed Jan 11 10:36:48 2017//Tnetbsd-9-3-RELEASE
+/debug-info-macro.h/1.1.1.1/Tue Aug  1 19:34:36 2017//Tnetbsd-9-3-RELEASE
+/opt-record.proftext/1.1.1.1/Wed Jan 11 10:36:48 2017//Tnetbsd-9-3-RELEASE
+/pgo-sample-thinlto-summary.prof/1.1.1.1/Tue Aug  1 19:34:36 2017//Tnetbsd-9-3-RELEASE
+/pgo-sample.prof/1.1.1.1/Wed Jan 11 10:36:48 2017//Tnetbsd-9-3-RELEASE
+/pgotestclang.profraw/1.1.1.1/Wed Jan 11 10:36:48 2017//Tnetbsd-9-3-RELEASE
+/pgotestir.profraw/1.1.1.1/Wed Jan 11 10:36:48 2017//Tnetbsd-9-3-RELEASE
+/sanitizer-special-case-list.sanitized.txt/1.1.1.1/Tue Jul 17 18:31:33 2018//Tnetbsd-9-3-RELEASE
+/sanitizer-special-case-list.unsanitized1.txt/1.1.1.1/Tue Jul 17 18:31:33 2018//Tnetbsd-9-3-RELEASE
+/sanitizer-special-case-list.unsanitized2.txt/1.1.1.1/Tue Jul 17 18:31:33 2018//Tnetbsd-9-3-RELEASE
+/sanitizer-special-case-list.unsanitized3.txt/1.1.1.1/Tue Jul 17 18:31:33 2018//Tnetbsd-9-3-RELEASE
+/sanitizer-special-case-list.unsanitized4.txt/1.1.1.1/Tue Jul 17 18:31:33 2018//Tnetbsd-9-3-RELEASE
+/stdio.h/1.1.1.2/Sat Feb 27 22:10:12 2016//Tnetbsd-9-3-RELEASE
+/thinlto-distributed-backend-skip.bc/1.1.1.1/Tue Jul 17 18:31:33 2018//Tnetbsd-9-3-RELEASE
+/thinlto-multi-module.ll/1.1.1.1/Tue Aug  1 19:34:36 2017//Tnetbsd-9-3-RELEASE
+/thinlto_backend.ll/1.1.1.1/Wed Jan 11 10:36:48 2017//Tnetbsd-9-3-RELEASE
+D

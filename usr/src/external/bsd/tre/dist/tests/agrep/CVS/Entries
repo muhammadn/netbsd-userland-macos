@@ -1,0 +1,15 @@
+/Makefile.am/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/basic.args/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/basic.input/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/basic.ok/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/delimiters.args/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/delimiters.input/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/delimiters.ok/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/exitstatus.args/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/exitstatus.input/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/exitstatus.ok/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/records.args/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/records.input/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/records.ok/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/run-tests.sh/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+D

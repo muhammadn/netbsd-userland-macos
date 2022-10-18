@@ -1,0 +1,10 @@
+/Makefile/1.1/Sun Aug 12 13:02:25 2018//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.1/Sun Aug 12 13:02:25 2018//Tnetbsd-9-3-RELEASE
+D/dnssec-dsfromkey////
+D/dnssec-importkey////
+D/dnssec-keyfromlabel////
+D/dnssec-keygen////
+D/dnssec-revoke////
+D/dnssec-settime////
+D/dnssec-signzone////
+D/dnssec-verify////

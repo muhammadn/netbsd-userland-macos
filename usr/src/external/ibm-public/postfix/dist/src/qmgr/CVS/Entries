@@ -1,0 +1,19 @@
+/Makefile.in/1.1.1.4/Tue Feb 14 01:13:42 2017//Tnetbsd-9-3-RELEASE
+/qmgr.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr.h/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr_active.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr_bounce.c/1.1.1.1/Tue Jun 23 10:08:52 2009//Tnetbsd-9-3-RELEASE
+/qmgr_defer.c/1.1.1.1/Tue Jun 23 10:08:52 2009//Tnetbsd-9-3-RELEASE
+/qmgr_deliver.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr_enable.c/1.1.1.1/Tue Jun 23 10:08:52 2009//Tnetbsd-9-3-RELEASE
+/qmgr_entry.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr_error.c/1.1.1.1/Tue Jun 23 10:08:52 2009//Tnetbsd-9-3-RELEASE
+/qmgr_feedback.c/1.1.1.1/Tue Jun 23 10:08:52 2009//Tnetbsd-9-3-RELEASE
+/qmgr_job.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr_message.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr_move.c/1.1.1.1/Tue Jun 23 10:08:53 2009//Tnetbsd-9-3-RELEASE
+/qmgr_peer.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr_queue.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+/qmgr_scan.c/1.1.1.1/Tue Jun 23 10:08:53 2009//Tnetbsd-9-3-RELEASE
+/qmgr_transport.c/1.2/Tue Feb 14 01:16:47 2017//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,19 @@
+/CHANGES/1.3/Mon Jan  6 13:26:29 2003//Tnetbsd-9-3-RELEASE
+/Makefile/1.12/Thu Jan 25 23:51:11 2007//Tnetbsd-9-3-RELEASE
+/acksend.c/1.11/Fri Jan 26 16:12:41 2007//Tnetbsd-9-3-RELEASE
+/byteorder.c/1.9/Thu Jan 25 23:25:20 2007//Tnetbsd-9-3-RELEASE
+/candidate.c/1.12/Fri Jan 26 16:12:41 2007//Tnetbsd-9-3-RELEASE
+/cksum.c/1.7/Thu May 17 00:36:31 2007//Tnetbsd-9-3-RELEASE
+/correct.c/1.14/Thu May 17 00:36:12 2007//Tnetbsd-9-3-RELEASE
+/globals.h/1.11/Thu Jan 25 23:25:20 2007//Tnetbsd-9-3-RELEASE
+/master.c/1.18/Fri Jan 26 16:12:41 2007//Tnetbsd-9-3-RELEASE
+/measure.c/1.17/Sun Nov  4 22:36:58 2012//Tnetbsd-9-3-RELEASE
+/networkdelta.c/1.12/Thu Aug  7 11:25:46 2003//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.7/Thu Aug  7 11:25:46 2003//Tnetbsd-9-3-RELEASE
+/readmsg.c/1.23/Fri Aug 11 16:47:42 2017//Tnetbsd-9-3-RELEASE
+/slave.c/1.19/Tue Jan 16 07:57:58 2018//Tnetbsd-9-3-RELEASE
+/timed-extern.h/1.11/Tue Jan 16 07:57:58 2018//Tnetbsd-9-3-RELEASE
+/timed.8/1.12/Tue Sep 28 16:37:08 2004//Tnetbsd-9-3-RELEASE
+/timed.c/1.26/Sun Feb  4 09:01:13 2018//Tnetbsd-9-3-RELEASE
+/tspname.c/1.1/Thu Jan 25 23:25:20 2007//Tnetbsd-9-3-RELEASE
+D

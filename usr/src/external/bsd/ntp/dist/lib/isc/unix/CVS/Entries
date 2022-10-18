@@ -1,0 +1,24 @@
+/app.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/dir.c/1.4/Fri Jan  8 21:35:37 2016//Tnetbsd-9-3-RELEASE
+/entropy.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/errno2result.c/1.4/Fri Jan  8 21:35:37 2016//Tnetbsd-9-3-RELEASE
+/errno2result.h/1.4/Fri Jan  8 21:35:37 2016//Tnetbsd-9-3-RELEASE
+/file.c/1.7/Fri Jan  8 21:35:37 2016//Tnetbsd-9-3-RELEASE
+/fsaccess.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/ifiter_getifaddrs.c/1.8/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/ifiter_ioctl.c/1.6/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/ifiter_sysctl.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/interfaceiter.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/ipv6.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/keyboard.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/net.c/1.8/Fri Jan  8 21:35:37 2016//Tnetbsd-9-3-RELEASE
+/os.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/resource.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/socket.c/1.6/Fri Jan  8 21:35:37 2016//Tnetbsd-9-3-RELEASE
+/socket_p.h/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/stdio.c/1.4/Fri Jan  8 21:35:37 2016//Tnetbsd-9-3-RELEASE
+/stdtime.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/strerror.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/syslog.c/1.5/Sat Sep 29 21:52:32 2018//Tnetbsd-9-3-RELEASE
+/time.c/1.6/Fri Jan  8 21:35:37 2016//Tnetbsd-9-3-RELEASE
+D/include////

@@ -1,0 +1,13 @@
+/Makefile/1.14/Fri Aug 10 12:10:29 2012//Tnetbsd-9-3-RELEASE
+/bpf.c/1.21/Tue Jan 23 21:06:25 2018//Tnetbsd-9-3-RELEASE
+/conf.c/1.10/Tue Feb  8 20:20:28 2011//Tnetbsd-9-3-RELEASE
+/defs.h/1.12/Tue Jan 23 21:06:25 2018//Tnetbsd-9-3-RELEASE
+/parseconf.c/1.12/Tue Jan 23 21:06:25 2018//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.6/Tue Feb  8 20:20:28 2011//Tnetbsd-9-3-RELEASE
+/rbootd.8/1.13/Mon Feb 24 07:23:44 2014//Tnetbsd-9-3-RELEASE
+/rbootd.c/1.24/Thu May  4 16:26:09 2017//Tnetbsd-9-3-RELEASE
+/rmp.h/1.6/Tue Feb  8 20:20:28 2011//Tnetbsd-9-3-RELEASE
+/rmp_var.h/1.11/Tue Feb  8 20:20:28 2011//Tnetbsd-9-3-RELEASE
+/rmpproto.c/1.16/Tue Jan 23 21:06:25 2018//Tnetbsd-9-3-RELEASE
+/utils.c/1.18/Tue Jan 23 21:06:25 2018//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,12 @@
+/dlz_bdb_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_bdbhpt_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_dlopen_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_drivers.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_filesystem_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_ldap_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_mysql_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_odbc_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_postgres_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/dlz_stub_driver.h/1.2/Sun Aug 12 13:02:31 2018//Tnetbsd-9-3-RELEASE
+/sdlz_helper.h/1.4/Sun Feb 24 20:01:29 2019//Tnetbsd-9-3-RELEASE
+D

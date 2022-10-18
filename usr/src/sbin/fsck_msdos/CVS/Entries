@@ -1,0 +1,10 @@
+/Makefile/1.12/Sun Apr 11 08:23:52 2010//Tnetbsd-9-3-RELEASE
+/boot.c/1.21/Thu Feb  8 09:05:17 2018//Tnetbsd-9-3-RELEASE
+/check.c/1.19/Thu Jul 10 21:06:20 2014//Tnetbsd-9-3-RELEASE
+/dir.c/1.29/Fri Apr 28 11:33:00 2017//Tnetbsd-9-3-RELEASE
+/dosfs.h/1.8/Fri Jan  2 06:21:28 2015//Tnetbsd-9-3-RELEASE
+/ext.h/1.13/Sat Apr 11 07:14:50 2009//Tnetbsd-9-3-RELEASE
+/fat.c/1.30/Tue Jun  4 00:08:00 2019//Tnetbsd-9-3-RELEASE
+/fsck_msdos.8/1.18/Sun Sep 11 04:12:08 2016//Tnetbsd-9-3-RELEASE
+/main.c/1.24/Tue Jun 16 23:18:55 2015//Tnetbsd-9-3-RELEASE
+D

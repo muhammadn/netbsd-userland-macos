@@ -1,0 +1,20 @@
+/assign_copy.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/assign_initializer_list.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/assign_move.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/copy.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/copy_alloc.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/default.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/default_noexcept.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/default_stack_alloc.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/dtor_noexcept.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/initializer_list.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/initializer_list_alloc.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/input_iterator.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/move.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/move_alloc.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/move_assign_noexcept.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/move_noexcept.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/op_equal_initializer_list.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/size_type.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/size_value_alloc.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+D

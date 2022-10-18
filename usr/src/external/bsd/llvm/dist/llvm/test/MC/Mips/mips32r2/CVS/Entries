@@ -1,0 +1,10 @@
+/abiflags.s/1.1.1.1/Sun Aug 10 17:04:39 2014//Tnetbsd-9-3-RELEASE
+/invalid-dsp.s/1.1.1.2/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/invalid-dspr2.s/1.1.1.2/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/invalid-mips64r2.s/1.1.1.1/Fri May 30 18:11:25 2014//Tnetbsd-9-3-RELEASE
+/invalid-msa.s/1.1.1.1/Sat Feb 27 22:52:49 2016//Tnetbsd-9-3-RELEASE
+/invalid.s/1.1.1.3/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/valid-fp64.s/1.1.1.1/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+/valid-xfail.s/1.1.1.5/Thu Feb  9 17:34:29 2017//Tnetbsd-9-3-RELEASE
+/valid.s/1.1.1.7/Tue Jul 17 18:35:33 2018//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,3121 @@
+# $NetBSD: CHANGES-9.2,v 1.1.2.84 2021/09/10 07:50:49 martin Exp $
+
+A complete list of changes from the NetBSD 9.1 release to the NetBSD 9.2
+release:
+
+external/gpl2/groff/tmac/mdoc.local		patched by hand
+sys/sys/param.h 				patched by hand
+
+	Welcome to 9.1_STABLE.
+	[martin]
+
+xsrc/external/mit/freetype/dist/builds/unix/ftconfig.h.in up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/unix/ax_compare_version.m4 up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/unix/ax_prog_python_version.m4 up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/vms/LIBS.OPT_IA64 up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/vms/_LINK.OPT_IA64 up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/vms/vmslib.dat up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/cmake/FindBrotliDec.cmake up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/meson/extract_freetype_version.py up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/meson/extract_libtool_version.py up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/meson/generate_reference_docs.py up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/meson/parse_modules_cfg.py up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/meson/process_ftoption_h.py up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/ft2-auto_hinter.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/404.html up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/ft2-base_interface.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-basic_types.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-bdf_fonts.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-bitmap_handling.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-bzip2.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-cache_subsystem.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-cff_driver.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-cid_fonts.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-color_management.html up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/ft2-computations.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-error_code_values.html up to 1.3
+xsrc/external/mit/freetype/dist/docs/reference/ft2-error_enumerations.html up to 1.3
+xsrc/external/mit/freetype/dist/docs/reference/ft2-font_formats.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-gasp_table.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-glyph_management.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-glyph_stroker.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-glyph_variants.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-gx_validation.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-gzip.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-header_file_macros.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-header_inclusion.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-incremental.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-index.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-layer_management.html up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/ft2-lcd_rendering.html up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/ft2-list_processing.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-lzw.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-mac_specific.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-module_management.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-multiple_masters.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-ot_validation.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-outline_processing.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-parameter_tags.html up to 1.3
+xsrc/external/mit/freetype/dist/docs/reference/ft2-pcf_driver.html up to 1.3
+xsrc/external/mit/freetype/dist/docs/reference/ft2-pfr_fonts.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-properties.html up to 1.3
+xsrc/external/mit/freetype/dist/docs/reference/ft2-quick_advance.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-raster.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-sfnt_names.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-sizes_management.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-system_interface.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-t1_cid_driver.html up to 1.3
+xsrc/external/mit/freetype/dist/docs/reference/ft2-truetype_engine.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-tt_driver.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-truetype_tables.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-type1_tables.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-user_allocation.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-version.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/ft2-winfnt_fonts.html up to 1.5
+xsrc/external/mit/freetype/dist/docs/reference/index.html up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/sitemap.xml up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/sitemap.xml.gz up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/fonts/specimen/FontAwesome.ttf up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/fonts/specimen/FontAwesome.woff up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/fonts/specimen/FontAwesome.woff2 up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/fonts/specimen/MaterialIcons-Regular.ttf up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/fonts/specimen/MaterialIcons-Regular.woff up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/fonts/specimen/MaterialIcons-Regular.woff2 up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/fonts/font-awesome.css up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/fonts/material-icons.css up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/images/icons/bitbucket.1b09e088.svg up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/images/icons/github.f0b8504a.svg up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/images/icons/gitlab.6dd19c00.svg up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/images/favicon.png up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.ar.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.da.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.de.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.du.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.es.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.fi.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.fr.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.hu.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.it.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.ja.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.jp.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.multi.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.nl.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.no.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.pt.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.ro.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.ru.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.stemmer.support.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.sv.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.th.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.tr.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/lunr.vi.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/tinyseg.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/lunr/wordcut.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/application.c33a9706.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/javascripts/modernizr.86422ebf.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/stylesheets/application-palette.a8b3c06d.css up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/assets/stylesheets/application.adb8469c.css up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/images/favico.ico up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/javascripts/extra.js up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/search/search_index.json up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/reference/stylesheets/extra.css up to 1.1.1.1
+xsrc/external/mit/freetype/dist/docs/README          up to 1.1.1.1
+xsrc/external/mit/freetype/dist/include/freetype/config/integer-types.h up to 1.1.1.1
+xsrc/external/mit/freetype/dist/include/freetype/config/mac-support.h up to 1.1.1.1
+xsrc/external/mit/freetype/dist/include/freetype/config/public-macros.h up to 1.1.1.1
+xsrc/external/mit/freetype/dist/include/freetype/internal/wofftypes.h up to 1.1.1.1
+xsrc/external/mit/freetype/dist/include/freetype/internal/compiler-macros.h up to 1.1.1.1
+xsrc/external/mit/freetype/dist/src/sfnt/sfwoff.c    up to 1.1.1.1
+xsrc/external/mit/freetype/dist/src/sfnt/sfwoff.h    up to 1.1.1.1
+xsrc/external/mit/freetype/dist/src/sfnt/sfwoff2.c   up to 1.1.1.1
+xsrc/external/mit/freetype/dist/src/sfnt/sfwoff2.h   up to 1.1.1.1
+xsrc/external/mit/freetype/dist/src/sfnt/woff2tags.c up to 1.1.1.1
+xsrc/external/mit/freetype/dist/src/sfnt/woff2tags.h up to 1.1.1.1
+xsrc/external/mit/freetype/dist/src/tools/make_distribution_archives.py up to 1.1.1.1
+xsrc/external/mit/freetype/dist/meson.build          up to 1.1.1.1
+xsrc/external/mit/freetype/dist/.ChangeLog.swp       up to 1.1.1.1
+xsrc/external/mit/freetype/dist/.clang-format        up to 1.1.1.1
+xsrc/external/mit/freetype/dist/ChangeLog.29         up to 1.1.1.1
+xsrc/external/mit/freetype/dist/meson_options.txt    up to 1.1.1.1
+xsrc/external/mit/freetype/dist/builds/unix/ftconfig.in delete
+xsrc/external/mit/freetype/dist/Jamfile              delete
+xsrc/external/mit/freetype/dist/Jamrules             delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/fonts/specimen/FontAwesome.ttf delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/fonts/specimen/FontAwesome.woff delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/fonts/specimen/FontAwesome.woff2 delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/fonts/specimen/MaterialIcons-Regular.ttf delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/fonts/specimen/MaterialIcons-Regular.woff delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/fonts/specimen/MaterialIcons-Regular.woff2 delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/fonts/font-awesome.css delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/fonts/material-icons.css delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/images/icons/bitbucket.1b09e088.svg delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/images/icons/github.f0b8504a.svg delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/images/icons/gitlab.6dd19c00.svg delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/images/favicon.png delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.da.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.de.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.du.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.es.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.fi.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.fr.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.hu.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.it.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.ja.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.jp.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.multi.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.nl.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.no.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.pt.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.ro.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.ru.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.stemmer.support.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.sv.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.th.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/lunr.tr.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/tinyseg.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/lunr/wordcut.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/application.d9aa80ab.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/javascripts/modernizr.1f0bcf2b.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/stylesheets/application-palette.224b79ff.css delete
+xsrc/external/mit/freetype/dist/docs/reference/site/assets/stylesheets/application.982221ab.css delete
+xsrc/external/mit/freetype/dist/docs/reference/site/404.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-auto_hinter.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-base_interface.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-basic_types.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-bdf_fonts.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-bitmap_handling.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-bzip2.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-cache_subsystem.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-cff_driver.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-cid_fonts.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-color_management.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-computations.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-error_code_values.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-error_enumerations.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/images/favico.ico delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-font_formats.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-gasp_table.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-glyph_management.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-glyph_stroker.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-glyph_variants.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-gx_validation.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-gzip.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-header_file_macros.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-header_inclusion.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-incremental.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-index.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-layer_management.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-lcd_rendering.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-list_processing.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-lzw.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-mac_specific.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-module_management.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-multiple_masters.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-ot_validation.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-outline_processing.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-parameter_tags.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-pcf_driver.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-pfr_fonts.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-properties.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-quick_advance.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-raster.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-sfnt_names.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-sizes_management.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-system_interface.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-t1_cid_driver.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-truetype_engine.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-tt_driver.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-truetype_tables.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-type1_tables.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-user_allocation.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-version.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/ft2-winfnt_fonts.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/index.html delete
+xsrc/external/mit/freetype/dist/docs/reference/site/sitemap.xml delete
+xsrc/external/mit/freetype/dist/docs/reference/site/sitemap.xml.gz delete
+xsrc/external/mit/freetype/dist/docs/reference/site/javascripts/extra.js delete
+xsrc/external/mit/freetype/dist/docs/reference/site/search/search_index.json delete
+xsrc/external/mit/freetype/dist/docs/reference/site/stylesheets/extra.css delete
+xsrc/external/mit/freetype/dist/docs/reference/README delete
+xsrc/external/mit/freetype/dist/include/freetype/internal/internal.h delete
+xsrc/external/mit/freetype/dist/src/Jamfile          delete
+xsrc/external/mit/freetype/dist/src/autofit/Jamfile  delete
+xsrc/external/mit/freetype/dist/src/base/Jamfile     delete
+xsrc/external/mit/freetype/dist/src/bdf/Jamfile      delete
+xsrc/external/mit/freetype/dist/src/bzip2/Jamfile    delete
+xsrc/external/mit/freetype/dist/src/cache/Jamfile    delete
+xsrc/external/mit/freetype/dist/src/cff/Jamfile      delete
+xsrc/external/mit/freetype/dist/src/cid/Jamfile      delete
+xsrc/external/mit/freetype/dist/src/gxvalid/Jamfile  delete
+xsrc/external/mit/freetype/dist/src/gzip/Jamfile     delete
+xsrc/external/mit/freetype/dist/src/lzw/Jamfile      delete
+xsrc/external/mit/freetype/dist/src/otvalid/Jamfile  delete
+xsrc/external/mit/freetype/dist/src/pcf/Jamfile      delete
+xsrc/external/mit/freetype/dist/src/pfr/Jamfile      delete
+xsrc/external/mit/freetype/dist/src/psaux/Jamfile    delete
+xsrc/external/mit/freetype/dist/src/pshinter/Jamfile delete
+xsrc/external/mit/freetype/dist/src/psnames/Jamfile  delete
+xsrc/external/mit/freetype/dist/src/raster/Jamfile   delete
+xsrc/external/mit/freetype/dist/src/sfnt/Jamfile     delete
+xsrc/external/mit/freetype/dist/src/smooth/Jamfile   delete
+xsrc/external/mit/freetype/dist/src/tools/Jamfile    delete
+xsrc/external/mit/freetype/dist/src/truetype/Jamfile delete
+xsrc/external/mit/freetype/dist/src/type1/Jamfile    delete
+xsrc/external/mit/freetype/dist/src/type42/Jamfile   delete
+xsrc/external/mit/freetype/dist/src/winfonts/Jamfile delete
+xsrc/external/mit/freetype/dist/CMakeLists.txt       up to 1.5
+xsrc/external/mit/freetype/dist/ChangeLog            up to 1.5
+xsrc/external/mit/freetype/dist/ChangeLog.20         up to 1.5
+xsrc/external/mit/freetype/dist/ChangeLog.21         up to 1.5
+xsrc/external/mit/freetype/dist/ChangeLog.22         up to 1.5
+xsrc/external/mit/freetype/dist/ChangeLog.23         up to 1.5
+xsrc/external/mit/freetype/dist/ChangeLog.24         up to 1.5
+xsrc/external/mit/freetype/dist/ChangeLog.25         up to 1.1.1.4
+xsrc/external/mit/freetype/dist/ChangeLog.26         up to 1.1.1.3
+xsrc/external/mit/freetype/dist/ChangeLog.27         up to 1.1.1.3
+xsrc/external/mit/freetype/dist/ChangeLog.28         up to 1.1.1.3
+xsrc/external/mit/freetype/dist/Makefile             up to 1.5
+xsrc/external/mit/freetype/dist/README               up to 1.5
+xsrc/external/mit/freetype/dist/README.git           up to 1.5
+xsrc/external/mit/freetype/dist/autogen.sh           up to 1.5
+xsrc/external/mit/freetype/dist/configure            up to 1.5
+xsrc/external/mit/freetype/dist/modules.cfg          up to 1.5
+xsrc/external/mit/freetype/dist/vms_make.com         up to 1.5
+xsrc/external/mit/freetype/dist/builds/detect.mk     up to 1.5
+xsrc/external/mit/freetype/dist/builds/exports.mk    up to 1.5
+xsrc/external/mit/freetype/dist/builds/freetype.mk   up to 1.5
+xsrc/external/mit/freetype/dist/builds/link_dos.mk   up to 1.5
+xsrc/external/mit/freetype/dist/builds/link_std.mk   up to 1.5
+xsrc/external/mit/freetype/dist/builds/modules.mk    up to 1.5
+xsrc/external/mit/freetype/dist/builds/toplevel.mk   up to 1.5
+xsrc/external/mit/freetype/dist/builds/amiga/README  up to 1.5
+xsrc/external/mit/freetype/dist/builds/amiga/makefile up to 1.5
+xsrc/external/mit/freetype/dist/builds/amiga/makefile.os4 up to 1.5
+xsrc/external/mit/freetype/dist/builds/amiga/smakefile up to 1.5
+xsrc/external/mit/freetype/dist/builds/amiga/include/config/ftconfig.h up to 1.5
+xsrc/external/mit/freetype/dist/builds/amiga/include/config/ftmodule.h up to 1.5
+xsrc/external/mit/freetype/dist/builds/amiga/src/base/ftdebug.c up to 1.5
+xsrc/external/mit/freetype/dist/builds/amiga/src/base/ftsystem.c up to 1.5
+xsrc/external/mit/freetype/dist/builds/ansi/ansi-def.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/ansi/ansi.mk  up to 1.5
+xsrc/external/mit/freetype/dist/builds/beos/beos-def.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/beos/beos.mk  up to 1.5
+xsrc/external/mit/freetype/dist/builds/beos/detect.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/cmake/FindHarfBuzz.cmake up to 1.1.1.3
+xsrc/external/mit/freetype/dist/builds/cmake/iOS.cmake up to 1.5
+xsrc/external/mit/freetype/dist/builds/cmake/testbuild.sh up to 1.1.1.4
+xsrc/external/mit/freetype/dist/builds/compiler/ansi-cc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/bcc-dev.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/bcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/emx.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/gcc-dev.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/gcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/intelc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/unix-lcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/visualage.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/visualc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/watcom.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/compiler/win-lcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/dos/detect.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/dos/dos-def.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/dos/dos-emx.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/dos/dos-gcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/dos/dos-wat.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/mac/ftmac.c   up to 1.5
+xsrc/external/mit/freetype/dist/builds/os2/detect.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/os2/os2-def.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/os2/os2-dev.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/os2/os2-gcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/symbian/bld.inf up to 1.5
+xsrc/external/mit/freetype/dist/builds/symbian/freetype.mmp up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/aclocal.m4 up to 1.4
+xsrc/external/mit/freetype/dist/builds/unix/config.guess up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/config.sub up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/configure up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/configure.ac up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/configure.raw up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/detect.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/freetype-config.in up to 1.13
+xsrc/external/mit/freetype/dist/builds/unix/freetype2.m4 up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/ft-munmap.m4 up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/ftsystem.c up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/install.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/unix-cc.in up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/unix-def.in up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/unix-dev.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/unix-lcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/unix.mk  up to 1.5
+xsrc/external/mit/freetype/dist/builds/unix/unixddef.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/vms/ftconfig.h up to 1.5
+xsrc/external/mit/freetype/dist/builds/vms/ftsystem.c up to 1.5
+xsrc/external/mit/freetype/dist/builds/wince/ftdebug.c up to 1.5
+xsrc/external/mit/freetype/dist/builds/wince/vc2005-ce/freetype.vcproj up to 1.5
+xsrc/external/mit/freetype/dist/builds/wince/vc2005-ce/index.html up to 1.5
+xsrc/external/mit/freetype/dist/builds/wince/vc2008-ce/freetype.vcproj up to 1.5
+xsrc/external/mit/freetype/dist/builds/wince/vc2008-ce/index.html up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/detect.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/ftdebug.c up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-bcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-bccd.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-dev.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-gcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-icc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-intl.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-lcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-mingw32.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-vcc.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/w32-wat.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/win32-def.mk up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/vc2010/index.html up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/visualc/freetype.vcproj up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/visualc/index.html up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/visualce/freetype.dsp up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/visualce/freetype.vcproj up to 1.5
+xsrc/external/mit/freetype/dist/builds/windows/visualce/index.html up to 1.5
+xsrc/external/mit/freetype/dist/devel/ft2build.h     up to 1.5
+xsrc/external/mit/freetype/dist/devel/ftoption.h     up to 1.5
+xsrc/external/mit/freetype/dist/docs/CHANGES         up to 1.5
+xsrc/external/mit/freetype/dist/docs/CUSTOMIZE       up to 1.5
+xsrc/external/mit/freetype/dist/docs/DEBUG           up to 1.5
+xsrc/external/mit/freetype/dist/docs/DOCGUIDE        up to 1.1.1.2
+xsrc/external/mit/freetype/dist/docs/INSTALL         up to 1.5
+xsrc/external/mit/freetype/dist/docs/INSTALL.ANY     up to 1.5
+xsrc/external/mit/freetype/dist/docs/INSTALL.CROSS   up to 1.5
+xsrc/external/mit/freetype/dist/docs/INSTALL.GNU     up to 1.5
+xsrc/external/mit/freetype/dist/docs/INSTALL.UNIX    up to 1.5
+xsrc/external/mit/freetype/dist/docs/INSTALL.VMS     up to 1.5
+xsrc/external/mit/freetype/dist/docs/TODO            up to 1.5
+xsrc/external/mit/freetype/dist/docs/VERSIONS.TXT    up to 1.1.1.3
+xsrc/external/mit/freetype/dist/docs/formats.txt     up to 1.5
+xsrc/external/mit/freetype/dist/docs/freetype-config.1 up to 1.5
+xsrc/external/mit/freetype/dist/docs/raster.txt      up to 1.5
+xsrc/external/mit/freetype/dist/docs/release         up to 1.5
+xsrc/external/mit/freetype/dist/include/ft2build.h   up to 1.5
+xsrc/external/mit/freetype/dist/include/freetype/freetype.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftadvanc.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftbbox.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftbdf.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftbitmap.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftbzip2.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftcache.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftcid.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftcolor.h up to 1.1.1.2
+xsrc/external/mit/freetype/dist/include/freetype/ftdriver.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/fterrdef.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/fterrors.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftfntfmt.h up to 1.1.1.4
+xsrc/external/mit/freetype/dist/include/freetype/ftgasp.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftglyph.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftgxval.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftgzip.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftimage.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftincrem.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftlcdfil.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftlist.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftlzw.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftmac.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftmm.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftmodapi.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftmoderr.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftotval.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftoutln.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftparams.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/ftpfr.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftrender.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftsizes.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftsnames.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftstroke.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftsynth.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftsystem.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/fttrigon.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/fttypes.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ftwinfnt.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/t1tables.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/ttnameid.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/tttables.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/tttags.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/config/ftconfig.h up to 1.10
+xsrc/external/mit/freetype/dist/include/freetype/config/ftheader.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/config/ftmodule.h up to 1.5
+xsrc/external/mit/freetype/dist/include/freetype/config/ftoption.h up to 1.9
+xsrc/external/mit/freetype/dist/include/freetype/config/ftstdlib.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/autohint.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/cffotypes.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/internal/cfftypes.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftcalc.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftdebug.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftdrv.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftgloadr.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/fthash.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftmemory.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftobjs.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftpsprop.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftrfork.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftserv.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftstream.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/fttrace.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/ftvalid.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/psaux.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/pshints.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/sfnt.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/t1types.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/tttypes.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svbdf.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svcfftl.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svcid.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svfntfmt.h up to 1.1.1.4
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svgldict.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svgxval.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svkern.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svmetric.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svmm.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svotval.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svpfr.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svpostnm.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svprop.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svpscmap.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svpsinfo.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svsfnt.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svttcmap.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svtteng.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svttglyf.h up to 1.6
+xsrc/external/mit/freetype/dist/include/freetype/internal/services/svwinfnt.h up to 1.6
+xsrc/external/mit/freetype/dist/src/autofit/afangles.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afblue.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afblue.cin up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afblue.dat up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afblue.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afblue.hin up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afcjk.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afcjk.h  up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afcover.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afdummy.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afdummy.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/aferrors.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afglobal.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afglobal.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afhints.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afhints.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afindic.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afindic.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/aflatin.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/aflatin.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/aflatin2.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/aflatin2.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afloader.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afloader.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afmodule.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afmodule.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afranges.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afranges.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afscript.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afshaper.c up to 1.1.1.4
+xsrc/external/mit/freetype/dist/src/autofit/afshaper.h up to 1.1.1.4
+xsrc/external/mit/freetype/dist/src/autofit/afstyles.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/aftypes.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afwarp.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afwarp.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/afwrtsys.h up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/autofit.c up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/autofit/rules.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftadvanc.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftbase.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftbase.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftbbox.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftbdf.c     up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftbitmap.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftcalc.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftcid.c     up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftcolor.c   up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/base/ftdbgmem.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftdebug.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/base/fterrors.c  up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/base/ftfntfmt.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftfstype.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftgasp.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftgloadr.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftglyph.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftgxval.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/base/fthash.c    up to 1.1.1.4
+xsrc/external/mit/freetype/dist/src/base/ftinit.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftlcdfil.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftmac.c     up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftmm.c      up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftobjs.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftotval.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftoutln.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftpatent.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftpfr.c     up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftpsprop.c  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/base/ftrfork.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftsnames.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftstream.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftstroke.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftsynth.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftsystem.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/fttrigon.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/fttype1.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftutil.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/base/ftver.rc    up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/base/ftwinfnt.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/base/rules.mk    up to 1.5
+xsrc/external/mit/freetype/dist/src/bdf/bdf.c        up to 1.4
+xsrc/external/mit/freetype/dist/src/bdf/bdf.h        up to 1.5
+xsrc/external/mit/freetype/dist/src/bdf/bdfdrivr.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/bdf/bdfdrivr.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/bdf/bdferror.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/bdf/bdflib.c     up to 1.5
+xsrc/external/mit/freetype/dist/src/bzip2/ftbzip2.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/bzip2/rules.mk   up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcache.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcbasic.c up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftccache.c up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftccache.h up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftccback.h up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftccmap.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcerror.h up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcglyph.c up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcglyph.h up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcimage.c up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcimage.h up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcmanag.c up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcmanag.h up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcmru.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcmru.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcsbits.c up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/ftcsbits.h up to 1.5
+xsrc/external/mit/freetype/dist/src/cache/rules.mk   up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cff.c        up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffcmap.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffcmap.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffdrivr.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffdrivr.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cfferrs.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffgload.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffgload.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffload.c    up to 1.13
+xsrc/external/mit/freetype/dist/src/cff/cffload.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffobjs.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffobjs.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffparse.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cffparse.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/cfftoken.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/module.mk    up to 1.5
+xsrc/external/mit/freetype/dist/src/cff/rules.mk     up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/ciderrs.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidgload.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidgload.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidload.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidload.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidobjs.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidobjs.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidparse.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidparse.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidriver.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidriver.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/cidtoken.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/module.mk    up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/rules.mk     up to 1.5
+xsrc/external/mit/freetype/dist/src/cid/type1cid.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/README   up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvalid.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvalid.h up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvbsln.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvcommn.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvcommn.h up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxverror.h up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvfeat.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvfeat.h up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvfgen.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvjust.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvkern.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvlcar.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmod.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmod.h up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmort.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmort.h up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmort0.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmort1.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmort2.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmort4.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmort5.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmorx.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmorx.h up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmorx0.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmorx1.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmorx2.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmorx4.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvmorx5.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvopbd.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvprop.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/gxvtrak.c up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/gxvalid/rules.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/gzip/ftgzip.c    up to 1.15
+xsrc/external/mit/freetype/dist/src/gzip/infblock.c  up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/gzip/infcodes.c  up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/gzip/inflate.c   up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/gzip/infutil.h   up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/gzip/rules.mk    up to 1.5
+xsrc/external/mit/freetype/dist/src/lzw/ftlzw.c      up to 1.5
+xsrc/external/mit/freetype/dist/src/lzw/ftzopen.c    up to 1.12
+xsrc/external/mit/freetype/dist/src/lzw/ftzopen.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/lzw/rules.mk     up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvalid.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvalid.h up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvbase.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvcommn.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvcommn.h up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otverror.h up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvgdef.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvgpos.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvgpos.h up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvgsub.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvjstf.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvmath.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvmod.c up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/otvmod.h up to 1.5
+xsrc/external/mit/freetype/dist/src/otvalid/rules.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/pcf/pcf.c        up to 1.4
+xsrc/external/mit/freetype/dist/src/pcf/pcf.h        up to 1.5
+xsrc/external/mit/freetype/dist/src/pcf/pcfdrivr.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/pcf/pcfdrivr.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/pcf/pcferror.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/pcf/pcfread.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/pcf/pcfread.h    up to 1.4
+xsrc/external/mit/freetype/dist/src/pcf/pcfutil.c    up to 1.1.1.5
+xsrc/external/mit/freetype/dist/src/pcf/pcfutil.h    up to 1.4
+xsrc/external/mit/freetype/dist/src/pfr/module.mk    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfr.c        up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrcmap.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrcmap.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrdrivr.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrdrivr.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrerror.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrgload.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrgload.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrload.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrload.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrobjs.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrobjs.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrsbit.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrsbit.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/pfrtypes.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/pfr/rules.mk     up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/afmparse.c up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/afmparse.h up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/cffdecode.c up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/cffdecode.h up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/module.mk  up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/psarrst.c  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psaux.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/psauxerr.h up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/psauxmod.c up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/psauxmod.h up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/psblues.c  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psconv.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/psconv.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/pserror.h  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psfixed.h  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psfont.c   up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psfont.h   up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psft.c     up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psft.h     up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/pshints.c  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psintrp.c  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psobjs.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/psobjs.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/psread.c   up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psstack.c  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/psstack.h  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/pstypes.h  up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/psaux/rules.mk   up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/t1cmap.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/t1cmap.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/t1decode.c up to 1.5
+xsrc/external/mit/freetype/dist/src/psaux/t1decode.h up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshalgo.c up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshalgo.h up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshglob.c up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshglob.h up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshinter.c up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshmod.c up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshmod.h up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshnterr.h up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshrec.c up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/pshrec.h up to 1.5
+xsrc/external/mit/freetype/dist/src/pshinter/rules.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/psnames/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/psnames/psmodule.c up to 1.5
+xsrc/external/mit/freetype/dist/src/psnames/psmodule.h up to 1.5
+xsrc/external/mit/freetype/dist/src/psnames/psnamerr.h up to 1.5
+xsrc/external/mit/freetype/dist/src/psnames/psnames.c up to 1.5
+xsrc/external/mit/freetype/dist/src/psnames/pstables.h up to 1.5
+xsrc/external/mit/freetype/dist/src/psnames/rules.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/ftmisc.h  up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/ftraster.c up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/ftraster.h up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/ftrend1.c up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/ftrend1.h up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/raster.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/rasterrs.h up to 1.5
+xsrc/external/mit/freetype/dist/src/raster/rules.mk  up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/module.mk   up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/pngshim.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/pngshim.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/rules.mk    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/sfdriver.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/sfdriver.h  up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/sferrors.h  up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/sfnt.c      up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/sfobjs.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/sfobjs.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttbdf.c     up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttbdf.h     up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttcmap.c    up to 1.13
+xsrc/external/mit/freetype/dist/src/sfnt/ttcmap.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttcmapc.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttcolr.c    up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/sfnt/ttcolr.h    up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/sfnt/ttcpal.c    up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/sfnt/ttcpal.h    up to 1.1.1.2
+xsrc/external/mit/freetype/dist/src/sfnt/ttkern.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttkern.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttload.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttload.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttmtx.c     up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttmtx.h     up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttpost.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttpost.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttsbit.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/sfnt/ttsbit.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/smooth/ftgrays.c up to 1.5
+xsrc/external/mit/freetype/dist/src/smooth/ftgrays.h up to 1.5
+xsrc/external/mit/freetype/dist/src/smooth/ftsmerrs.h up to 1.5
+xsrc/external/mit/freetype/dist/src/smooth/ftsmooth.c up to 1.14
+xsrc/external/mit/freetype/dist/src/smooth/ftsmooth.h up to 1.5
+xsrc/external/mit/freetype/dist/src/smooth/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/smooth/rules.mk  up to 1.5
+xsrc/external/mit/freetype/dist/src/smooth/smooth.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/tools/afblue.pl  up to 1.5
+xsrc/external/mit/freetype/dist/src/tools/apinames.c up to 1.4
+xsrc/external/mit/freetype/dist/src/tools/glnames.py up to 1.5
+xsrc/external/mit/freetype/dist/src/tools/test_afm.c up to 1.1.1.5
+xsrc/external/mit/freetype/dist/src/tools/test_bbox.c up to 1.1.1.3
+xsrc/external/mit/freetype/dist/src/tools/test_trig.c up to 1.1.1.5
+xsrc/external/mit/freetype/dist/src/tools/update-copyright-year up to 1.5
+xsrc/external/mit/freetype/dist/src/tools/ftrandom/ftrandom.c up to 1.4
+xsrc/external/mit/freetype/dist/src/truetype/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/rules.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/truetype.c up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttdriver.c up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttdriver.h up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/tterrors.h up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttgload.c up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttgload.h up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttgxvar.c up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttgxvar.h up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttinterp.c up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttinterp.h up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttobjs.c up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttobjs.h up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttpload.c up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttpload.h up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttsubpix.c up to 1.5
+xsrc/external/mit/freetype/dist/src/truetype/ttsubpix.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/module.mk  up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/rules.mk   up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1afm.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1afm.h    up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1driver.c up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1driver.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1errors.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1gload.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1gload.h  up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1load.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1load.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1objs.c   up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1objs.h   up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1parse.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1parse.h  up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/t1tokens.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type1/type1.c    up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/rules.mk  up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/t42drivr.c up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/t42drivr.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/t42error.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/t42objs.c up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/t42objs.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/t42parse.c up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/t42parse.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/t42types.h up to 1.5
+xsrc/external/mit/freetype/dist/src/type42/type42.c  up to 1.5
+xsrc/external/mit/freetype/dist/src/winfonts/fnterrs.h up to 1.5
+xsrc/external/mit/freetype/dist/src/winfonts/module.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/winfonts/rules.mk up to 1.5
+xsrc/external/mit/freetype/dist/src/winfonts/winfnt.c up to 1.5
+xsrc/external/mit/freetype/dist/src/winfonts/winfnt.h up to 1.5
+external/mit/xorg/lib/freetype/freetype/config/Makefile 1.4
+distrib/sets/lists/xcomp/mi				(apply patch)
+
+	Update freetype to 2.10.4.
+	[maya, ticket #1118]
+
+distrib/notes/common/main				(manually edited)
+
+	Remove 9.0 release dedication - new releases will not be 9.0 any more.
+	[martin]
+
+external/public-domain/tz/dist/Makefile         up to 1.1.1.29
+external/public-domain/tz/dist/NEWS             up to 1.1.1.32
+external/public-domain/tz/dist/TZDATA_VERSION   up to 1.22
+external/public-domain/tz/dist/asia             up to 1.1.1.27
+external/public-domain/tz/dist/europe           up to 1.1.1.29
+external/public-domain/tz/dist/version          up to 1.1.1.19
+doc/3RDPARTY					(apply patch)
+
+	Updated tzdata to 2020d.
+	[kre, ticket #1122]
+
+sys/kern/kern_time.c				1.206
+
+	Prevent the system clock from being set too low or high.
+	[nia, ticket #1124]
+
+external/bsd/tmux/dist/menu.c                   up to 1.2
+external/bsd/tmux/dist/etc/ylwrap               up to 1.1.1.1
+external/bsd/tmux/dist/cmd-resize-window.c      up to 1.2
+external/bsd/tmux/dist/regsub.c                 up to 1.3
+external/bsd/tmux/dist/cmd-parse.y              up to 1.3
+external/bsd/tmux/dist/spawn.c                  up to 1.3
+external/bsd/tmux/dist/file.c                   up to 1.1.1.1
+external/bsd/tmux/dist/format-draw.c            up to 1.1.1.3
+external/bsd/tmux/dist/cmd-display-menu.c       up to 1.1.1.1
+external/bsd/tmux/dist/compat/fparseln.c        delete
+external/bsd/tmux/dist/TODO                     delete
+external/bsd/tmux/dist/cmd-list.c               delete
+external/bsd/tmux/dist/cmd-set-hook.c           delete
+external/bsd/tmux/dist/cmd-string.c             delete
+external/bsd/tmux/dist/hooks.c                  delete
+external/bsd/tmux/dist/CHANGES                  up to 1.1.1.6
+external/bsd/tmux/dist/COPYING                  up to 1.1.1.2
+external/bsd/tmux/dist/Makefile.am              up to 1.1.1.6
+external/bsd/tmux/dist/Makefile.in              up to 1.1.1.6
+external/bsd/tmux/dist/README                   up to 1.1.1.4
+external/bsd/tmux/dist/aclocal.m4               up to 1.1.1.4
+external/bsd/tmux/dist/arguments.c              up to 1.1.1.9
+external/bsd/tmux/dist/attributes.c             up to 1.1.1.9
+external/bsd/tmux/dist/cfg.c                    up to 1.1.1.12
+external/bsd/tmux/dist/client.c                 up to 1.10
+external/bsd/tmux/dist/cmd-attach-session.c     up to 1.8
+external/bsd/tmux/dist/cmd-bind-key.c           up to 1.1.1.9
+external/bsd/tmux/dist/cmd-break-pane.c         up to 1.1.1.11
+external/bsd/tmux/dist/cmd-capture-pane.c       up to 1.8
+external/bsd/tmux/dist/cmd-choose-tree.c        up to 1.1.1.9
+external/bsd/tmux/dist/cmd-command-prompt.c     up to 1.1.1.10
+external/bsd/tmux/dist/cmd-confirm-before.c     up to 1.1.1.9
+external/bsd/tmux/dist/cmd-copy-mode.c          up to 1.1.1.11
+external/bsd/tmux/dist/cmd-display-message.c    up to 1.10
+external/bsd/tmux/dist/cmd-display-panes.c      up to 1.1.1.11
+external/bsd/tmux/dist/cmd-find-window.c        up to 1.1.1.10
+external/bsd/tmux/dist/cmd-find.c               up to 1.1.1.7
+external/bsd/tmux/dist/cmd-if-shell.c           up to 1.10
+external/bsd/tmux/dist/cmd-join-pane.c          up to 1.1.1.10
+external/bsd/tmux/dist/cmd-kill-pane.c          up to 1.1.1.10
+external/bsd/tmux/dist/cmd-kill-session.c       up to 1.1.1.9
+external/bsd/tmux/dist/cmd-list-keys.c          up to 1.1.1.11
+external/bsd/tmux/dist/cmd-list-sessions.c      up to 1.1.1.9
+external/bsd/tmux/dist/cmd-load-buffer.c        up to 1.9
+external/bsd/tmux/dist/cmd-new-session.c        up to 1.8
+external/bsd/tmux/dist/cmd-new-window.c         up to 1.8
+external/bsd/tmux/dist/cmd-pipe-pane.c          up to 1.1.1.10
+external/bsd/tmux/dist/cmd-queue.c              up to 1.6
+external/bsd/tmux/dist/cmd-refresh-client.c     up to 1.1.1.11
+external/bsd/tmux/dist/cmd-resize-pane.c        up to 1.1.1.12
+external/bsd/tmux/dist/cmd-respawn-pane.c       up to 1.1.1.9
+external/bsd/tmux/dist/cmd-respawn-window.c     up to 1.1.1.11
+external/bsd/tmux/dist/cmd-rotate-window.c      up to 1.1.1.10
+external/bsd/tmux/dist/cmd-run-shell.c          up to 1.1.1.11
+external/bsd/tmux/dist/cmd-save-buffer.c        up to 1.1.1.11
+external/bsd/tmux/dist/cmd-select-layout.c      up to 1.1.1.10
+external/bsd/tmux/dist/cmd-select-pane.c        up to 1.1.1.12
+external/bsd/tmux/dist/cmd-select-window.c      up to 1.1.1.9
+external/bsd/tmux/dist/cmd-send-keys.c          up to 1.10
+external/bsd/tmux/dist/cmd-set-option.c         up to 1.1.1.11
+external/bsd/tmux/dist/cmd-show-messages.c      up to 1.7
+external/bsd/tmux/dist/cmd-show-options.c       up to 1.3
+external/bsd/tmux/dist/cmd-source-file.c        up to 1.1.1.10
+external/bsd/tmux/dist/cmd-split-window.c       up to 1.9
+external/bsd/tmux/dist/cmd-swap-pane.c          up to 1.1.1.11
+external/bsd/tmux/dist/cmd-swap-window.c        up to 1.1.1.9
+external/bsd/tmux/dist/cmd-switch-client.c      up to 1.1.1.11
+external/bsd/tmux/dist/cmd-wait-for.c           up to 1.7
+external/bsd/tmux/dist/cmd.c                    up to 1.1.1.12
+external/bsd/tmux/dist/colour.c                 up to 1.9
+external/bsd/tmux/dist/compat.h                 up to 1.2
+external/bsd/tmux/dist/configure                up to 1.1.1.6
+external/bsd/tmux/dist/configure.ac             up to 1.1.1.6
+external/bsd/tmux/dist/control-notify.c         up to 1.1.1.8
+external/bsd/tmux/dist/control.c                up to 1.1.1.7
+external/bsd/tmux/dist/environ.c                up to 1.10
+external/bsd/tmux/dist/example_tmux.conf        up to 1.1.1.4
+external/bsd/tmux/dist/format.c                 up to 1.11
+external/bsd/tmux/dist/grid.c                   up to 1.10
+external/bsd/tmux/dist/input-keys.c             up to 1.10
+external/bsd/tmux/dist/input.c                  up to 1.14
+external/bsd/tmux/dist/job.c                    up to 1.11
+external/bsd/tmux/dist/key-bindings.c           up to 1.9
+external/bsd/tmux/dist/key-string.c             up to 1.1.1.12
+external/bsd/tmux/dist/layout-custom.c          up to 1.1.1.10
+external/bsd/tmux/dist/layout-set.c             up to 1.1.1.12
+external/bsd/tmux/dist/layout.c                 up to 1.1.1.10
+external/bsd/tmux/dist/log.c                    up to 1.14
+external/bsd/tmux/dist/mdoc2man.awk             up to 1.1.1.3
+external/bsd/tmux/dist/mode-tree.c              up to 1.6
+external/bsd/tmux/dist/notify.c                 up to 1.6
+external/bsd/tmux/dist/options-table.c          up to 1.1.1.11
+external/bsd/tmux/dist/options.c                up to 1.11
+external/bsd/tmux/dist/osdep-darwin.c           up to 1.1.1.9
+external/bsd/tmux/dist/osdep-freebsd.c          up to 1.1.1.8
+external/bsd/tmux/dist/osdep-netbsd.c           up to 1.1.1.9
+external/bsd/tmux/dist/paste.c                  up to 1.5
+external/bsd/tmux/dist/proc.c                   up to 1.5
+external/bsd/tmux/dist/resize.c                 up to 1.2
+external/bsd/tmux/dist/screen-redraw.c          up to 1.1.1.11
+external/bsd/tmux/dist/screen-write.c           up to 1.12
+external/bsd/tmux/dist/screen.c                 up to 1.11
+external/bsd/tmux/dist/server-client.c          up to 1.8
+external/bsd/tmux/dist/server-fn.c              up to 1.12
+external/bsd/tmux/dist/server.c                 up to 1.1.1.11
+external/bsd/tmux/dist/session.c                up to 1.12
+external/bsd/tmux/dist/status.c                 up to 1.10
+external/bsd/tmux/dist/style.c                  up to 1.4
+external/bsd/tmux/dist/tmux.1                   up to 1.13
+external/bsd/tmux/dist/tmux.c                   up to 1.11
+external/bsd/tmux/dist/tmux.h                   up to 1.16
+external/bsd/tmux/dist/tty-acs.c                up to 1.9
+external/bsd/tmux/dist/tty-keys.c               up to 1.14
+external/bsd/tmux/dist/tty-term.c               up to 1.13
+external/bsd/tmux/dist/tty.c                    up to 1.7
+external/bsd/tmux/dist/utf8.c                   up to 1.7
+external/bsd/tmux/dist/window-buffer.c          up to 1.6
+external/bsd/tmux/dist/window-client.c          up to 1.6
+external/bsd/tmux/dist/window-clock.c           up to 1.1.1.9
+external/bsd/tmux/dist/window-copy.c            up to 1.12
+external/bsd/tmux/dist/window-tree.c            up to 1.7
+external/bsd/tmux/dist/window.c                 up to 1.13
+external/bsd/tmux/dist/xmalloc.c                up to 1.1.1.9
+external/bsd/tmux/dist/xmalloc.h                up to 1.5
+external/bsd/tmux/usr.bin/tmux/Makefile         up to 1.25
+doc/3RDPARTY					(manually adjusted)
+
+	Update tmux to 3.1c.
+	[christos, ticket #1125]
+
+sys/dev/pci/if_wm.c				1.694,1.695 (patch)
+sys/dev/pci/if_wmvar.h				1.47
+
+	PR 40981: avoid device timeouts with ihphy and atphy
+	(ICH*/PCH*, 82580 and I350).
+	[knakahara, ticket #1126]
+
+usr.sbin/sysinst/mbr.c				1.37
+
+	Do not force alignment of the first partition by default
+	(which is treated special to skip the first track), unless
+	an existing partition table hints at it.
+	[martin, ticket #1119]
+
+usr.sbin/sysinst/arch/i386/md.c			1.33
+
+	Do not force bootselector MBR code for installs with only a
+	single named partition.
+	[martin, ticket #1120]
+
+usr.sbin/sysinst/menus.mi			1.22-1.23
+usr.sbin/sysinst/msg.mi.de			1.25-1.26
+usr.sbin/sysinst/msg.mi.en			1.33-1.34
+usr.sbin/sysinst/msg.mi.pl			1.33-1.34
+usr.sbin/sysinst/msg.mi.es			1.27-1.28
+usr.sbin/sysinst/msg.mi.fr			1.32-1.33
+usr.sbin/sysinst/util.c				1.49-1.52
+
+	- When looking for available CD media, skip those that are already
+	  mounted.
+	- When no medium with sets is found, show a new error message and
+	  return to the source selection menu.
+	- Rearrange all source option menus to have the proper set suffix
+	  available (either .tgz or .tar.xz).
+	- Relax an assertion, the first getvfsstat() call may overestimate
+	  the file systems visible to us. Fixes PR 55752
+	- When we did not magically find any CD medium with sets, offer a
+	  manual override (so ISO images on USB sticks or Xen's xbd(4)
+	  work).
+	[martin, ticket #1121]
+
+sys/compat/linux/common/linux_socket.c		1.151
+
+	Fix compat with Linux programs that use longer namelen for sockets.
+	[kamil, ticket #1127]
+
+sys/arch/aarch64/aarch64/pmapboot.c		1.11
+
+	Fix coalescing contiguous TLB entries.
+	[skrll, ticket #1128]
+
+tests/net/if_ipsec/t_ipsec.sh			1.11
+tests/net/if_ipsec/t_ipsec_natt.sh		1.4,1.5
+tests/net/if_ipsec/t_ipsec_pfil.sh		1.3
+tests/net/ipsec/common.sh			1.8
+tests/net/ipsec/t_ipsec_natt.sh			1.4,1.5
+
+	Refactor a little and follow new format of "npfctl list".
+	Fix minor bugs.
+	[knakahara, ticket #1129]
+
+sys/coda/coda.h					1.21 (patch)
+sys/coda/coda_vnops.c				1.114 (patch)
+
+	PR 55775: fix coda_readdir() to directly process the container file.
+	[hannken, ticket #1131]
+
+sys/conf/param.c				1.69
+sys/kern/init_main.c				1.533
+sys/sys/param.h					1.679
+
+	Set a better default for MAXFILES on larger RAM machines if not
+	otherwise specified the kernel config file.  Arbitary numbers are
+	20,000 files for 16GB RAM or more and 10,000 files for 1GB RAM or
+	more.
+	[fair, ticket #1130]
+
+sys/dev/pci/if_wm.c				1.696
+
+	wm(4): fix support for 82574 and later cards on big endian machines.
+	[rin, ticket #1133]
+
+libexec/httpd/bozohttpd.c			1.124
+
+	Fix httpd serving files greater than 4GB on 32bit archs.
+	[hannken, ticket #1134]
+
+include/arpa/nameser_compat.h			1.8
+lib/libc/net/getaddrinfo.c			1.120
+lib/libc/net/gethnamaddr.c			1.93
+
+	Don't complain about additional DNAME records received when resolving
+	A or AAAA.
+	[is, ticket #1135]
+
+sys/external/bsd/drm2/dist/drm/i915/intel_sprite.c 1.11
+
+	PR 55555: wait without interrupts.
+	[maya, ticket #1136]
+
+usr.sbin/sysinst/arch/evbarm/md.c		1.20
+
+	Make sure the kernel set is selected, even if extracting parts of it
+	manually.
+	[jmcneill, ticket #1137]
+
+external/cddl/osnet/dist/uts/common/fs/zfs/vdev_disk.c 1.19
+
+	Use vn_close to release the vnodes in the error handling blocks, since
+	the vnodes were opened for writing.
+	[yhardy, ticket #1138]
+
+xsrc/external/mit/xorg-server/dist/xkb/xkb.c		apply patch
+
+	Apply upstream patches for:
+	 * CVE-2020-14360 / ZDI CAN 11572 XkbSetMap Out-Of-Bounds Access
+	 * CVE-2020-25712 / ZDI-CAN-11839 XkbSetDeviceInfo Heap-based Buffer
+	   Overflow
+	[mrg, ticket #1141]
+
+sbin/dump/dump.h				1.59
+sbin/dump/main.c				1.78
+
+	PR 55834: fix status updates for files larger than 2TiB.
+	[kre, ticket #1139]
+
+xsrc/external/mit/xorg-server.old/dist/xkb/xkb.c	1.2
+
+	Apply upstream patches for:
+	 * CVE-2020-14360 / ZDI CAN 11572 XkbSetMap Out-Of-Bounds Access
+	 * CVE-2020-25712 / ZDI-CAN-11839 XkbSetDeviceInfo Heap-based Buffer
+	   Overflow
+	[mrg, ticket #1142]
+
+sys/netinet/ip_mroute.c				1.164
+
+	PR 55779: restore non-desctructive guarantee of ip_mforward() mbuf
+	argument.
+	[kardel, ticket #1143]
+
+sys/dev/ic/nvme.c				1.53
+
+	PR 55839: avoid mulitple bus rescans when loading the module.
+	[kardel, ticket #1144]
+
+xsrc/external/mit/libX11/dist/modules/im/ximcp/imRmAttr.c    (patch)
+
+	PR 55640: fix off by one in X Input Method.
+	[maya, ticket #1145]
+
+external/bsd/pkg_install/Makefile.inc           up to 1.7
+external/bsd/pkg_install/dist/add/perform.c     up to 1.7
+external/bsd/pkg_install/dist/admin/check.c     up to 1.4
+external/bsd/pkg_install/dist/admin/main.c      up to 1.6
+external/bsd/pkg_install/dist/admin/pkg_admin.1 up to 1.6
+external/bsd/pkg_install/dist/create/perform.c  up to 1.3
+external/bsd/pkg_install/dist/create/pl.c       up to 1.4
+external/bsd/pkg_install/dist/info/perform.c    up to 1.3
+external/bsd/pkg_install/dist/lib/iterate.c     up to 1.3
+external/bsd/pkg_install/dist/lib/lib.h         up to 1.10
+external/bsd/pkg_install/dist/lib/license.c     up to 1.10
+external/bsd/pkg_install/dist/lib/pkgdb.c       up to 1.4
+external/bsd/pkg_install/dist/lib/plist.c       up to 1.4
+external/bsd/pkg_install/dist/lib/version.h     up to 1.17
+external/bsd/pkg_install/dist/lib/vulnerabilities-file.c up to 1.4
+external/bsd/pkg_install/lib/Makefile           up to 1.11
+external/bsd/pkg_install/lib/config.h           up to 1.3
+
+	Import pkg_info 20201205, move the default pkg database from
+	/var/db/pkg to ${PREFIX/pkgdb.
+	[wiz, ticket #1140]
+
+sys/dev/hyperv/if_hvn.c				1.19
+
+	hvn(4): fix handling of generic ioctls, including ifconfig up/down.
+	[nonaka, ticket #1146]
+
+sys/dev/usb/ucom.c				1.128
+
+	Properly wait for refcounts to drain to avoid potential panics
+	when detaching the device.
+	[mrg, ticket #1147]
+
+sbin/atactl/atactl.c				1.84
+
+	Micron SMART 202 is percent lifetime used not remaining.
+	[mrg, ticket #1148]
+
+sys/dev/fdt/pwm_backlight.c			1.7
+
+	Save the new current level when set by the user, so it is properly
+	restored after dpms blanking.
+	[mrg, ticket #1149]
+
+sys/dev/usb/ohci.c				1.311,1.312
+sys/dev/usb/ohcivar.h				1.62
+
+	PR 22646, PR 55835: restructure the abort code for TD based transfers.
+	[skrll, ticket #1150]
+
+distrib/amiga/miniroot/install.md		1.31
+distrib/hp300/miniroot/install.md		1.18-1.20
+distrib/mac68k/miniroot/install.md		1.6-1.8
+distrib/miniroot/install.sub			1.53-1.59
+distrib/miniroot/list				1.36
+distrib/mvme68k/miniroot/install.md		1.9,1.10
+distrib/sun2/miniroot/install.md		1.6,1.7
+distrib/sun3/miniroot/install.md		1.6,1.7
+
+	Various miniroot installation fixes:
+	Add modules set for default sets on miniroot installation.
+	The kernel and X sets should be specified in MD miniroot scripts.
+	Explicitly sort set names fetched via ftp nlist.
+	Use proper release version strings ("9.1" rather than "91") in banners.
+	Fetch files via ftp using auto-fetching with URL per each binary set
+	to avoid ftp control session timeouts.
+	Add missing md_get_partition_range() that causes installation failure.
+	[tsutsui, ticket #1151]
+
+sys/arch/hp300/conf/INSTALL			1.66
+sys/arch/hp300/conf/RAMDISK			1.16
+
+	Remove options (NVNODE, NBUF, and BUFPAGES) for small RAM machines.
+	[tsutsui, ticket #1152]
+
+usr.bin/vmstat/vmstat.c				1.232 (patch)
+
+	Move the time nlist fetches into their own namelist and only
+	fetch them when necessary.  Allow for fallback uses of older
+	time sources if others are not present.
+	[mrg, ticket #1153]
+
+external/bsd/dhcpcd/dist/src/dhcp.c		(apply patch)
+
+	Fix reading of UDP messages via inet socket rather than BPF.
+	[roy, ticket #1154]
+
+external/bsd/pkg_install/dist/add/perform.c     up to 1.8
+external/bsd/pkg_install/dist/lib/lib.h         up to 1.11
+external/bsd/pkg_install/dist/lib/parse-config.c up to 1.4
+external/bsd/pkg_install/dist/lib/pkg_install.conf.5.in up to 1.4
+external/bsd/pkg_install/dist/lib/pkgdb.c       up to 1.5
+external/bsd/pkg_install/dist/lib/plist.c       up to 1.6
+external/bsd/pkg_install/dist/lib/version.h     up to 1.19
+doc/3RDPARTY					(manually edited)
+
+	Merge pkg_install 20201218, providing compatibility for existing
+	package installs using /var/db/pkg.
+	[maya, #1155]
+
+sys/dev/audio/audio.c				1.80,1.81
+
+	PR 55848: fix a few error cases (mixer not stopped, resource
+	leaks).
+	[isaki, ticket #1156]
+
+share/man/man4/audio.4				1.104
+
+	Adjust audio(4) after pullup of audio.c rev. 1.65 in ticket #909.
+	[isaki, ticket #1157]
+
+sys/dev/audio/audio.c				1.83
+
+	Avoid a deadlock in audiodetach.
+	[isaki, ticket #1158]
+
+sys/dev/usb/ehci.c				1.284
+sys/dev/usb/ohci.c				1.314
+sys/dev/usb/uhci.c				1.305
+sys/dev/usb/xhci.c				1.136
+sys/external/bsd/dwc2/dwc2.c			1.75
+
+	Remove bogus assertions in USB abort paths.
+	[riastradh, ticket #1159]
+
+usr.bin/calendar/calendars/calendar.judaic	1.10
+
+	Update to 2021.
+	[maya, ticket #1160]
+
+etc/rc.d/ntpdate				1.21
+
+	Adjust to "pool" usage in our standard ntp.conf.
+	[martin, ticket #1164]
+
+sys/arch/hp300/dev/dnkbd.c			1.11
+sys/arch/hp300/dev/hil_intio.c			1.4
+
+	Fix a longstanding bug in hilkbd (and dnkbd) console attachment
+	to make ddb(4) and kernel prompts for root device work.
+	[tsutsui, ticket #1161]
+
+sys/arch/hp300/dev/sti_sgc.c			1.4
+sys/dev/ic/sti.c				1.23-1.25
+sys/dev/ic/stivar.h				1.11
+
+	sti(4): add bitmap access ops support for SGC CRX (A1659-66001)
+	framebuffer and improve 425e EVRX support.
+	[tsutsui, ticket #1162]
+
+distrib/notes/hp300/hardware			1.21-1.24
+
+	Update supported hardware list for HP332, hp425e built-in EVRX
+	and A1659A CRX framebuffer. Minor fixes.
+	[tsutsui, ticket #1163]
+
+sys/dev/hdaudio/hdaudio.c			1.12
+
+	PR 51734: initialize DMA memory when allocating it.
+	[jmcneill, ticket #1165]
+
+sys/dev/hdaudio/hdaudio.c			1.13
+
+	Fix crash if a codec reports 0 nodes.
+	[jmcneill, ticket #1166]
+
+sys/arch/arm/nvidia/tegra_ahcisata.c		1.13
+sys/dev/ata/satareg.h				1.6
+sys/dev/ic/ahcisata_core.c			1.84,1.85,1.88-1.92
+sys/dev/ic/ahcisatavar.h			1.26
+
+	PR 48214 (and others): fix reset handling and interrupt
+	acknowledge by following the specification more cloesly.
+	Remove the AHCI_QUIRK_SKIP_RESET quirk.
+	[jmcneill, ticket #1167]
+
+sys/arch/aarch64/aarch64/trap.c			1.21,1.26
+
+	Support ARMv6 userland for COMPAT_NETBSD32 on aarch64.
+	[rin, ticket #1169]
+
+sys/arch/aarch64/aarch64/cpufunc.c		1.22,1.23 (patch)
+sys/arch/aarch64/aarch64/pmap.c			1.81
+
+	Fix cache coloring for aarch64.
+	[rin, ticket #1170]
+
+sys/arch/aarch64/aarch64/pmap.c			1.82,1.83
+
+	aarch64: fix pmap_procwr() for applications that modify other
+	process's text segments (like gdb).
+	[rin, ticket #1171]
+
+sys/arch/aarch64/aarch64/netbsd32_machdep.c	1.14,1.15
+sys/arch/aarch64/aarch64/trap.c			1.30
+sys/arch/aarch64/include/netbsd32_machdep.h	1.4 (patch)
+sys/arch/aarch64/include/ptrace.h		1.10
+
+	Add support of ptrace(2) for COMPAT_NETBSD32.
+	[rin, ticket #1172]
+
+sys/kern/core_elf32.c				1.65 (patch),1.67
+
+	Fix 32-bit core file format for aarch64.
+	[rin, ticket #1173]
+
+sys/arch/aarch64/aarch64/vm_machdep.c		1.9 (patch)
+
+	Fix clone(2) for COMPAT_NETBSD32.
+	[rin, ticket #1174]
+
+sys/arch/aarch64/aarch64/trap.c			1.28,1.31,1.32 (patch)
+
+	Improve emulation for 32-bit instructions on aarch64.
+	[rin, ticket #1175]
+
+sys/ufs/ufs/ufs_quota1.c			1.23
+
+	Avoid out of bounds array access.
+	[nia, ticket #1176]
+
+sys/kern/init_main.c				(apply patch)
+
+	PR kern/55906: create the aiodone workqueue before running
+	mountroothooks.
+	[khorben, #1177]
+
+compat/exec.mk					1.5
+external/bsd/ipf/Makefile.inc			1.6
+
+	ipf(4): build tools as 64bit binaries on mips64 (where most
+	userland is 32bit). Works around missing COMPAT_NETBSD32 for ipf.
+	[simonb, ticket #1183]
+
+sbin/fsck/partutil.c				1.17
+
+	Deal with disk devices not supporting DIOCGDISKINFO.
+	[tsutsui, ticket #1184]
+
+share/man/man9/pci_msi.9			1.18
+
+	PR 55920: add documentation for pci_msi_count() and pci_msix_count().
+	[knakahara, ticket #1185]
+
+sys/dev/pci/if_ena.c				1.27
+
+	PR 55942: destroyed ena(4) evcnts cause panic.
+	[jmcneill, ticket #1186]
+
+sys/kern/kern_threadpool.c			1.23
+
+	PR 55948: fix a race in threadpool(9).
+	[riastradh, ticket #1187]
+
+sys/arch/arm/broadcom/bcm2835_vcaudio.c		1.16
+
+	vcaudio: make vcaudio accurately report lack of CAPTURE.
+	[nia, ticket #1188]
+
+usr.bin/progress/progress.c			1.23
+
+	PR 55914: progress(1): handle EINTR in writes.
+	[lukem, ticket #1189]
+
+usr.bin/ftp/ftp.c				1.171
+usr.bin/ftp/progressbar.c			1.24
+usr.bin/ftp/progressbar.h			1.9
+usr.bin/ftp/ssl.c				1.9
+usr.bin/ftp/version.h				1.92
+
+	PR 55857: ftp(1): don't use restartable signals.
+	[lukem, ticket #1190]
+
+sys/kern/kern_event.c				1.110-1.115 (patch)
+
+	Fix kevent(2) race causing missed events, and Go timer latency issues.
+	[jdolecek, ticket #1191]
+
+sys/dev/hyperv/hvkbd.c				1.7 (patch)
+sys/dev/hyperv/if_hvn.c				1.20 (patch)
+sys/dev/hyperv/vmbus.c				1.12 (patch)
+
+	hvkbd(4), vmbus(4), hvn(4): don't wait forever.
+	[nonaka, ticket #1192]
+
+share/mk/bsd.own.mk				1.1229
+
+	PR 55751: use gzip'd sets for alpha.
+	[tsutsui, ticket #1193]
+
+xsrc/external/mit/libXxf86dga/dist/src/XF86DGA.c	1.3
+
+	Fix "no output of xdpyinfo(1) on redirect or pipe" problem.
+	[tsutsui, ticket #1194]
+
+sys/miscfs/procfs/procfs_vfsops.c		1.110
+
+	Fix procfs environ node.
+	[riastradh, ticket #1195]
+
+sys/dev/usb/uhid.c				1.115 (patch)
+sys/dev/usb/uhidev.c				1.79 (patch)
+sys/dev/usb/uhidev.h				1.21 (patch)
+
+	Fix uhid and uhidev locking.
+	[riastradh, ticket #1196]
+
+sys/dev/usb/if_urtwn.c				1.89,1.90
+sys/dev/usb/usbdevs				1.788,1.789
+sys/dev/usb/usbdevs.h				(regen)
+sys/dev/usb/usbdevs_data.h			(regen)
+
+	urtwn(4): add TPLINK WN821N and another TPLINK RTL8192EU variant.
+	To avoid confusion use TP-Link's names for these variants.
+	[nia, ticket #1197]
+
+lib/libc/arch/mips/sys/cerror.S			1.20
+
+	MIPS n32/n64: fix __errno() calls from other libraries
+	(eg __posix_cerror() in libposix).
+	[simonb, ticket #1199]
+
+usr.sbin/isibootd/isibootd.c			1.4
+
+	Fix isibootd(8) "Cannot allocate memory" failure on amd64.
+	[tsutsui, ticket #1200]
+
+lib/libc/stdio/fread.c				1.24 (patch)
+
+	PR 55808: optimize buffer handling for unbuffered I/O.
+	[jdolecek, ticket #1198]
+
+usr.bin/nl/nl.c					1.13-1.15
+
+	nl(1): fix PR 55891 and a delimiter parsing error plus
+	minor cleanup.
+	[ginsbach, ticket #1202]
+
+sys/dev/scsipi/cd.c				1.350
+sys/dev/scsipi/sd.c				1.331
+
+	PR 55986: DK_BUSY must have mask as second argument.
+	[ryoon, ticket #1203]
+
+sys/fs/msdosfs/msdosfs_vfsops.c			1.136
+
+	PR 55985: do not insist on valid MSDOS bootloader signatures for
+	mounting an msdosfs.
+	[ryoon, ticket #1204]
+
+sys/arch/x68k/x68k/machdep.c			1.204
+
+	Restore fixes for PR 51663 lost in r1.195 (uvm_hotplug(9) merge),
+	fixing kernel crash dumps for x68k.
+	[tsutsui, ticket #1205]
+
+sys/dev/raidframe/rf_reconstruct.c		1.125
+
+	raid(4): fix am issue where a RAID reconstruction would also rebuild
+	the unused end portion of a component.
+	[oster, ticket #1206]
+
+xsrc/external/mit/xterm/dist/package/debian/xterm-dev.lintian-overrides up to 1.1.1.1
+xsrc/external/mit/xterm/dist/package/freebsd/distinfo up to 1.1.1.1
+xsrc/external/mit/xterm/dist/package/freebsd/pkg-message.wchar up to 1.1.1.1
+xsrc/external/mit/xterm/dist/package/pkgsrc/Makefile up to 1.1.1.1
+xsrc/external/mit/xterm/dist/package/pkgsrc/DESCR    up to 1.1.1.1
+xsrc/external/mit/xterm/dist/package/pkgsrc/distinfo up to 1.1.1.1
+xsrc/external/mit/xterm/dist/package/pkgsrc/PLIST    up to 1.1.1.1
+xsrc/external/mit/xterm/dist/package/pkgsrc/options.mk up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/modify-keys.pl  up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/mouse-codes     up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/other-sgr.sh    up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/print-vt-chars.pl up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/query-dynamic.pl up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/query-xres.pl   up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/report-sgr.pl   up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/sgrPushPop.pl   up to 1.1.1.1
+xsrc/external/mit/xterm/dist/vttests/sgrPushPop2.pl  up to 1.1.1.1
+xsrc/external/mit/xterm/dist/COPYING                 up to 1.1.1.1
+xsrc/external/mit/xterm/dist/gen-charsets.pl         up to 1.1.1.1
+xsrc/external/mit/xterm/dist/INSTALL                 up to 1.1.1.12
+xsrc/external/mit/xterm/dist/Imakefile               up to 1.1.1.10
+xsrc/external/mit/xterm/dist/MANIFEST                up to 1.1.1.16
+xsrc/external/mit/xterm/dist/Makefile.in             up to 1.1.1.13
+xsrc/external/mit/xterm/dist/NEWS                    up to 1.1.1.3
+xsrc/external/mit/xterm/dist/THANKS                  up to 1.1.1.9
+xsrc/external/mit/xterm/dist/TekPrsTbl.c             up to 1.1.1.2
+xsrc/external/mit/xterm/dist/Tekproc.c               up to 1.1.1.14
+xsrc/external/mit/xterm/dist/UXTerm.ad               up to 1.1.1.3
+xsrc/external/mit/xterm/dist/VTPrsTbl.c              up to 1.1.1.9
+xsrc/external/mit/xterm/dist/VTparse.def             up to 1.1.1.8
+xsrc/external/mit/xterm/dist/VTparse.h               up to 1.1.1.10
+xsrc/external/mit/xterm/dist/XTerm.ad                up to 1.11
+xsrc/external/mit/xterm/dist/aclocal.m4              up to 1.1.1.14
+xsrc/external/mit/xterm/dist/button.c                up to 1.1.1.16
+xsrc/external/mit/xterm/dist/cachedGCs.c             up to 1.1.1.11
+xsrc/external/mit/xterm/dist/charclass.c             up to 1.1.1.6
+xsrc/external/mit/xterm/dist/charclass.h             up to 1.1.1.3
+xsrc/external/mit/xterm/dist/charproc.c              up to 1.1.1.15
+xsrc/external/mit/xterm/dist/charsets.c              up to 1.1.1.6
+xsrc/external/mit/xterm/dist/config.guess            up to 1.1.1.12
+xsrc/external/mit/xterm/dist/config.sub              up to 1.1.1.12
+xsrc/external/mit/xterm/dist/configure               up to 1.1.1.14
+xsrc/external/mit/xterm/dist/configure.in            up to 1.1.1.13
+xsrc/external/mit/xterm/dist/ctlseqs.ms              up to 1.1.1.15
+xsrc/external/mit/xterm/dist/ctlseqs.txt             up to 1.1.1.15
+xsrc/external/mit/xterm/dist/cursor.c                up to 1.1.1.9
+xsrc/external/mit/xterm/dist/data.c                  up to 1.1.1.7
+xsrc/external/mit/xterm/dist/data.h                  up to 1.1.1.10
+xsrc/external/mit/xterm/dist/df-install.in           up to 1.1.1.3
+xsrc/external/mit/xterm/dist/doublechr.c             up to 1.1.1.9
+xsrc/external/mit/xterm/dist/error.h                 up to 1.1.1.6
+xsrc/external/mit/xterm/dist/fontutils.c             up to 1.8
+xsrc/external/mit/xterm/dist/fontutils.h             up to 1.1.1.10
+xsrc/external/mit/xterm/dist/graphics.c              up to 1.1.1.6
+xsrc/external/mit/xterm/dist/graphics_regis.c        up to 1.1.1.5
+xsrc/external/mit/xterm/dist/graphics_sixel.c        up to 1.1.1.4
+xsrc/external/mit/xterm/dist/html.c                  up to 1.1.1.3
+xsrc/external/mit/xterm/dist/input.c                 up to 1.1.1.13
+xsrc/external/mit/xterm/dist/keysym2ucs.c            up to 1.1.1.3
+xsrc/external/mit/xterm/dist/koi8rxterm              up to 1.1.1.3
+xsrc/external/mit/xterm/dist/koi8rxterm.man          up to 1.1.1.3
+xsrc/external/mit/xterm/dist/linedata.c              up to 1.6
+xsrc/external/mit/xterm/dist/main.c                  up to 1.1.1.13
+xsrc/external/mit/xterm/dist/main.h                  up to 1.1.1.6
+xsrc/external/mit/xterm/dist/menu.c                  up to 1.1.1.13
+xsrc/external/mit/xterm/dist/menu.h                  up to 1.1.1.12
+xsrc/external/mit/xterm/dist/minstall.in             up to 1.1.1.5
+xsrc/external/mit/xterm/dist/misc.c                  up to 1.17
+xsrc/external/mit/xterm/dist/plink.sh                up to 1.1.1.5
+xsrc/external/mit/xterm/dist/print.c                 up to 1.1.1.11
+xsrc/external/mit/xterm/dist/ptydata.c               up to 1.1.1.9
+xsrc/external/mit/xterm/dist/ptyx.h                  up to 1.15
+xsrc/external/mit/xterm/dist/resize.c                up to 1.1.1.9
+xsrc/external/mit/xterm/dist/resize.man              up to 1.1.1.5
+xsrc/external/mit/xterm/dist/run-tic.sh              up to 1.1.1.3
+xsrc/external/mit/xterm/dist/screen.c                up to 1.1.1.12
+xsrc/external/mit/xterm/dist/scrollback.c            up to 1.6
+xsrc/external/mit/xterm/dist/scrollbar.c             up to 1.1.1.11
+xsrc/external/mit/xterm/dist/svg.c                   up to 1.1.1.2
+xsrc/external/mit/xterm/dist/tabs.c                  up to 1.1.1.6
+xsrc/external/mit/xterm/dist/termcap                 up to 1.1.1.6
+xsrc/external/mit/xterm/dist/terminfo                up to 1.1.1.7
+xsrc/external/mit/xterm/dist/testxmc.c               up to 1.1.1.7
+xsrc/external/mit/xterm/dist/trace.c                 up to 1.1.1.13
+xsrc/external/mit/xterm/dist/trace.h                 up to 1.1.1.13
+xsrc/external/mit/xterm/dist/util.c                  up to 1.1.1.13
+xsrc/external/mit/xterm/dist/uxterm                  up to 1.1.1.3
+xsrc/external/mit/xterm/dist/uxterm.desktop          up to 1.1.1.5
+xsrc/external/mit/xterm/dist/uxterm.man              up to 1.1.1.3
+xsrc/external/mit/xterm/dist/version.c               up to 1.1.1.5
+xsrc/external/mit/xterm/dist/version.h               up to 1.1.1.16
+xsrc/external/mit/xterm/dist/vms.c                   up to 1.1.1.4
+xsrc/external/mit/xterm/dist/wcwidth.c               up to 1.1.1.6
+xsrc/external/mit/xterm/dist/xcharmouse.h            up to 1.1.1.5
+xsrc/external/mit/xterm/dist/xstrings.c              up to 1.1.1.10
+xsrc/external/mit/xterm/dist/xterm.appdata.xml       up to 1.1.1.3
+xsrc/external/mit/xterm/dist/xterm.dat               up to 1.1.1.3
+xsrc/external/mit/xterm/dist/xterm.h                 up to 1.3
+xsrc/external/mit/xterm/dist/xterm.log.html          up to 1.1.1.16
+xsrc/external/mit/xterm/dist/xterm.man               up to 1.17
+xsrc/external/mit/xterm/dist/xterm_io.h              up to 1.1.1.7
+xsrc/external/mit/xterm/dist/xtermcap.c              up to 1.1.1.9
+xsrc/external/mit/xterm/dist/xtermcfg.hin            up to 1.1.1.13
+xsrc/external/mit/xterm/dist/xutf8.c                 up to 1.1.1.6
+xsrc/external/mit/xterm/dist/icons/filled-xterm.svg  up to 1.1.1.2
+xsrc/external/mit/xterm/dist/icons/mini.xterm.svg    up to 1.1.1.2
+xsrc/external/mit/xterm/dist/icons/terminal_48x48.svg up to 1.1.1.2
+xsrc/external/mit/xterm/dist/icons/xterm-color.svg   up to 1.1.1.2
+xsrc/external/mit/xterm/dist/icons/xterm.svg         up to 1.1.1.2
+xsrc/external/mit/xterm/dist/package/xterm.spec      up to 1.1.1.11
+xsrc/external/mit/xterm/dist/package/debian/changelog up to 1.1.1.11
+xsrc/external/mit/xterm/dist/package/debian/compat   up to 1.1.1.2
+xsrc/external/mit/xterm/dist/package/debian/control  up to 1.1.1.5
+xsrc/external/mit/xterm/dist/package/debian/copyright up to 1.1.1.7
+xsrc/external/mit/xterm/dist/package/debian/rules    up to 1.1.1.8
+xsrc/external/mit/xterm/dist/package/debian/watch    up to 1.1.1.2
+xsrc/external/mit/xterm/dist/package/freebsd/Makefile up to 1.1.1.7
+xsrc/external/mit/xterm/dist/package/freebsd/pkg-descr up to 1.1.1.2
+xsrc/external/mit/xterm/dist/unicode/convmap.pl      up to 1.1.1.3
+xsrc/external/mit/xterm/dist/unicode/keysym.map      up to 1.1.1.3
+xsrc/external/mit/xterm/dist/vttests/256colors2.pl   up to 1.1.1.6
+xsrc/external/mit/xterm/dist/vttests/88colors2.pl    up to 1.1.1.6
+xsrc/external/mit/xterm/dist/vttests/closest-rgb.pl  up to 1.1.1.2
+xsrc/external/mit/xterm/dist/vttests/dynamic.pl      up to 1.1.1.4
+xsrc/external/mit/xterm/dist/vttests/paste64.pl      up to 1.1.1.5
+xsrc/external/mit/xterm/dist/vttests/query-color.pl  up to 1.1.1.4
+xsrc/external/mit/xterm/dist/vttests/query-fonts.pl  up to 1.1.1.3
+xsrc/external/mit/xterm/dist/vttests/query-status.pl up to 1.1.1.2
+xsrc/external/mit/xterm/dist/vttests/tcapquery.pl    up to 1.1.1.6
+xsrc/external/mit/xterm/include/xtermcfg.h           up to 1.15
+external/mit/xorg/bin/xterm/Makefile		1.20
+
+	Import xterm 366 to fix CVE-2021-27135:
+	correct upper-limit for selection buffer, accounting
+	for combining characters.
+	[mrg, ticket #1207]
+
+external/gpl2/grep/dist/lib/regex.c		1.3
+
+	Fix pointer fixup after realloc(3).
+	[mlelstv, ticket #1208]
+
+sys/arch/x86/x86/intr.c				1.154 (patch)
+
+	x86: fix pci_intr_disestablish clean up routine.
+	[knakahara, ticket #1209]
+
+sys/arch/xen/x86/xen_shm_machdep.c		1.17 (patch)
+
+	xen: fix detection of partial failure of GNTTABOP_map_grant_ref.
+	A malicious DomU could trigger a Dom0 kernel panic.
+	Part of fixes for XSA-362.
+	[jdolecek, ticket #1210]
+
+sys/arch/xen/xen/xennetback_xenbus.c		1.92 (patch)
+
+	Remove support for legacy rx-flip mode for xennet(4)/xvif(4).
+	[jdolecek, ticket #1211]
+
+bin/ksh/siglist.sh				1.13
+
+	PR/56007: ksh unable to execute ERR traps.
+	[christos, ticket #1212]
+
+sys/arch/xen/xen/xennetback_xenbus.c		(apply patch)
+
+	xen: do not panic Dom0 when hypervisor grant_table_op(GNTTABOP_copy)
+	fails in xennet(4) backend driver. Part of fixes for XSA-362.
+	[jdolecek, ticket #1213]
+
+sys/arch/m68k/m68k/reenter_syscall.s		1.5-1.7
+
+	m68k: PR 55990: fix kernel stack overflow panic
+	[tsutsui, ticket #1214]
+
+usr.bin/patch/backupfile.c			1.16
+usr.bin/patch/backupfile.h			1.7
+usr.bin/patch/patch.c				1.30
+
+	patch(1): make '-V none' work.
+	[nia, ticket #1215]
+
+sys/arch/hppa/gsc/harmony.c			1.8-1.10
+
+	harmony(4): fix locking bug and handling of channel/speed bits.
+	[isaki, ticket #1216]
+
+sys/dev/audio/audio.c				1.46,1.82,1.85,1.87,1.88
+
+	audio(4): comments and diagnostics improvements.
+	[isaki, ticket #1217]
+
+sys/dev/audio/audio.c				1.84
+
+	Fix return value of audiopoll().
+	[isaki, ticket #1218]
+
+sys/dev/audio/audio.c				1.89-1.91
+
+	audio(4): avoid a race condition between audio{,bell}open
+	and audiodetach. Refactor code around audio_unlink().
+	[isaki, ticket #1219]
+
+share/man/man4/pad.4				1.7-1.10
+
+	pad(4): update documentation:
+	 - explain the format of the device and a few quirks.
+	 - give an example of recording an application's output.
+	[nia, ticket #1220]
+
+lib/lua/bozohttpd/Makefile			(apply patch)
+libexec/httpd/Makefile				1.30-1.31
+libexec/httpd/Makefile.boot			1.7-1.9
+libexec/httpd/auth-bozo.c			1.25-1.26
+libexec/httpd/bozohttpd.8			1.80-1.87
+libexec/httpd/bozohttpd.c			1.114-1.123,1.125-1.128
+libexec/httpd/bozohttpd.h			1.61-1.68
+libexec/httpd/cgi-bozo.c			1.49-1.53
+libexec/httpd/content-bozo.c			1.17-1.20
+libexec/httpd/daemon-bozo.c			1-.22
+libexec/httpd/dir-index-bozo.c			1.33-1.34
+libexec/httpd/main.c				1.23-1.27
+libexec/httpd/printenv.lua			1.4-1.5
+libexec/httpd/ssl-bozo.c			1.27-1.29
+libexec/httpd/libbozohttpd/libbozohttpd.3	1.5-1.6
+libexec/httpd/small/Makefile			1.4
+libexec/httpd/testsuite/Makefile		1.14
+libexec/httpd/testsuite/t16.in			1.1
+libexec/httpd/testsuite/t16.out			1.1
+libexec/httpd/testsuite/t17.in			1.1
+libexec/httpd/testsuite/t17.out			1.1
+libexec/httpd/testsuite/t18.in			1.1
+libexec/httpd/testsuite/t18.out			1.1
+
+	Update to bozohttpd 20210227.
+	[mrg, ticket #1221]
+
+sys/kern/kern_subr.c				1.229
+
+	Restore missing message for RB_ASKNAME.
+	[tsutsui, ticket #1222]
+
+share/man/man4/spi.4				1.8-1.10
+
+	spi(4): Improve the man page:
+	- Add reference to ssdfb(4)
+	- Document the userspace ioctl interface
+	[nia, ticket #1223]
+
+share/man/man4/iic.4				1.23-1.25
+
+	iic(4): Improve the man page:
+	- Add reference to ssdfb(4)
+	- Document the userspace ioctl interface
+	[nia, ticket #1224]
+
+sys/dev/usb/uaudio.c				1.169
+
+	uaudio(4): avoid dropping samples when recording.
+	[isaki, ticket #1225]
+
+sys/netinet/ip6.h				1.30
+sys/netinet/ip_input.c				1.400
+sys/netinet/tcp_subr.c				1.285
+sys/netinet6/ip6_id.c				1.19-1.21
+sys/netinet6/ip6_var.h				1.88
+
+	netinet:
+	 - enable random IP fragment ids by default
+	 - enable RFC 1948 pseudorandom TCP ISS selection by default.
+	netinet6:
+	 - replace randomid() by cprng_fast32()
+	[christos, ticket #1226]
+
+external/mit/ctwm/etc/system.ctwmrc		1.2-1.5,1.7,1.9-1.12
+
+	system.ctwmrc: acccessibility improvements based on user feedback
+	- improve contrast of focused windows.
+	- set xeyes and xclock to AlwaysOnTop.
+	- remove mute key binding.
+		- it conflicts with hardware mute on some laptops.
+	- slightly lower default workspace manager size.
+	- set default cursor styles.
+	- prevent multiple windows from having focus at once.
+	- allow programs like xev to obtain keyboard focus.
+	[nia, ticket #1227]
+
+sys/dev/ic/mb89352.c				1.58
+
+	Fix a possible race condition in spc_msgin() in NO_MANUAL_XFER case.
+	[tsutsui, ticket #1228]
+
+sys/netinet/in_var.h				1.99,1.102
+sys/netinet/tcp_subr.c				1.286
+sys/netinet/tcp_timer.c				1.96
+
+	Avoid information disclosure.
+	[christos, ticket #1229]
+
+etc/rc.d/mountall				1.15
+
+	Need to explicitly load value of zfs variable as zfs=YES may be set in
+	/etc/rc.conf.d/zfs, not /etc/rc.conf.
+	[sborrill, ticket #1230]
+
+sys/dev/pci/ixgbe/ixgbe.c			1.259, 1.278-1.279
+sys/dev/pci/ixgbe/ixgbe.h			1.75
+sys/dev/pci/ixgbe/ixgbe_netbsd.h		1.12
+sys/dev/pci/ixgbe/ixgbe_vf.c			1.24-1.26
+sys/dev/pci/ixgbe/ixgbe_x540.c			1.17
+sys/dev/pci/ixgbe/ixv.c				1.155-1.156
+sys/dev/pci/ixgbe/ix_txrx.c			1.64-67
+sys/dev/pci/files.pci				1.436
+share/man/man4/ixg.4				1.13-1.14
+share/man/man4/ixv.4				1.6-1.7
+
+	- Fix a problem that the RX path stalled when the mbuf cluster is
+	  exhausted.
+	- Modify some parameters to reduce packet dropping. See also the
+	  manual's OPTIONS section for the detail.
+	- ixv(4): The max number of queue(pair) is not 7 but 8. Correctly
+	  reset the hardware.
+	- Add "TX " to "Queue No Descriptor Available" evcnt(9) name to make
+	  it more understandable.
+	- Fix a bug that some advertise speeds can't be set with
+	  hw.ixgN.advertise_speed if both 2.5G and 5G are set. Fix the error
+	  message, too.
+	- Fix typo in comment or debug message.
+	[msaitoh, ticket #1231]
+
+share/man/man4/pci.4				1.111-1.116 (patch, adapted)
+
+	pci(4): update the man page     
+	- add some newer drivers that were missing
+	- add many missing supported WiFi devices
+	- convert the many driver cross-references to be inline
+	[nia, ticket #1232]
+
+sys/net/if_l2tp.h				1.10
+
+	Fix l2tp(4) ioctl type.
+	[knakahara, ticket #1233]
+
+sys/dev/usb/if_urtwn.c				1.93,1.95,1.96 (patch)
+
+	urtwn(4): PR 55968: plug a few leaks.
+	[nat, ticket #1234]
+
+external/cddl/osnet/dist/uts/common/fs/zfs/sys/zfs_context.h 1.3
+
+	PR 55042: avoid a panic when creating a directory on a NFS served ZFS.
+	[hannken, ticket #1235]
+
+sys/dev/usb/usbdevs				1.793
+sys/dev/usb/usbdevs.h				(regen)
+sys/dev/usb/usbdevs_data.h			(regen)
+
+	PR 56056: fix usb device id for BELKIN F5D7050E.
+	[nia, ticket #1236]
+
+crypto/external/bsd/openssl/dist/VMS/msg_install.com up to 1.1.1.1
+crypto/external/bsd/openssl/dist/VMS/msg_staging.com up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ca-cert-ec-explicit.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ca-cert-ec-named.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ca-key-ec-explicit.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ca-key-ec-named.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ee-cert-ec-explicit.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ee-cert-ec-named-explicit.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ee-cert-ec-named-named.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ee-key-ec-explicit.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ee-key-ec-named-explicit.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ee-key-ec-named-named.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ee-self-signed.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/root-expired.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ca-pss-cert.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ca-pss-key.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/ee-pss-cert.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/certs/invalid-cert.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/recipes/04-test_pem_data/cert-254-chars-at-the-end.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/recipes/04-test_pem_data/cert-254-chars-in-the-middle.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/recipes/04-test_pem_data/cert-oneline-multiple-of-254.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/recipes/05-test_cmac.t up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/recipes/15-test_genec.t up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/recipes/20-test_dgst.t up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/cmactest.c up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/tested25519.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/tested25519pub.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/tested448.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/test/tested448pub.pem up to 1.1.1.1
+crypto/external/bsd/openssl/dist/crypto/ec/asm/ecp_nistz256-avx2.pl delete
+crypto/external/bsd/openssl/dist/AUTHORS        up to 1.1.1.3
+crypto/external/bsd/openssl/dist/CHANGES        up to 1.27
+crypto/external/bsd/openssl/dist/CONTRIBUTING   up to 1.1.1.9
+crypto/external/bsd/openssl/dist/Configure      up to 1.28
+crypto/external/bsd/openssl/dist/INSTALL        up to 1.1.1.14
+crypto/external/bsd/openssl/dist/NEWS           up to 1.27
+crypto/external/bsd/openssl/dist/NOTES.ANDROID  up to 1.1.1.5
+crypto/external/bsd/openssl/dist/NOTES.PERL     up to 1.1.1.3
+crypto/external/bsd/openssl/dist/NOTES.VMS      up to 1.1.1.5
+crypto/external/bsd/openssl/dist/NOTES.WIN      up to 1.1.1.5
+crypto/external/bsd/openssl/dist/README         up to 1.27
+crypto/external/bsd/openssl/dist/appveyor.yml   up to 1.1.1.6
+crypto/external/bsd/openssl/dist/config         up to 1.1.1.12
+crypto/external/bsd/openssl/dist/e_os.h         up to 1.17
+crypto/external/bsd/openssl/dist/Configurations/10-main.conf up to 1.1.1.9
+crypto/external/bsd/openssl/dist/Configurations/descrip.mms.tmpl up to 1.1.1.7
+crypto/external/bsd/openssl/dist/Configurations/unix-Makefile.tmpl up to 1.1.1.11
+crypto/external/bsd/openssl/dist/Configurations/windows-makefile.tmpl up to 1.1.1.7
+crypto/external/bsd/openssl/dist/apps/ca.c      up to 1.21
+crypto/external/bsd/openssl/dist/apps/cms.c     up to 1.1.1.15
+crypto/external/bsd/openssl/dist/apps/genpkey.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/apps/rsa8192.pem up to 1.1.1.2
+crypto/external/bsd/openssl/dist/apps/s_cb.c    up to 1.1.1.19
+crypto/external/bsd/openssl/dist/apps/s_client.c up to 1.23
+crypto/external/bsd/openssl/dist/apps/s_time.c  up to 1.12
+crypto/external/bsd/openssl/dist/apps/x509.c    up to 1.1.1.16
+crypto/external/bsd/openssl/dist/crypto/armcap.c up to 1.13
+crypto/external/bsd/openssl/dist/crypto/mem_sec.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/o_str.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/o_time.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/ppccap.c up to 1.19
+crypto/external/bsd/openssl/dist/crypto/aes/aes_core.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/aes/aes_ige.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/aes/asm/aesni-mb-x86_64.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/aes/asm/aesni-sha1-x86_64.pl up to 1.7
+crypto/external/bsd/openssl/dist/crypto/aes/asm/aesni-sha256-x86_64.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/aes/asm/aesv8-armx.pl up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/asn1/asn1_err.c up to 1.1.1.12
+crypto/external/bsd/openssl/dist/crypto/asn1/asn1_par.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/crypto/asn1/bio_ndef.c up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/asn1/charmap.h up to 1.1.1.7
+crypto/external/bsd/openssl/dist/crypto/asn1/d2i_pr.c up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/asn1/tasn_dec.c up to 1.11
+crypto/external/bsd/openssl/dist/crypto/asn1/tasn_enc.c up to 1.11
+crypto/external/bsd/openssl/dist/crypto/asn1/x_algor.c up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/bio/b_addr.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/bio/b_print.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/crypto/bio/bss_acpt.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/crypto/bio/bss_conn.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/bn/bn_gcd.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/bn/bn_lib.c up to 1.15
+crypto/external/bsd/openssl/dist/crypto/bn/bn_mpi.c up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/bn/bn_prime.h up to 1.1.1.7
+crypto/external/bsd/openssl/dist/crypto/bn/asm/mips.pl up to 1.8
+crypto/external/bsd/openssl/dist/crypto/bn/asm/rsaz-avx2.pl up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/bn/asm/rsaz-x86_64.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/bn/asm/x86_64-mont.pl up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/bn/asm/x86_64-mont5.pl up to 1.1.1.13
+crypto/external/bsd/openssl/dist/crypto/chacha/asm/chacha-armv8.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/chacha/asm/chacha-x86.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/chacha/asm/chacha-x86_64.pl up to 1.1.1.4
+crypto/external/bsd/openssl/dist/crypto/cmac/cmac.c up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/cms/cms_lib.c up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/cms/cms_sd.c up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/cms/cms_smime.c up to 1.1.1.14
+crypto/external/bsd/openssl/dist/crypto/conf/conf_def.c up to 1.13
+crypto/external/bsd/openssl/dist/crypto/conf/conf_def.h up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/dh/dh_key.c up to 1.1.1.12
+crypto/external/bsd/openssl/dist/crypto/dso/dso_win32.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/crypto/ec/ec_ameth.c up to 1.12
+crypto/external/bsd/openssl/dist/crypto/ec/ec_asn1.c up to 1.11
+crypto/external/bsd/openssl/dist/crypto/ec/ec_err.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/ec/ec_key.c up to 1.6
+crypto/external/bsd/openssl/dist/crypto/ec/ec_lib.c up to 1.10
+crypto/external/bsd/openssl/dist/crypto/ec/ec_local.h up to 1.1.1.2
+crypto/external/bsd/openssl/dist/crypto/ec/ecp_nistp224.c up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/ec/ecp_nistp521.c up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/ec/ecp_nistz256.c up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/ec/asm/ecp_nistz256-armv4.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/ec/asm/ecp_nistz256-x86_64.pl up to 1.1.1.7
+crypto/external/bsd/openssl/dist/crypto/ec/asm/x25519-x86_64.pl up to 1.1.1.3
+crypto/external/bsd/openssl/dist/crypto/engine/eng_devcrypto.c up to 1.9
+crypto/external/bsd/openssl/dist/crypto/engine/eng_lib.c up to 1.8
+crypto/external/bsd/openssl/dist/crypto/err/openssl.txt up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/evp/bio_ok.c up to 1.1.1.12
+crypto/external/bsd/openssl/dist/crypto/evp/e_aes.c up to 1.24
+crypto/external/bsd/openssl/dist/crypto/evp/encode.c up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/evp/evp_enc.c up to 1.13
+crypto/external/bsd/openssl/dist/crypto/evp/evp_err.c up to 1.1.1.16
+crypto/external/bsd/openssl/dist/crypto/modes/cbc128.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/modes/ccm128.c up to 1.1.1.7
+crypto/external/bsd/openssl/dist/crypto/modes/cfb128.c up to 1.1.1.7
+crypto/external/bsd/openssl/dist/crypto/modes/ctr128.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/modes/gcm128.c up to 1.11
+crypto/external/bsd/openssl/dist/crypto/modes/modes_local.h up to 1.1.1.2
+crypto/external/bsd/openssl/dist/crypto/modes/ofb128.c up to 1.1.1.7
+crypto/external/bsd/openssl/dist/crypto/modes/xts128.c up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/modes/asm/aesni-gcm-x86_64.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/modes/asm/ghash-x86_64.pl up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/objects/obj_dat.h up to 1.1.1.12
+crypto/external/bsd/openssl/dist/crypto/objects/obj_xref.h up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/pem/pem_err.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/pem/pem_lib.c up to 1.1.1.14
+crypto/external/bsd/openssl/dist/crypto/pem/pem_pkey.c up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/pem/pvkfmt.c up to 1.1.1.15
+crypto/external/bsd/openssl/dist/crypto/pkcs7/pk7_smime.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/poly1305/asm/poly1305-armv4.pl up to 1.1.1.4
+crypto/external/bsd/openssl/dist/crypto/poly1305/asm/poly1305-armv8.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/poly1305/asm/poly1305-x86.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/poly1305/asm/poly1305-x86_64.pl up to 1.1.1.4
+crypto/external/bsd/openssl/dist/crypto/rand/drbg_ctr.c up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/rand/drbg_lib.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/rand/rand_lib.c up to 1.1.1.15
+crypto/external/bsd/openssl/dist/crypto/rand/rand_local.h up to 1.1.1.2
+crypto/external/bsd/openssl/dist/crypto/rand/rand_unix.c up to 1.17
+crypto/external/bsd/openssl/dist/crypto/rand/randfile.c up to 1.13
+crypto/external/bsd/openssl/dist/crypto/rsa/rsa_ameth.c up to 1.1.1.15
+crypto/external/bsd/openssl/dist/crypto/rsa/rsa_ssl.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/crypto/sha/keccak1600.c up to 1.3
+crypto/external/bsd/openssl/dist/crypto/sha/asm/keccak1600-ppc64.pl up to 1.3
+crypto/external/bsd/openssl/dist/crypto/sha/asm/keccak1600p8-ppc.pl up to 1.3
+crypto/external/bsd/openssl/dist/crypto/sha/asm/sha1-586.pl up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/sha/asm/sha1-armv8.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/sha/asm/sha1-mb-x86_64.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/sha/asm/sha1-x86_64.pl up to 1.10
+crypto/external/bsd/openssl/dist/crypto/sha/asm/sha256-586.pl up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/sha/asm/sha256-mb-x86_64.pl up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/sha/asm/sha512-armv8.pl up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/sha/asm/sha512-x86_64.pl up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/srp/srp_lib.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/crypto/store/loader_file.c up to 1.1.1.4
+crypto/external/bsd/openssl/dist/crypto/store/store_lib.c up to 1.1.1.4
+crypto/external/bsd/openssl/dist/crypto/ts/ts_rsp_sign.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/crypto/ui/ui_openssl.c up to 1.17
+crypto/external/bsd/openssl/dist/crypto/whrlpool/wp_block.c up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/x509/x509_att.c up to 1.1.1.8
+crypto/external/bsd/openssl/dist/crypto/x509/x509_cmp.c up to 1.1.1.16
+crypto/external/bsd/openssl/dist/crypto/x509/x509_err.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/crypto/x509/x509_local.h up to 1.1.1.2
+crypto/external/bsd/openssl/dist/crypto/x509/x509_req.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/x509/x509_txt.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/x509/x509_vfy.c up to 1.23
+crypto/external/bsd/openssl/dist/crypto/x509/x_all.c up to 1.1.1.12
+crypto/external/bsd/openssl/dist/crypto/x509/x_attrib.c up to 1.1.1.4
+crypto/external/bsd/openssl/dist/crypto/x509/x_pubkey.c up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/x509v3/pcy_data.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/crypto/x509v3/v3_alt.c up to 1.1.1.11
+crypto/external/bsd/openssl/dist/crypto/x509v3/v3_genn.c up to 1.1.1.5
+crypto/external/bsd/openssl/dist/crypto/x509v3/v3_purp.c up to 1.1.1.15
+crypto/external/bsd/openssl/dist/doc/man1/CA.pl.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man1/ca.pod up to 1.1.1.6
+crypto/external/bsd/openssl/dist/doc/man1/cms.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man1/crl2pkcs7.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man1/dgst.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man1/dsa.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man1/ec.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man1/enc.pod up to 1.1.1.6
+crypto/external/bsd/openssl/dist/doc/man1/genpkey.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man1/genrsa.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man1/ocsp.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man1/pkcs12.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man1/pkcs8.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man1/pkey.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man1/pkeyutl.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man1/req.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man1/rsa.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man1/s_client.pod up to 1.1.1.7
+crypto/external/bsd/openssl/dist/doc/man1/s_server.pod up to 1.1.1.7
+crypto/external/bsd/openssl/dist/doc/man1/s_time.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man1/sess_id.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man1/smime.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man1/spkac.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man1/storeutl.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man1/ts.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man1/tsget.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man1/verify.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man1/x509.pod up to 1.1.1.6
+crypto/external/bsd/openssl/dist/doc/man3/ASN1_INTEGER_get_int64.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/ASN1_STRING_length.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/ASN1_TIME_set.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/ASN1_TYPE_get.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/ASYNC_WAIT_CTX_new.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/ASYNC_start_job.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/BF_encrypt.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BIO_ADDR.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BIO_ADDRINFO.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BIO_connect.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/BIO_ctrl.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BIO_get_data.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BIO_parse_hostserv.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BIO_read.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BIO_s_accept.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/BIO_s_bio.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/BIO_s_connect.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/BIO_s_file.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/BIO_set_callback.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/BN_add.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BN_bn2bin.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/BN_generate_prime.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man3/BN_mod_mul_montgomery.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/BN_set_bit.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/CMS_verify.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/CRYPTO_THREAD_run_once.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/CRYPTO_memcmp.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/DES_random_key.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man3/DH_generate_key.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/DH_get0_pqg.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/DH_set_method.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/DSA_set_method.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/DTLSv1_listen.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/ECDSA_SIG_new.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/EC_GROUP_new.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/EC_KEY_new.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/EC_POINT_new.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/ENGINE_add.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/ERR_get_error.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/ERR_print_errors.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/ERR_put_error.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/EVP_DigestInit.pod up to 1.1.1.6
+crypto/external/bsd/openssl/dist/doc/man3/EVP_DigestSignInit.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man3/EVP_DigestVerifyInit.pod up to 1.1.1.6
+crypto/external/bsd/openssl/dist/doc/man3/EVP_EncodeInit.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/EVP_EncryptInit.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man3/EVP_OpenInit.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/EVP_PKEY_CTX_ctrl.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man3/EVP_PKEY_CTX_new.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/EVP_PKEY_keygen.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/EVP_PKEY_new.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/EVP_SealInit.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/EVP_SignInit.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man3/EVP_VerifyInit.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/HMAC.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/OCSP_cert_to_id.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/OCSP_request_add1_nonce.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/OCSP_resp_find_status.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/OCSP_sendreq_new.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/OPENSSL_LH_COMPFUNC.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/OPENSSL_config.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/OPENSSL_ia32cap.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/OPENSSL_init_crypto.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/OPENSSL_init_ssl.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/OPENSSL_malloc.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/OSSL_STORE_open.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/PEM_read_bio_PrivateKey.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/PKCS7_verify.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/RAND_DRBG_new.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/RAND_DRBG_set_callbacks.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/RAND_add.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/RAND_load_file.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/RSA_blinding_on.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/RSA_private_encrypt.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/RSA_set_method.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SHA256_Init.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CONF_cmd.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_dane_enable.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_alpn_select_cb.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_generate_session_id.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_info_callback.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_max_cert_list.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_mode.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_options.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_psk_client_callback.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_read_ahead.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_security_level.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_session_cache_mode.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_session_id_context.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_session_ticket_cb.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_split_send_fragment.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_tlsext_servername_callback.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_set_tlsext_ticket_key_cb.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/SSL_CTX_use_psk_identity_hint.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_accept.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_alloc_buffers.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_connect.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_do_handshake.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_get_all_async_fds.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_get_error.pod up to 1.1.1.7
+crypto/external/bsd/openssl/dist/doc/man3/SSL_new.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_pending.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_read.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/SSL_read_early_data.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_set1_host.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/SSL_set_bio.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_set_fd.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_set_shutdown.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_shutdown.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man3/SSL_state_string.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/SSL_want.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/SSL_write.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man3/UI_UTIL_read_pw.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/UI_create_method.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/UI_new.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/X509V3_get_d2i.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/X509_ALGOR_dup.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/X509_LOOKUP_hash_dir.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/X509_LOOKUP_meth_new.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/X509_STORE_CTX_get_error.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/X509_STORE_CTX_new.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/X509_STORE_CTX_set_verify_cb.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/X509_STORE_set_verify_cb_func.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/X509_VERIFY_PARAM_set_flags.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/X509_check_ca.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/X509_check_host.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/X509_check_issued.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/X509_check_purpose.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/X509_get0_signature.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man3/X509_get_extension_flags.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man3/X509v3_get_ext_by_NID.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/d2i_DHparams.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man3/d2i_X509.pod up to 1.1.1.5
+crypto/external/bsd/openssl/dist/doc/man5/config.pod up to 1.1.1.4
+crypto/external/bsd/openssl/dist/doc/man5/x509v3_config.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man7/SM2.pod up to 1.1.1.3
+crypto/external/bsd/openssl/dist/doc/man7/evp.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/doc/man7/ossl_store.pod up to 1.1.1.2
+crypto/external/bsd/openssl/dist/fuzz/asn1.c    up to 1.1.1.3
+crypto/external/bsd/openssl/dist/fuzz/x509.c    up to 1.1.1.4
+crypto/external/bsd/openssl/dist/include/openssl/asn1err.h up to 1.1.1.3
+crypto/external/bsd/openssl/dist/include/openssl/bn.h up to 1.4
+crypto/external/bsd/openssl/dist/include/openssl/e_os2.h up to 1.1.1.5
+crypto/external/bsd/openssl/dist/include/openssl/ec.h up to 1.1.1.5
+crypto/external/bsd/openssl/dist/include/openssl/ecerr.h up to 1.1.1.4
+crypto/external/bsd/openssl/dist/include/openssl/evperr.h up to 1.1.1.5
+crypto/external/bsd/openssl/dist/include/openssl/obj_mac.h up to 1.1.1.6
+crypto/external/bsd/openssl/dist/include/openssl/opensslconf.h.in up to 1.1.1.5
+crypto/external/bsd/openssl/dist/include/openssl/opensslv.h up to 1.1.1.14
+crypto/external/bsd/openssl/dist/include/openssl/pemerr.h up to 1.1.1.3
+crypto/external/bsd/openssl/dist/include/openssl/ssl.h up to 1.1.1.9
+crypto/external/bsd/openssl/dist/include/openssl/ssl3.h up to 1.1.1.4
+crypto/external/bsd/openssl/dist/include/openssl/x509.h up to 1.1.1.4
+crypto/external/bsd/openssl/dist/include/openssl/x509_vfy.h up to 1.1.1.5
+crypto/external/bsd/openssl/dist/include/openssl/x509err.h up to 1.1.1.3
+crypto/external/bsd/openssl/dist/include/openssl/x509v3.h up to 1.1.1.6
+crypto/external/bsd/openssl/dist/ssl/bio_ssl.c  up to 1.1.1.10
+crypto/external/bsd/openssl/dist/ssl/d1_lib.c   up to 1.11
+crypto/external/bsd/openssl/dist/ssl/s3_lib.c   up to 1.28
+crypto/external/bsd/openssl/dist/ssl/ssl_conf.c up to 1.1.1.7
+crypto/external/bsd/openssl/dist/ssl/ssl_lib.c  up to 1.20
+crypto/external/bsd/openssl/dist/ssl/ssl_local.h up to 1.1.1.2
+crypto/external/bsd/openssl/dist/ssl/ssl_rsa.c  up to 1.1.1.10
+crypto/external/bsd/openssl/dist/ssl/ssl_sess.c up to 1.10
+crypto/external/bsd/openssl/dist/ssl/t1_lib.c   up to 1.33
+crypto/external/bsd/openssl/dist/ssl/t1_trce.c  up to 1.1.1.7
+crypto/external/bsd/openssl/dist/ssl/tls13_enc.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/ssl/record/rec_layer_d1.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/ssl/record/ssl3_buffer.c up to 1.1.1.4
+crypto/external/bsd/openssl/dist/ssl/statem/extensions.c up to 1.1.1.9
+crypto/external/bsd/openssl/dist/ssl/statem/extensions_clnt.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/ssl/statem/extensions_srvr.c up to 1.1.1.5
+crypto/external/bsd/openssl/dist/ssl/statem/statem_clnt.c up to 1.1.1.12
+crypto/external/bsd/openssl/dist/ssl/statem/statem_lib.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/ssl/statem/statem_srvr.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/test/asn1_decode_test.c up to 1.1.1.2
+crypto/external/bsd/openssl/dist/test/asn1_encode_test.c up to 1.1.1.3
+crypto/external/bsd/openssl/dist/test/bioprinttest.c up to 1.1.1.4
+crypto/external/bsd/openssl/dist/test/build.info up to 1.1.1.11
+crypto/external/bsd/openssl/dist/test/drbgtest.c up to 1.1.1.6
+crypto/external/bsd/openssl/dist/test/ec_internal_test.c up to 1.1.1.3
+crypto/external/bsd/openssl/dist/test/ectest.c  up to 1.8
+crypto/external/bsd/openssl/dist/test/handshake_helper.c up to 1.1.1.7
+crypto/external/bsd/openssl/dist/test/rsa_test.c up to 1.8
+crypto/external/bsd/openssl/dist/test/sslapitest.c up to 1.1.1.10
+crypto/external/bsd/openssl/dist/test/tls13encryptiontest.c up to 1.1.1.3
+crypto/external/bsd/openssl/dist/test/v3nametest.c up to 1.1.1.4
+crypto/external/bsd/openssl/dist/test/verify_extra_test.c up to 1.1.1.5
+crypto/external/bsd/openssl/dist/test/x509aux.c up to 1.1.1.4
+crypto/external/bsd/openssl/dist/test/certs/mkcert.sh up to 1.1.1.4
+crypto/external/bsd/openssl/dist/test/certs/setup.sh up to 1.1.1.9
+crypto/external/bsd/openssl/dist/test/recipes/04-test_pem.t up to 1.1.1.4
+crypto/external/bsd/openssl/dist/test/recipes/15-test_ec.t up to 1.1.1.2
+crypto/external/bsd/openssl/dist/test/recipes/25-test_req.t up to 1.1.1.4
+crypto/external/bsd/openssl/dist/test/recipes/25-test_verify.t up to 1.1.1.7
+crypto/external/bsd/openssl/dist/test/recipes/70-test_renegotiation.t up to 1.1.1.2
+crypto/external/bsd/openssl/dist/test/recipes/70-test_verify_extra.t up to 1.1.1.2
+crypto/external/bsd/openssl/dist/test/recipes/80-test_x509aux.t up to 1.1.1.2
+crypto/external/bsd/openssl/dist/tools/c_rehash.in up to 1.1.1.6
+crypto/external/bsd/openssl/dist/util/libcrypto.num up to 1.1.1.10
+crypto/external/bsd/openssl/dist/util/mkrc.pl   up to 1.1.1.6
+crypto/external/bsd/openssl/dist/util/perl/TLSProxy/Message.pm up to 1.1.1.5
+crypto/external/bsd/openssl/include/openssl/opensslconf.h up to 1.9
+crypto/external/bsd/openssl/lib/libcrypto/crypto.inc up to 1.10
+crypto/external/bsd/openssl/lib/libcrypto/evp.inc up to 1.10
+crypto/external/bsd/openssl/lib/libcrypto/arch/aarch64/aesv8-armx.S up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/aarch64/chacha-armv8.S up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/aarch64/crypto.inc up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/arch/aarch64/poly1305-armv8.S up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/aarch64/sha1-armv8.S up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/aarch64/sha512-armv8.S up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/arch/alpha/crypto.inc up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/arm/aesv8-armx.S up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/arch/arm/chacha-armv8.S up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/arch/arm/crypto.inc up to 1.11
+crypto/external/bsd/openssl/lib/libcrypto/arch/arm/ecp_nistz256-armv4.S up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/arch/arm/modes.inc up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/arch/arm/poly1305-armv8.S up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/arch/arm/sha1-armv8.S up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/arm/sha512-armv8.S up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/arch/i386/crypto.inc up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/mips/mips.S up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/arch/mips/mips64.S up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/arch/powerpc/crypto.inc up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/arch/powerpc/keccak1600p8-ppc.S up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/powerpc/sha.inc up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/arch/powerpc64/crypto.inc up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/powerpc64/keccak1600-ppc64.S up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/powerpc64/keccak1600p8-ppc.S up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/powerpc64/sha.inc up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/arch/sparc/aes.inc up to 1.6
+crypto/external/bsd/openssl/lib/libcrypto/arch/sparc/bn.inc up to 1.2
+crypto/external/bsd/openssl/lib/libcrypto/arch/sparc/crypto.inc up to 1.13
+crypto/external/bsd/openssl/lib/libcrypto/arch/sparc/modes.inc up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/arch/sparc64/crypto.inc up to 1.8
+crypto/external/bsd/openssl/lib/libcrypto/arch/vax/crypto.inc up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/arch/x86_64/crypto.inc up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/ADMISSIONS.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_INTEGER_get_int64.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_ITEM_lookup.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_OBJECT_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_STRING_TABLE_add.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_STRING_length.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_STRING_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_STRING_print_ex.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_TIME_set.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_TYPE_get.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/ASN1_generate_nconf.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ASYNC_WAIT_CTX_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/ASYNC_start_job.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BF_encrypt.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_ADDR.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_ADDRINFO.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_connect.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_ctrl.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_f_base64.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_f_buffer.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_f_cipher.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_f_md.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_f_null.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_f_ssl.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_find_type.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_get_data.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_get_ex_new_index.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_meth_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_new_CMS.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_parse_hostserv.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_printf.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_push.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_read.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_s_accept.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_s_bio.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_s_connect.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_s_fd.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_s_file.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_s_mem.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_s_null.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_s_socket.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_set_callback.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BIO_should_retry.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_BLINDING_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_CTX_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_CTX_start.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_add.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_add_word.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_bn2bin.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_cmp.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_copy.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_generate_prime.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_mod_inverse.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_mod_mul_montgomery.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_mod_mul_reciprocal.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_num_bytes.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_rand.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_security_bits.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_set_bit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_swap.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BN_zero.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/BUF_MEM_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_add0_cert.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_add1_recipient_cert.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_add1_signer.3 up to 1.9
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_compress.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_decrypt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_encrypt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_final.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_get0_RecipientInfos.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_get0_SignerInfos.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_get0_type.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_get1_ReceiptRequest.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_sign.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_sign_receipt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_uncompress.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_verify.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CMS_verify_receipt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CONF_modules_free.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CONF_modules_load_file.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/CRYPTO_THREAD_run_once.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/CRYPTO_get_ex_new_index.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/CTLOG_STORE_get0_log_by_id.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/CTLOG_STORE_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/CTLOG_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/CT_POLICY_EVAL_CTX_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/DEFINE_STACK_OF.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/DES_random_key.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_generate_key.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_generate_parameters.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_get0_pqg.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_get_1024_160.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_meth_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_new_by_nid.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_set_method.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DH_size.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_SIG_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_do_sign.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_dup_DH.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_generate_key.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_generate_parameters.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_get0_pqg.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_meth_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_set_method.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_sign.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DSA_size.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/DTLS_get_data_mtu.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/DTLS_set_timer_cb.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/DTLSv1_listen.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/ECDSA_SIG_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/ECPKParameters_print.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EC_GFp_simple_method.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/EC_GROUP_copy.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/EC_GROUP_new.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/EC_KEY_get_enc_flags.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EC_KEY_new.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/EC_POINT_add.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/EC_POINT_new.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/ENGINE_add.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_GET_LIB.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_clear_error.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_error_string.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_get_error.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_load_crypto_strings.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_load_strings.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_print_errors.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_put_error.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_remove_state.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ERR_set_mark.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_BytesToKey.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_CIPHER_CTX_get_cipher_data.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_CIPHER_meth_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_DigestInit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_DigestSignInit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_DigestVerifyInit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_EncodeInit.3 up to 1.7
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_EncryptInit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_MD_meth_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_OpenInit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_ASN1_METHOD.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_CTX_ctrl.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_CTX_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_CTX_set1_pbe_pass.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_CTX_set_hkdf_md.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_CTX_set_rsa_pss_keygen_md.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_CTX_set_scrypt_N.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_CTX_set_tls1_prf_md.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_asn1_get_count.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_cmp.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_decrypt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_derive.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_encrypt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_get_default_digest_nid.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_keygen.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_meth_get_count.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_meth_new.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_print_private.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_set1_RSA.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_sign.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_verify.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_PKEY_verify_recover.3 up to 1.15
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_SealInit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_SignInit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_VerifyInit.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_aes.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_aria.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_bf_cbc.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_blake2b512.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_camellia.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_cast5_cbc.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_chacha20.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_des.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_desx_cbc.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_idea_cbc.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_md2.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_md4.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_md5.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_mdc2.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_rc2_cbc.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_rc4.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_rc5_32_12_16_cbc.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_ripemd160.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_seed_cbc.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_sha1.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_sha224.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_sha3_224.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_sm3.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_sm4_cbc.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/EVP_whirlpool.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/Ed25519.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/HMAC.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/MD5.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/MDC2_Init.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OBJ_nid2obj.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/OCSP_REQUEST_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OCSP_cert_to_id.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OCSP_request_add1_nonce.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OCSP_resp_find_status.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OCSP_response_status.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OCSP_sendreq_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_Applink.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_LH_COMPFUNC.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_LH_stats.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_VERSION_NUMBER.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_config.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_fork_prepare.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_ia32cap.3 up to 1.22
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_init_crypto.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_init_ssl.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_instrument_bus.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_load_builtin_modules.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_malloc.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OPENSSL_secure_malloc.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/OSSL_STORE_INFO.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/OSSL_STORE_LOADER.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/OSSL_STORE_SEARCH.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/OSSL_STORE_expect.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/OSSL_STORE_open.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/OpenSSL_add_all_algorithms.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PEM_bytes_read_bio.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/PEM_read.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/PEM_read_CMS.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/PEM_read_bio_PrivateKey.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/PEM_read_bio_ex.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/PEM_write_bio_CMS_stream.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PEM_write_bio_PKCS7_stream.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS12_create.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS12_newpass.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS12_parse.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS5_PBKDF2_HMAC.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS7_decrypt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS7_encrypt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS7_sign.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS7_sign_add_signer.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/PKCS7_verify.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_DRBG.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_DRBG_generate.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_DRBG_get0_master.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_DRBG_new.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_DRBG_reseed.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_DRBG_set_callbacks.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_DRBG_set_ex_data.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_add.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_bytes.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_cleanup.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_egd.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_load_file.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RAND_set_rand_method.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RC4_set_key.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/RIPEMD160_Init.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA-PSS.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_blinding_on.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_check_key.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_generate_key.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_get0_key.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_meth_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_padding_add_PKCS1_type_1.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_print.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_private_encrypt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_public_encrypt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_set_method.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_sign.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_sign_ASN1_OCTET_STRING.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/RSA_size.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SCT_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SCT_print.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SCT_validate.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SHA256_Init.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SM2.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SMIME_read_CMS.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SMIME_read_PKCS7.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SMIME_write_CMS.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SMIME_write_PKCS7.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CIPHER_get_name.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_COMP_add_compression_method.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CONF_CTX_new.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CONF_CTX_set1_prefix.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CONF_CTX_set_flags.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CONF_CTX_set_ssl_ctx.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CONF_cmd.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CONF_cmd_argv.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_add1_chain_cert.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_add_extra_chain_cert.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_add_session.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_config.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_ctrl.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_dane_enable.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_flush_sessions.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_free.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_get0_param.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_get_verify_mode.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_has_client_custom_ext.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_load_verify_locations.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_sess_number.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_sess_set_cache_size.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_sess_set_get_cb.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_sessions.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set0_CA_list.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set1_curves.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set1_sigalgs.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set1_verify_cert_store.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_alpn_select_cb.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_cert_cb.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_cert_store.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_cert_verify_callback.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_cipher_list.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_client_cert_cb.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_client_hello_cb.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_ct_validation_callback.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_ctlog_list_file.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_default_passwd_cb.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_ex_data.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_generate_session_id.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_info_callback.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_keylog_callback.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_max_cert_list.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_min_proto_version.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_mode.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_msg_callback.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_num_tickets.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_options.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_psk_client_callback.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_quiet_shutdown.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_read_ahead.3 up to 1.8
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_record_padding_callback.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_security_level.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_session_cache_mode.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_session_id_context.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_session_ticket_cb.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_split_send_fragment.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_ssl_version.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_stateless_cookie_generate_cb.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_timeout.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_tlsext_servername_callback.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_tlsext_status_cb.3 up to 1.7
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_tlsext_ticket_key_cb.3 up to 1.10
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_tlsext_use_srtp.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_tmp_dh_callback.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_set_verify.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_use_certificate.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_use_psk_identity_hint.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_CTX_use_serverinfo.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_free.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_get0_cipher.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_get0_hostname.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_get0_id_context.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_get0_peer.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_get_compress_id.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_get_ex_data.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_get_protocol_version.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_get_time.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_has_ticket.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_is_resumable.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_print.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_SESSION_set1_id.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_accept.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_alert_type_string.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_alloc_buffers.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_check_chain.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_clear.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_connect.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_do_handshake.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_export_keying_material.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_extension_supported.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_free.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get0_peer_scts.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_SSL_CTX.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_all_async_fds.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_ciphers.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_client_random.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_current_cipher.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_default_timeout.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_error.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_extms_support.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_fd.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_peer_cert_chain.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_peer_certificate.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_peer_signature_nid.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_peer_tmp_key.3 up to 1.2
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_psk_identity.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_rbio.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_session.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_shared_sigalgs.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_verify_result.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_get_version.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_in_init.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_key_update.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_library_init.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_load_client_CA_file.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_pending.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_read.3 up to 1.21
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_read_early_data.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_rstate_string.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_session_reused.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_set1_host.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_set_bio.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_set_connect_state.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_set_fd.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_set_session.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_set_shutdown.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_set_verify_result.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_shutdown.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_state_string.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_want.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/SSL_write.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/UI_STRING.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/UI_UTIL_read_pw.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/UI_create_method.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/UI_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X25519.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/X509V3_get_d2i.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_ALGOR_dup.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_CRL_get0_by_serial.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_EXTENSION_set_object.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_LOOKUP_hash_dir.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_LOOKUP_meth_new.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_NAME_ENTRY_get_object.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_NAME_add_entry_by_txt.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_NAME_get0_der.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_NAME_get_index_by_NID.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_NAME_print_ex.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_PUBKEY_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_SIG_get0.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_STORE_CTX_get_error.3 up to 1.19
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_STORE_CTX_new.3 up to 1.19
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_STORE_CTX_set_verify_cb.3 up to 1.19
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_STORE_add_cert.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_STORE_get0_param.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_STORE_new.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_STORE_set_verify_cb_func.3 up to 1.19
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_VERIFY_PARAM_set_flags.3 up to 1.19
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_check_ca.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_check_host.3 up to 1.5
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_check_issued.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_check_private_key.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_cmp_time.3 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_digest.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_dup.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_get0_notBefore.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_get0_signature.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_get0_uids.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_get_extension_flags.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_get_pubkey.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_get_serialNumber.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_get_subject_name.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_get_version.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_new.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_sign.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/X509_verify_cert.3 up to 1.19
+crypto/external/bsd/openssl/lib/libcrypto/man/X509v3_get_ext_by_NID.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/bio.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/crypto.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/ct.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/d2i_DHparams.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/d2i_PKCS8PrivateKey_bio.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/d2i_PrivateKey.3 up to 1.7
+crypto/external/bsd/openssl/lib/libcrypto/man/d2i_SSL_SESSION.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/d2i_X509.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/des_modes.7 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/evp.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/i2d_CMS_bio_stream.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/i2d_PKCS7_bio_stream.3 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/i2d_re_X509_tbs.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/o2i_SCT_LIST.3 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl.1 up to 1.19
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_CA.pl.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_asn1parse.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_ca.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_ciphers.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_cms.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_config.5 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_crl.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_crl2pkcs7.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_dgst.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_dhparam.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_dsa.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_dsaparam.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_ec.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_ecparam.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_enc.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_engine.1 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_errstr.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_gendsa.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_genpkey.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_genrsa.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_list.1 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_nseq.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_ocsp.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_passwd.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_pkcs12.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_pkcs7.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_pkcs8.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_pkey.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_pkeyparam.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_pkeyutl.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_prime.1 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_rand.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_rehash.1 up to 1.4
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_req.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_rsa.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_rsautl.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_s_client.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_s_server.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_s_time.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_sess_id.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_smime.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_speed.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_spkac.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_srp.1 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_storeutl.1 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_ts.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_tsget.1 up to 1.21
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_verify.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_version.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/openssl_x509.1 up to 1.20
+crypto/external/bsd/openssl/lib/libcrypto/man/ossl_store-file.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/ossl_store.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/passphrase-encoding.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/scrypt.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/ssl.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/x509.7 up to 1.3
+crypto/external/bsd/openssl/lib/libcrypto/man/x509v3_config.5 up to 1.3
+doc/3RDPARTY					(manually edited)
+
+	Import OpenSSL 1.1.1k.
+	[christos, ticket #1237]
+
+sys/arch/arm/cortex/gic.c			1.47
+
+	PR 55243: only target the boot cpu for real with SPI interrupts.
+	[skrll, ticket #1238]
+
+sys/arch/sparc/dev/audioamd.c			(apply patch)
+
+	PR 56078: fix sparc audioamd(4) locking.
+	[tsutsui, ticket #1239]
+
+sys/arch/sparc/sparc/trap.c			1.199
+
+	PR 55573: remove kernel message about disabled coprocessor
+	instructions.
+	[christos, ticket #1240]
+
+sys/dev/audio/audiobell.c			1.4
+
+	PR 56059: avoid kernel hang when using /dev/speaker.
+	[isaki, ticket #1241]
+
+bin/sh/exec.c					1.55
+bin/sh/input.c					1.72
+
+	sh(1): PR 55979: fix unitialized memory reference
+	and handling of nul characters in shell scripts.
+	[kre, ticket #1242]
+
+external/public-domain/tz/dist/Makefile         up to 1.1.1.30
+external/public-domain/tz/dist/NEWS             up to 1.1.1.34
+external/public-domain/tz/dist/TZDATA_VERSION   up to 1.24
+external/public-domain/tz/dist/africa           up to 1.1.1.25
+external/public-domain/tz/dist/asia             up to 1.1.1.28
+external/public-domain/tz/dist/australasia      up to 1.1.1.21
+external/public-domain/tz/dist/backward         up to 1.1.1.12
+external/public-domain/tz/dist/backzone         up to 1.1.1.20
+external/public-domain/tz/dist/etcetera         up to 1.1.1.5
+external/public-domain/tz/dist/europe           up to 1.1.1.30
+external/public-domain/tz/dist/leap-seconds.list up to 1.1.1.15
+external/public-domain/tz/dist/leapseconds      up to 1.1.1.18
+external/public-domain/tz/dist/leapseconds.awk  up to 1.1.1.12
+external/public-domain/tz/dist/northamerica     up to 1.1.1.27
+external/public-domain/tz/dist/theory.html      up to 1.1.1.12
+external/public-domain/tz/dist/version          up to 1.1.1.21
+external/public-domain/tz/dist/ziguard.awk      up to 1.1.1.6
+external/public-domain/tz/dist/zone.tab         up to 1.1.1.19
+external/public-domain/tz/dist/zone1970.tab     up to 1.1.1.21
+doc/3RDPARTY					apply patch
+
+	Updated tzdata to 2021a.
+	[kre, ticket #1243]
+
+bin/ps/print.c					1.133
+
+	Fix the column width calculation for the lstart column if an empty
+	column header is specified.
+	[simonb, ticket #1244]
+
+crypto/external/bsd/openssl/dist/crypto/modes/gcm128.c 1.12
+crypto/external/bsd/openssl/lib/libcrypto/arch/sparc/modes.inc delete
+
+	Disable the assembly version of GHASH for 32 bit sparc, the code
+	requires a sparcv9 cpu.
+	[christos, ticket #1245]
+
+crypto/external/bsd/openssl/lib/libcrypto/arch/sparc/modes.inc 1.6
+
+	Restore sparcv9 optimization for 32bit builds on sparc64.
+	[mrg, ticket #1246]
+
+sys/arch/zaurus/dev/w100lcd.c			1.3
+
+	Make LCD BrightnessUp/BrightnessDown work on C7x0/860.
+	[tsutsui, ticket #1247]
+
+sys/arch/hp300/dev/diofb.c			1.5
+sys/arch/hp300/dev/topcat.c			1.5
+
+	topcat(4) framebuffer:
+	- fix panic on monochrome framebuffers.
+	- fix incorrect framebuffer width of 98542/98544 framebuffers on HP332.
+	[tsutsui, ticket #1248]
+
+sys/arch/sparc/conf/GENERIC			(apply patch)
+
+	PR 56077: remove options DIAGNOSTIC.
+	[tsutsui, ticket #1249]
+
+external/cddl/osnet/dist/uts/common/fs/zfs/arc.c 1.20
+
+	zfs: prevent blocking l2arc_feed_thread() forever.
+	[hannken, ticket #1250]
+
+usr.sbin/hdaudioctl/hdaudioctl.8		1.8
+
+	hdaudioctl(8): fix documentation for the "show" command,
+	add missing arguments.
+	[nia, ticket #1251]
+
+sys/arch/arm/dts/sun50i-h5.dtsi			1.2 (patch)
+sys/arch/arm/sunxi/sun8i_crypto.c		1.24 (patch)
+sys/arch/arm/sunxi/sun8i_h3_ccu.c		1.18 (patch)
+
+	arm/sunxi: Wire up sun8icrypto(4) on Allwinner H5.
+	[riastradh, ticket #1252]
+
+external/gpl2/texinfo/dist/configure		1.3
+
+	Fix cross build from newer clang versions on Darwin/Mac OS.
+	[cjep, ticket #1253]
+
+common/lib/libc/arch/arm/atomic/atomic_swap.S	1.15,1.16
+common/lib/libc/arch/arm/atomic/atomic_swap_64.S 1.11
+sys/arch/arm/include/lock.h			1.36,1.37
+
+	ARM: lock and atomic fixes.
+	[skrll, ticket #1254]
+
+sys/arch/mac68k/mac68k/locore.s			1.174
+
+	Fix DJMEMCMAX option for Quadra/Centris 650/800.
+	[rin, ticket #1255]
+
+sys/arch/mac68k/conf/GENERIC			1.234
+sys/arch/mac68k/conf/files.mac68k		1.131
+sys/arch/mac68k/mac68k/machdep.c		1.360
+
+	Add MAC68K_MEMSIZE option to hard-code memory size in MB, instead of
+	that given by Booter.
+	[rin, ticket #1256]
+
+xsrc/external/mit/xorg-server/dist/Xi/chgfctl.c		(apply patch)
+xsrc/external/mit/xorg-server.old/dist/Xi/chgfctl.c	(apply patch)
+
+	Fix CVE-2021-3472 (local privilege escalation).
+	[mrg, ticket #1257]
+
+sys/arch/mac68k/mac68k/machdep.c		1.361,1.362
+
+	mac68k: make mac68k_set_io_offsets() a little bit cleaner.
+	Fix sccA (serial console) address to match the adress used by
+	the ROM (hardware does not fully decode addresses).
+	[rin, ticket #1258]
+
+bin/sh/eval.c					1.182
+bin/sh/jobs.c					1.110
+bin/sh/jobs.h					1.24
+
+	sh(1): fix fallout related to PR 48875: avoid invalid
+	subshell-elimination optimization when there are pending
+	background jobs.
+	[kre, ticket #1259]
+
+distrib/sets/lists/man/mi			1.1718 (patch)
+share/man/man4/man4.evbarm/Makefile		1.12 (patch)
+share/man/man4/man4.evbarm/sun8icrypto.4	1.1
+
+	sun8icrypto(4): add a man page.
+	[nia, ticket #1260]
+
+common/lib/libc/arch/arm/atomic/atomic_swap.S	1.17
+common/lib/libc/arch/arm/atomic/atomic_swap_16.S 1.5
+common/lib/libc/arch/arm/atomic/atomic_swap_64.S 1.12
+common/lib/libc/arch/arm/atomic/membar_ops.S	1.7
+sys/arch/arm/include/lock.h			1.38
+
+	ARM lock and atomic fixes.
+	[skrll, ticket #1261]
+
+distrib/notes/common/netboot			1.39
+
+	For netboot via DHCP, "next-server" in dhcpd.conf(5) is mandatory.
+	[tsutsui, ticket #1262]
+
+bin/pax/extern.h				1.60
+bin/pax/options.c				1.119
+sbin/newfs_udf/newfs_udf.h			1.7 (patch)
+sbin/newfs_udf/udf_create.c			1.27 (patch)
+usr.bin/config/defs.h				1.106
+usr.bin/config/main.c				1.100
+usr.bin/config/scan.l				1.32
+usr.bin/make/main.c				1.274
+usr.bin/make/make.h				1.105
+
+	Avoid depending on common symbols.
+	[mrg, ticket #1263]
+
+external/cddl/osnet/dist/cmd/zfs/zfs.8		1.2
+external/cddl/osnet/dist/cmd/zpool/zpool.8	1.2
+
+	zfs: Fix references to FreeBSD in manual pages.
+	[nia, ticket #1264]
+
+external/gpl3/binutils/dist/bfd/elf32-ppc.c	1.16
+external/gpl3/binutils/dist/bfd/elf64-ppc.c	1.16
+
+	ld(1): fix regression when linking binaries with large text
+	section.
+	[rin, ticket #1266]
+
+sys/miscfs/fdesc/fdesc_vnops.c			1.135
+
+	PR 56130: make sure fdesc_lookup() never returns VNON vnodes.
+	[hannken, ticket #1267]
+
+sys/kern/kern_exec.c				1.505 via patch
+
+	Fix copy&pasto in handling of POSIX_SPAWN_RESETIDS in posix_spawn(3)
+	[martin, ticket #1265]
+
+sys/dev/audio/audio.c				1.95
+
+	audio: do not prefer surround formats.
+	[nia, ticket #1268]
+
+etc/etc.mac68k/ttys				1.21
+
+	mac68k: turn on constty instead of ttyE0 and change default TERM
+	to vt100 for console and constty.
+	[rin, ticket #1269]
+
+sys/dev/pci/siisata_pci.c			1.21
+
+	siisata(4): PR 55115 - disable MSI for SiI3124.
+	[dolecek, ticket #1270]
+
+usr.sbin/sysinst/arch/evbarm/md.c		1.21
+usr.sbin/sysinst/label.c			1.33
+usr.sbin/sysinst/mbr.c				1.39
+
+	sysinst:
+	 - fix a few inconsistencies around MSDOS file system handling,
+	   especially visible on evbarm installations.
+	 - do not allow editing some properties of partitions
+	   when the partition can not be changed (e.g. because it needs to
+	   match the same partition defined in the MBR)
+	[martin, ticket #1271]
+
+distrib/notes/amd64/contents			(manually edited)
+distrib/notes/sparc64/contents			(manually edited)
+
+	Note that distribution sets are not gzip compressed.
+	[martin]
+
+doc/LAST_MINUTE					(manually edited)
+external/gpl2/groff/tmac/mdoc.local		(manually edited)
+sys/sys/param.h					(manually edited)
+
+	Update version numbers - welcome to NetBSD 9.2!
+	[martin]

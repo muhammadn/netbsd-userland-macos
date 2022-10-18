@@ -1,0 +1,20 @@
+/base64.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/cfmakeraw.c/1.1.1.5/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/daemon-darwin.c/1.1.1.1/Thu Oct 12 21:59:49 2017//Tnetbsd-9-3-RELEASE
+/err.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/explicit_bzero.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/fdforkpty.c/1.1.1.1/Thu Oct 12 21:59:49 2017//Tnetbsd-9-3-RELEASE
+/freezero.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/getdtablecount.c/1.1.1.2/Sat Jan  5 21:32:49 2019//Tnetbsd-9-3-RELEASE
+/getprogname.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/imsg-buffer.c/1.9/Sat Jan  5 21:44:40 2019//Tnetbsd-9-3-RELEASE
+/imsg.c/1.9/Sat Jan  5 21:44:40 2019//Tnetbsd-9-3-RELEASE
+/imsg.h/1.1.1.6/Sun Apr 23 00:21:39 2017//Tnetbsd-9-3-RELEASE
+/memmem.c/1.1.1.1/Thu Oct 12 21:59:49 2017//Tnetbsd-9-3-RELEASE
+/reallocarray.c/1.1.1.2/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/recallocarray.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/setproctitle.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/strndup.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/strnlen.c/1.1.1.1/Sun Apr 23 00:21:38 2017//Tnetbsd-9-3-RELEASE
+/utf8proc.c/1.1.1.1/Sun Apr 23 00:21:39 2017//Tnetbsd-9-3-RELEASE
+D

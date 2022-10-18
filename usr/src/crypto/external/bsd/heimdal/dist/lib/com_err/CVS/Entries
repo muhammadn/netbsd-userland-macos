@@ -1,0 +1,19 @@
+/ChangeLog/1.1.1.1/Wed Apr 13 18:14:42 2011//Tnetbsd-9-3-RELEASE
+/Makefile.am/1.1.1.4/Sat Jan 28 20:46:43 2017//Tnetbsd-9-3-RELEASE
+/NTMakefile/1.1.1.1/Wed Apr 13 18:14:42 2011//Tnetbsd-9-3-RELEASE
+/com_err.3/1.4/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/com_err.c/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/com_err.h/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/com_right.h/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/compile_et-version.rc/1.1.1.1/Wed Apr 13 18:14:43 2011//Tnetbsd-9-3-RELEASE
+/compile_et.c/1.4/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/compile_et.h/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/error.c/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/lex.h/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/lex.l/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/libcom_err-exports.def/1.1.1.1/Wed Apr 13 18:14:43 2011//Tnetbsd-9-3-RELEASE
+/libcom_err-version.rc/1.1.1.1/Wed Apr 13 18:14:43 2011//Tnetbsd-9-3-RELEASE
+/parse.y/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/roken_rename.h/1.2/Sat Jan 28 21:31:45 2017//Tnetbsd-9-3-RELEASE
+/version-script.map/1.1.1.2/Thu Apr 14 14:08:23 2011//Tnetbsd-9-3-RELEASE
+D

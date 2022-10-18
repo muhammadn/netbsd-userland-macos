@@ -1,0 +1,25 @@
+/Changes/1.1.1.1/Fri Nov 22 14:55:11 2013//Tnetbsd-9-3-RELEASE
+/LICENSE/1.1.1.1/Fri Nov 22 14:55:11 2013//Tnetbsd-9-3-RELEASE
+/README/1.1.1.1/Fri Nov 22 14:55:11 2013//Tnetbsd-9-3-RELEASE
+/README.1st/1.1.1.1/Fri Nov 22 14:55:11 2013//Tnetbsd-9-3-RELEASE
+/README.DB3/1.1.1.1/Fri Nov 22 14:55:11 2013//Tnetbsd-9-3-RELEASE
+/TODO/1.1.1.1/Fri Nov 22 14:55:11 2013//Tnetbsd-9-3-RELEASE
+D/build.unix////
+D/catalog////
+D/cl////
+D/clib////
+D/common////
+D/dist////
+D/docs////
+D/ex////
+D/gtk////
+D/ip////
+D/ipc////
+D/motif////
+D/motif_l////
+D/perl_api////
+D/perl_scripts////
+D/regex////
+D/tcl_api////
+D/tcl_scripts////
+D/vi////

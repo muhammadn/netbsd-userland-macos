@@ -1,0 +1,6 @@
+/any_cast_pointer.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/any_cast_reference.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/const_correctness.fail.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/not_copy_constructible.fail.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/reference_types.fail.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+D

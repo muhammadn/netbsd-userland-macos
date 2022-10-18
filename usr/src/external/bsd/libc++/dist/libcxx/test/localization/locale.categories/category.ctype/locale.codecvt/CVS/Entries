@@ -1,0 +1,11 @@
+/codecvt_base.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+/ctor_char.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+/ctor_char16_t.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+/ctor_char32_t.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+/ctor_wchar_t.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+/types_char.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+/types_char16_t.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+/types_char32_t.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+/types_wchar_t.pass.cpp/1.1.1.1/Fri May 17 23:02:35 2013//Tnetbsd-9-3-RELEASE
+D/locale.codecvt.members////
+D/locale.codecvt.virtuals////

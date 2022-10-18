@@ -1,0 +1,13 @@
+/Copyable.h/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/Emplaceable.h/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/NotConstructible.h/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/nothing_to_do.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/stack_allocator.h/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/test_compare.h/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/test_hash.h/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+D/associative////
+D/container.adaptors////
+D/container.requirements////
+D/containers.general////
+D/sequences////
+D/unord////

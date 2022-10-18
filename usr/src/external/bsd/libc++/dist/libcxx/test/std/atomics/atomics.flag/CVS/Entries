@@ -1,0 +1,13 @@
+/atomic_flag_clear.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/atomic_flag_clear_explicit.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/atomic_flag_test_and_set.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/atomic_flag_test_and_set_explicit.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/clear.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/copy_assign.fail.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/copy_ctor.fail.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/copy_volatile_assign.fail.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/default.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/init.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/init03.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/test_and_set.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+D

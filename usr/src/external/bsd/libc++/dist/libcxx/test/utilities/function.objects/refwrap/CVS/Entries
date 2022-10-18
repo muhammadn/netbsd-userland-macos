@@ -1,0 +1,9 @@
+/binary.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/type.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/unary.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/weak_result.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+D/refwrap.access////
+D/refwrap.assign////
+D/refwrap.const////
+D/refwrap.helpers////
+D/refwrap.invoke////

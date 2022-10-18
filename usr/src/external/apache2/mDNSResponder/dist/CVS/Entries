@@ -1,0 +1,7 @@
+/.gitignore/1.1.1.1/Sun Feb 25 19:25:33 2018//Tnetbsd-9-3-RELEASE
+/LICENSE/1.1.1.1/Tue Sep 29 22:14:03 2009//Tnetbsd-9-3-RELEASE
+D/Clients////
+D/mDNSCore////
+D/mDNSPosix////
+D/mDNSShared////
+D/unittests////

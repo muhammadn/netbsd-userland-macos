@@ -1,0 +1,21 @@
+/Makefile.am/1.1.1.6/Sat Apr  7 00:15:51 2018//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.11/Sat Apr  7 00:15:51 2018//Tnetbsd-9-3-RELEASE
+/README/1.1.1.1/Sun Dec 13 16:56:26 2009//Tnetbsd-9-3-RELEASE
+/invoke-ntpq.menu/1.1.1.1/Fri Dec 27 23:31:05 2013//Tnetbsd-9-3-RELEASE
+/invoke-ntpq.texi/1.1.1.12/Sat Sep 29 17:28:44 2018//Tnetbsd-9-3-RELEASE
+/libntpq.c/1.5/Thu Apr 13 20:17:42 2017//Tnetbsd-9-3-RELEASE
+/libntpq.h/1.5/Fri Jan  8 21:35:40 2016//Tnetbsd-9-3-RELEASE
+/libntpq_subs.c/1.4/Fri Jan  8 21:35:40 2016//Tnetbsd-9-3-RELEASE
+/ntpq-opts.c/1.12/Sat Sep 29 21:52:34 2018//Tnetbsd-9-3-RELEASE
+/ntpq-opts.def/1.1.1.6/Sat Apr  7 00:15:51 2018//Tnetbsd-9-3-RELEASE
+/ntpq-opts.h/1.12/Sat Sep 29 21:52:34 2018//Tnetbsd-9-3-RELEASE
+/ntpq-subs.c/1.17/Sat Sep 29 21:52:34 2018//Tnetbsd-9-3-RELEASE
+/ntpq.1ntpqman/1.1.1.12/Sat Sep 29 17:28:44 2018//Tnetbsd-9-3-RELEASE
+/ntpq.1ntpqmdoc/1.1.1.12/Sat Sep 29 17:28:44 2018//Tnetbsd-9-3-RELEASE
+/ntpq.c/1.20/Sat Sep 29 21:52:34 2018//Tnetbsd-9-3-RELEASE
+/ntpq.h/1.9/Sun May  1 23:32:01 2016//Tnetbsd-9-3-RELEASE
+/ntpq.html/1.1.1.12/Sat Sep 29 17:28:44 2018//Tnetbsd-9-3-RELEASE
+/ntpq.man.in/1.1.1.12/Sat Sep 29 17:28:44 2018//Tnetbsd-9-3-RELEASE
+/ntpq.mdoc.in/1.1.1.12/Sat Sep 29 17:28:44 2018//Tnetbsd-9-3-RELEASE
+/ntpq.texi/1.1.1.3/Sat Sep 29 17:28:44 2018//Tnetbsd-9-3-RELEASE
+D

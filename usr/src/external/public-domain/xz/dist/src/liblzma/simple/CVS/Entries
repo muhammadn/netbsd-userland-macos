@@ -1,0 +1,14 @@
+/arm.c/1.1.1.4/Mon Sep 24 22:36:02 2018//Tnetbsd-9-3-RELEASE
+/armthumb.c/1.1.1.4/Mon Sep 24 22:36:02 2018//Tnetbsd-9-3-RELEASE
+/ia64.c/1.1.1.4/Mon Sep 24 22:36:02 2018//Tnetbsd-9-3-RELEASE
+/powerpc.c/1.1.1.4/Mon Sep 24 22:36:02 2018//Tnetbsd-9-3-RELEASE
+/simple_coder.c/1.1.1.4/Mon Sep 24 22:36:02 2018//Tnetbsd-9-3-RELEASE
+/simple_coder.h/1.1.1.2/Fri Apr 17 18:24:56 2015//Tnetbsd-9-3-RELEASE
+/simple_decoder.c/1.1.1.2/Fri Apr 17 18:24:56 2015//Tnetbsd-9-3-RELEASE
+/simple_decoder.h/1.1.1.2/Fri Apr 17 18:24:56 2015//Tnetbsd-9-3-RELEASE
+/simple_encoder.c/1.1.1.1/Tue Nov  2 15:20:42 2010//Tnetbsd-9-3-RELEASE
+/simple_encoder.h/1.1.1.1/Tue Nov  2 15:20:42 2010//Tnetbsd-9-3-RELEASE
+/simple_private.h/1.1.1.3/Mon Sep 24 22:36:02 2018//Tnetbsd-9-3-RELEASE
+/sparc.c/1.1.1.4/Mon Sep 24 22:36:02 2018//Tnetbsd-9-3-RELEASE
+/x86.c/1.1.1.3/Mon Sep 24 22:36:02 2018//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,15 @@
+/Makefile/1.13/Sat Feb  6 23:45:25 2010//Tnetbsd-9-3-RELEASE
+/cards.c/1.9/Wed Aug 12 05:48:04 2009//Tnetbsd-9-3-RELEASE
+/crib.c/1.25/Sat Oct 13 20:36:06 2012//Tnetbsd-9-3-RELEASE
+/cribbage.6/1.11/Thu Aug  7 09:37:09 2003//Tnetbsd-9-3-RELEASE
+/cribbage.h/1.17/Sat Oct 13 20:36:06 2012//Tnetbsd-9-3-RELEASE
+/cribbage.n/1.1.1.1/Sun Mar 21 09:45:37 1993//Tnetbsd-9-3-RELEASE
+/cribcur.h/1.4/Thu Aug  7 09:37:09 2003//Tnetbsd-9-3-RELEASE
+/deck.h/1.5/Sat Jul  2 08:32:32 2005//Tnetbsd-9-3-RELEASE
+/extern.c/1.7/Thu Aug  7 09:37:10 2003//Tnetbsd-9-3-RELEASE
+/instr.c/1.14/Thu Sep  1 07:18:50 2011//Tnetbsd-9-3-RELEASE
+/io.c/1.27/Sat Oct 13 20:36:06 2012//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.4/Thu Aug  7 09:37:10 2003//Tnetbsd-9-3-RELEASE
+/score.c/1.17/Sun Feb  3 10:48:46 2019//Tnetbsd-9-3-RELEASE
+/support.c/1.14/Wed Aug 12 05:48:04 2009//Tnetbsd-9-3-RELEASE
+D

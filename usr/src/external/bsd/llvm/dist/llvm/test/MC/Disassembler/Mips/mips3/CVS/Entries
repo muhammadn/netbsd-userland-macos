@@ -1,0 +1,5 @@
+/invalid-xfail.txt/1.1.1.1/Sat Feb 27 22:52:51 2016//Tnetbsd-9-3-RELEASE
+/valid-mips3-el.txt/1.1.1.4/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/valid-mips3.txt/1.1.1.4/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/valid-xfail.txt/1.1.1.1/Sat Feb 27 22:52:51 2016//Tnetbsd-9-3-RELEASE
+D

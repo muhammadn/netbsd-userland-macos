@@ -1,0 +1,15 @@
+/Changes/1.1.1.1/Wed Feb  3 03:50:40 2010//Tnetbsd-9-3-RELEASE
+/LICENSE/1.1.1.1/Wed Feb  3 03:50:40 2010//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.1/Wed Feb  3 03:50:40 2010//Tnetbsd-9-3-RELEASE
+/README/1.1.1.1/Wed Feb  3 03:50:40 2010//Tnetbsd-9-3-RELEASE
+/config.h.in/1.1.1.1/Wed Feb  3 03:50:40 2010//Tnetbsd-9-3-RELEASE
+/configure/1.1.1.1/Wed Feb  3 03:50:44 2010//Tnetbsd-9-3-RELEASE
+/configure.ac/1.1.1.1/Wed Feb  3 03:50:44 2010//Tnetbsd-9-3-RELEASE
+/crc32.h/1.1.1.1/Wed Feb  3 03:50:44 2010//Tnetbsd-9-3-RELEASE
+/install-sh/1.1.1.1/Wed Feb  3 03:50:44 2010//Tnetbsd-9-3-RELEASE
+/lzf.c/1.2/Sun Sep 16 18:59:27 2012//Tnetbsd-9-3-RELEASE
+/lzf.h/1.4/Sun Sep 16 18:59:27 2012//Tnetbsd-9-3-RELEASE
+/lzfP.h/1.4/Sun Aug 10 16:44:32 2014//Tnetbsd-9-3-RELEASE
+/lzf_c.c/1.5/Sun Aug 10 16:44:32 2014//Tnetbsd-9-3-RELEASE
+/lzf_d.c/1.4/Sun Aug 10 16:44:32 2014//Tnetbsd-9-3-RELEASE
+D/cs////

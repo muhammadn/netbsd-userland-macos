@@ -1,0 +1,14 @@
+/Makefile/1.37/Sun May 21 15:28:36 2017//Tnetbsd-9-3-RELEASE
+/POSIX/1.10/Thu Nov 18 19:16:34 1999//Tnetbsd-9-3-RELEASE
+/README/1.10/Fri Jan  4 19:13:58 2019//Tnetbsd-9-3-RELEASE
+/buf.c/1.27/Sun Mar 23 05:06:42 2014//Tnetbsd-9-3-RELEASE
+/cbc.c/1.25/Thu Feb  8 09:05:16 2018//Tnetbsd-9-3-RELEASE
+/ed.1/1.35/Mon Apr  9 06:57:01 2018//Tnetbsd-9-3-RELEASE
+/ed.h/1.38/Fri Jan  4 19:13:58 2019//Tnetbsd-9-3-RELEASE
+/glbl.c/1.10/Fri Jan  4 19:13:58 2019//Tnetbsd-9-3-RELEASE
+/io.c/1.10/Sun Mar 23 05:06:42 2014//Tnetbsd-9-3-RELEASE
+/main.c/1.30/Mon Jun 18 14:56:24 2018//Tnetbsd-9-3-RELEASE
+/re.c/1.21/Sun Mar 23 05:06:42 2014//Tnetbsd-9-3-RELEASE
+/sub.c/1.7/Sun Mar 23 05:06:42 2014//Tnetbsd-9-3-RELEASE
+/undo.c/1.7/Fri Jan  4 19:13:58 2019//Tnetbsd-9-3-RELEASE
+D/test////

@@ -1,0 +1,25 @@
+/Makefile.inc/1.5/Wed Oct 25 06:32:59 2017//Tnetbsd-9-3-RELEASE
+/cfgetispeed.c/1.8/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/cfgetospeed.c/1.8/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/cfmakeraw.c/1.10/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/cfsetispeed.c/1.8/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/cfsetospeed.c/1.8/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/cfsetspeed.c/1.8/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcdrain.c/1.9/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcflow.c/1.9/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcflush.c/1.10/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcgetattr.c/1.10/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcgetpgrp.3/1.11/Thu Aug  7 16:44:13 2003//Tnetbsd-9-3-RELEASE
+/tcgetpgrp.c/1.10/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcgetsid.3/1.5/Thu Aug  7 16:44:13 2003//Tnetbsd-9-3-RELEASE
+/tcgetsid.c/1.7/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcgetwinsize.3/1.2/Mon Oct 30 15:43:21 2017//Tnetbsd-9-3-RELEASE
+/tcgetwinsize.c/1.1/Wed Oct 25 06:32:59 2017//Tnetbsd-9-3-RELEASE
+/tcsendbreak.3/1.9/Thu Aug  7 16:44:13 2003//Tnetbsd-9-3-RELEASE
+/tcsendbreak.c/1.10/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcsetattr.3/1.13/Mon Mar 22 19:30:55 2010//Tnetbsd-9-3-RELEASE
+/tcsetattr.c/1.9/Mon Jun 25 22:32:46 2012//Tnetbsd-9-3-RELEASE
+/tcsetpgrp.3/1.10/Thu Aug  7 16:44:14 2003//Tnetbsd-9-3-RELEASE
+/tcsetpgrp.c/1.9/Thu Aug  7 16:44:14 2003//Tnetbsd-9-3-RELEASE
+/tcsetwinsize.c/1.1/Wed Oct 25 06:32:59 2017//Tnetbsd-9-3-RELEASE
+D

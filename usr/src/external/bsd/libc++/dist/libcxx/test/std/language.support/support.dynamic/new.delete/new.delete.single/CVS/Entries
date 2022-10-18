@@ -1,0 +1,9 @@
+/new.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/new_nothrow.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/new_nothrow_replace.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/new_replace.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/sized_delete11.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/sized_delete14.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/sized_delete_calls_unsized_delete.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/sized_delete_fsizeddeallocation.sh.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+D

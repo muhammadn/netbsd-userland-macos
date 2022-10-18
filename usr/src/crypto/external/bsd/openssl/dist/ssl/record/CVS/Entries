@@ -1,0 +1,10 @@
+/README/1.1.1.1.6.1/Mon Apr 27 14:47:33 2020//Tnetbsd-9-3-RELEASE
+/dtls1_bitmap.c/1.1.1.1.6.1/Mon Apr 27 14:47:33 2020//Tnetbsd-9-3-RELEASE
+/rec_layer_d1.c/1.1.1.6.2.2/Sat Mar 27 14:35:14 2021//Tnetbsd-9-3-RELEASE
+/rec_layer_s3.c/1.1.1.4.2.2/Mon Apr 27 14:47:33 2020//Tnetbsd-9-3-RELEASE
+/record.h/1.1.1.3/Sat Dec  8 22:33:09 2018//Tnetbsd-9-3-RELEASE
+/record_local.h/1.1.1.1.4.2/Mon Apr 27 14:47:33 2020//Tnetbsd-9-3-RELEASE
+/ssl3_buffer.c/1.1.1.2.2.2/Sat Mar 27 14:35:14 2021//Tnetbsd-9-3-RELEASE
+/ssl3_record.c/1.1.1.5.2.1/Mon Apr 27 14:47:33 2020//Tnetbsd-9-3-RELEASE
+/ssl3_record_tls13.c/1.1.1.1.6.1/Mon Apr 27 14:47:33 2020//Tnetbsd-9-3-RELEASE
+D

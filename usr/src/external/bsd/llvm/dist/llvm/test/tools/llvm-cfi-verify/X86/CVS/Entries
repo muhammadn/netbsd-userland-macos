@@ -1,0 +1,10 @@
+/blacklist-expected-unprotected.s/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/blacklist-match-fun.s/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/blacklist-unexpected-protected.s/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/dot-printing.s/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/indirect-cf-elimination.s/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/protected-lineinfo.s/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/unprotected-lineinfo.s/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/unprotected-nolineinfo.s/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+D/Inputs////

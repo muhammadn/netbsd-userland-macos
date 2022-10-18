@@ -1,0 +1,19 @@
+/Attr.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/CXXBoolLiteralExpr.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/CXXMemberCall.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/CXXOperatorCallExprTraverser.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/Class.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/ConstructExpr.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/DeclRefExpr.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/ImplicitCtor.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/InitListExprPostOrder.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/InitListExprPostOrderNoQueue.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/InitListExprPreOrder.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/InitListExprPreOrderNoQueue.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/IntegerLiteral.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/LambdaDefaultCapture.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/LambdaExpr.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/NestedNameSpecifiers.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/ParenExpr.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+/TemplateArgumentLocTraverser.cpp/1.1.1.1/Tue Jul 17 18:32:14 2018//Tnetbsd-9-3-RELEASE
+D

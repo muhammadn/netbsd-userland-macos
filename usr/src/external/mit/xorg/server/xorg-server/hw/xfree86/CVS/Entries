@@ -1,0 +1,25 @@
+/Makefile/1.38/Tue Apr 16 21:20:51 2019//Tnetbsd-9-3-RELEASE
+D/Xorg////
+D/common////
+D/ddc////
+D/dixmods////
+D/doc////
+D/dri////
+D/dri2////
+D/drivers////
+D/dummy////
+D/exa////
+D/glamor_egl////
+D/i2c////
+D/int10////
+D/loader////
+D/ramdac////
+D/shadowfb////
+D/utils////
+D/vbe////
+D/vgahw////
+D/x86emu////
+D/xf86config////
+D/xf86modes////
+D/xkb////
+D/xorgos////

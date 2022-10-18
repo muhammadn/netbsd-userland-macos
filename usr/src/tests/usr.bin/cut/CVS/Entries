@@ -1,0 +1,10 @@
+/Makefile/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+/d_basic.out/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+/d_cut.in/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+/d_dflag.out/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+/d_dsflag.out/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+/d_latin1.in/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+/d_sflag.out/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+/d_utf8.in/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+/t_cut.sh/1.1/Sat Mar 17 16:33:13 2012//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,15 @@
+/Makefile/1.9/Fri Sep 19 18:33:34 2008//Tnetbsd-9-3-RELEASE
+/backupfile.c/1.15.26.1/Fri Feb 26 13:29:16 2021//Tnetbsd-9-3-RELEASE
+/backupfile.h/1.6.62.1/Fri Feb 26 13:29:16 2021//Tnetbsd-9-3-RELEASE
+/common.h/1.21/Fri Jul 24 18:56:44 2015//Tnetbsd-9-3-RELEASE
+/inp.c/1.26/Mon Jun 18 18:33:31 2018//Tnetbsd-9-3-RELEASE
+/inp.h/1.10/Fri Sep 19 18:33:34 2008//Tnetbsd-9-3-RELEASE
+/mkpath.c/1.1/Fri Sep 19 18:33:34 2008//Tnetbsd-9-3-RELEASE
+/patch.1/1.21/Mon Jul  3 21:34:20 2017//Tnetbsd-9-3-RELEASE
+/patch.c/1.29.44.1/Fri Feb 26 13:29:16 2021//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.1/Fri Sep 19 18:33:34 2008//Tnetbsd-9-3-RELEASE
+/pch.c/1.30/Mon Jun 18 18:33:31 2018//Tnetbsd-9-3-RELEASE
+/pch.h/1.10/Fri Sep 19 18:33:34 2008//Tnetbsd-9-3-RELEASE
+/util.c/1.28/Mon Jun 18 18:33:31 2018//Tnetbsd-9-3-RELEASE
+/util.h/1.13/Mon Jun 18 18:33:31 2018//Tnetbsd-9-3-RELEASE
+D

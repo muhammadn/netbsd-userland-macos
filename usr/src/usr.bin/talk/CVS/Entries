@@ -1,0 +1,16 @@
+/Makefile/1.8/Sat Feb  6 23:45:26 2010//Tnetbsd-9-3-RELEASE
+/ctl.c/1.10/Tue Mar 20 20:34:59 2012//Tnetbsd-9-3-RELEASE
+/ctl_transact.c/1.11/Tue Sep  6 18:32:03 2011//Tnetbsd-9-3-RELEASE
+/display.c/1.9/Tue Sep  6 18:32:03 2011//Tnetbsd-9-3-RELEASE
+/get_addrs.c/1.12/Tue Jun 16 22:54:11 2015//Tnetbsd-9-3-RELEASE
+/get_names.c/1.16/Sat Dec 29 23:44:23 2012//Tnetbsd-9-3-RELEASE
+/init_disp.c/1.12/Tue Sep  6 18:32:03 2011//Tnetbsd-9-3-RELEASE
+/invite.c/1.10/Sat Dec 29 23:44:23 2012//Tnetbsd-9-3-RELEASE
+/io.c/1.14/Tue Sep  6 18:32:03 2011//Tnetbsd-9-3-RELEASE
+/look_up.c/1.8/Tue Mar 20 20:34:59 2012//Tnetbsd-9-3-RELEASE
+/msgs.c/1.7/Tue Sep  6 18:32:03 2011//Tnetbsd-9-3-RELEASE
+/talk.1/1.9/Mon Jan  8 17:10:59 2007//Tnetbsd-9-3-RELEASE
+/talk.c/1.8/Tue Sep  6 18:32:03 2011//Tnetbsd-9-3-RELEASE
+/talk.h/1.9/Tue Sep  6 18:32:03 2011//Tnetbsd-9-3-RELEASE
+/talk_ctl.h/1.4/Thu Aug  7 11:16:05 2003//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,23 @@
+/db.clientip1/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.clientip2/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.clientip21/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.invalidprefixlength/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.log1/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.log2/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.log3/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.wildcard1/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.wildcard2a/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.wildcard2b/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/db.wildcard3/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/named.clientip.conf/1.1.1.2/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/named.clientip2.conf/1.1.1.2/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/named.conf.header.in/1.1.1.2/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/named.default.conf/1.1.1.2/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/named.invalidprefixlength.conf/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/named.log.conf/1.1.1.2/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/named.max.conf/1.1.1.1/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/named.wildcard1.conf/1.1.1.2/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/named.wildcard2.conf/1.1.1.2/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/named.wildcard3.conf/1.1.1.2/Wed Jan  9 16:48:16 2019//Tnetbsd-9-3-RELEASE
+/root.hint/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+D

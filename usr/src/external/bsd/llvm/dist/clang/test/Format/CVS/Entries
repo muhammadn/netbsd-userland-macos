@@ -1,0 +1,21 @@
+/adjust-indent.cpp/1.1.1.1/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+/basic.cpp/1.1.1.2/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+/cursor.cpp/1.1.1.2/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+/disable-format.cpp/1.1.1.2/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+/disable-include-sorting.cpp/1.1.1.1/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+/dump-config-cxx.h/1.1.1.1/Tue Jul 17 18:31:29 2018//Tnetbsd-9-3-RELEASE
+/dump-config-objc.h/1.1.1.1/Tue Jul 17 18:31:29 2018//Tnetbsd-9-3-RELEASE
+/incomplete.cpp/1.1.1.2/Tue Aug  1 19:34:10 2017//Tnetbsd-9-3-RELEASE
+/inplace.cpp/1.1.1.1/Tue Aug  1 19:34:10 2017//Tnetbsd-9-3-RELEASE
+/language-detection.cpp/1.1.1.2/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+/line-ranges.cpp/1.1.1.2/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.1/Tue Jul 17 18:31:29 2018//Tnetbsd-9-3-RELEASE
+/multiple-inputs-error.cpp/1.1.1.1/Thu Nov 28 14:14:58 2013//Tnetbsd-9-3-RELEASE
+/multiple-inputs-inplace.cpp/1.1.1.1/Thu Nov 28 14:14:58 2013//Tnetbsd-9-3-RELEASE
+/multiple-inputs.cpp/1.1.1.1/Thu Nov 28 14:14:58 2013//Tnetbsd-9-3-RELEASE
+/ranges.cpp/1.1.1.2/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+/remove-duplicate-includes.cpp/1.1.1.1/Wed Jan 11 10:36:49 2017//Tnetbsd-9-3-RELEASE
+/style-on-command-line.cpp/1.1.1.6/Tue Jul 17 18:31:29 2018//Tnetbsd-9-3-RELEASE
+/verbose.cpp/1.1.1.1/Tue Jul 17 18:31:29 2018//Tnetbsd-9-3-RELEASE
+/xmloutput.cpp/1.1.1.1/Sat Feb 27 22:10:24 2016//Tnetbsd-9-3-RELEASE
+D

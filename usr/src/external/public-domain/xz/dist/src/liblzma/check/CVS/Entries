@@ -1,0 +1,19 @@
+/check.c/1.1.1.1/Tue Nov  2 15:20:52 2010//Tnetbsd-9-3-RELEASE
+/check.h/1.4/Tue Sep 25 05:39:19 2018//Tnetbsd-9-3-RELEASE
+/crc32_fast.c/1.1.1.2/Fri Apr 17 18:24:56 2015//Tnetbsd-9-3-RELEASE
+/crc32_small.c/1.1.1.1/Tue Nov  2 15:20:52 2010//Tnetbsd-9-3-RELEASE
+/crc32_table.c/1.1.1.1/Tue Nov  2 15:20:52 2010//Tnetbsd-9-3-RELEASE
+/crc32_table_be.h/1.1.1.1/Tue Nov  2 15:20:51 2010//Tnetbsd-9-3-RELEASE
+/crc32_table_le.h/1.1.1.1/Tue Nov  2 15:20:52 2010//Tnetbsd-9-3-RELEASE
+/crc32_tablegen.c/1.1.1.1/Tue Nov  2 15:20:48 2010//Tnetbsd-9-3-RELEASE
+/crc32_x86.S/1.1.1.1/Tue Nov  2 15:20:50 2010//Tnetbsd-9-3-RELEASE
+/crc64_fast.c/1.1.1.1/Tue Nov  2 15:20:48 2010//Tnetbsd-9-3-RELEASE
+/crc64_small.c/1.1.1.1/Tue Nov  2 15:20:50 2010//Tnetbsd-9-3-RELEASE
+/crc64_table.c/1.1.1.1/Tue Nov  2 15:20:50 2010//Tnetbsd-9-3-RELEASE
+/crc64_table_be.h/1.1.1.1/Tue Nov  2 15:20:49 2010//Tnetbsd-9-3-RELEASE
+/crc64_table_le.h/1.1.1.1/Tue Nov  2 15:20:50 2010//Tnetbsd-9-3-RELEASE
+/crc64_tablegen.c/1.1.1.1/Tue Nov  2 15:20:48 2010//Tnetbsd-9-3-RELEASE
+/crc64_x86.S/1.1.1.1/Tue Nov  2 15:20:48 2010//Tnetbsd-9-3-RELEASE
+/crc_macros.h/1.1.1.1/Tue Nov  2 15:20:52 2010//Tnetbsd-9-3-RELEASE
+/sha256.c/1.1.1.2/Fri Apr 17 18:24:56 2015//Tnetbsd-9-3-RELEASE
+D

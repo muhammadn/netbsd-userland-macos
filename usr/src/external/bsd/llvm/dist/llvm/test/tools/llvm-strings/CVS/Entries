@@ -1,0 +1,10 @@
+/all-sections.test/1.1.1.1/Tue Jul 17 18:35:46 2018//Tnetbsd-9-3-RELEASE
+/archive-filename.test/1.1.1.2/Tue Jul 17 18:35:46 2018//Tnetbsd-9-3-RELEASE
+/file-filename.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/length.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/nested-archives.test/1.1.1.2/Tue Jul 17 18:35:46 2018//Tnetbsd-9-3-RELEASE
+/radix.test/1.1.1.1/Tue Aug  1 19:25:15 2017//Tnetbsd-9-3-RELEASE
+/stdin-filename.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/terminator-neg.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/terminator.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+D/Inputs////

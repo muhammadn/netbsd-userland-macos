@@ -1,0 +1,21 @@
+/clean.sh/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/dig.bat/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/dig.pl/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/dig.sh/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/missing.example.dlv.example.dlv.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/missing.example.dnskey.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/missing.example.ds.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/none.example.dlv.example.dlv.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/none.example.dnskey.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/none.example.ds.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/ok.example.dlv.example.dlv.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/ok.example.dnskey.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/ok.example.ds.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/prep.example.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/prep.example.ds.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/setup.sh/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/tests.sh/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/wrong.example.dlv.example.dlv.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/wrong.example.dnskey.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+/wrong.example.ds.db/1.1.1.1/Sun Aug 12 12:07:31 2018//Tnetbsd-9-3-RELEASE
+D

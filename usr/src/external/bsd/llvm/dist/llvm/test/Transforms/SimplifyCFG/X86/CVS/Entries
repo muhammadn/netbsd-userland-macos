@@ -1,0 +1,7 @@
+/disable-lookup-table.ll/1.1.1.1/Tue Jul 17 18:34:19 2018//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.2/Sun Aug 10 17:04:36 2014//Tnetbsd-9-3-RELEASE
+/speculate-cttz-ctlz.ll/1.1.1.1/Sat Feb 27 22:52:39 2016//Tnetbsd-9-3-RELEASE
+/switch-covered-bug.ll/1.1.1.4/Tue Jul 17 18:34:19 2018//Tnetbsd-9-3-RELEASE
+/switch-table-bug.ll/1.1.1.4/Tue Jul 17 18:34:19 2018//Tnetbsd-9-3-RELEASE
+/switch_to_lookup_table.ll/1.1.1.9/Tue Jul 17 18:34:19 2018//Tnetbsd-9-3-RELEASE
+D

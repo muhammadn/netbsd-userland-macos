@@ -1,0 +1,13 @@
+/addr.inp/1.1.1.1/Sat Feb 27 22:52:53 2016//Tnetbsd-9-3-RELEASE
+/coff-dwarf.cpp/1.1.1.1/Sat Feb 27 22:52:53 2016//Tnetbsd-9-3-RELEASE
+/coff-exports.cpp/1.1.1.1/Sat Feb 27 22:52:53 2016//Tnetbsd-9-3-RELEASE
+/discrim/1.1.1.1/Tue Aug  1 19:25:15 2017//Tnetbsd-9-3-RELEASE
+/discrim.c/1.1.1.1/Tue Aug  1 19:25:15 2017//Tnetbsd-9-3-RELEASE
+/discrim.inp/1.1.1.1/Tue Aug  1 19:25:15 2017//Tnetbsd-9-3-RELEASE
+/dsym-test-exe/1.1.1.1/Thu Jan 29 19:54:45 2015//Tnetbsd-9-3-RELEASE
+/dsym-test-exe-second/1.1.1.1/Thu Jan 29 19:54:45 2015//Tnetbsd-9-3-RELEASE
+/dsym-test.c/1.1.1.1/Thu Jan 29 19:54:45 2015//Tnetbsd-9-3-RELEASE
+/fat.c/1.1.1.1/Sat Feb 27 22:52:53 2016//Tnetbsd-9-3-RELEASE
+/ppc64/1.1.1.1/Thu Jan 29 19:54:45 2015//Tnetbsd-9-3-RELEASE
+D/dsym-test-exe-differentname.dSYM////
+D/dsym-test-exe.dSYM////

@@ -1,0 +1,8 @@
+/build.info/1.1.1.2/Sun Sep 23 13:17:44 2018//Tnetbsd-9-3-RELEASE
+/keccak1600.c/1.1.1.2.4.2/Sat Mar 27 14:35:10 2021//Tnetbsd-9-3-RELEASE
+/sha1_one.c/1.1.1.5/Sun Sep 23 13:17:44 2018//Tnetbsd-9-3-RELEASE
+/sha1dgst.c/1.1.1.5.6.1/Mon Apr 27 14:47:27 2020//Tnetbsd-9-3-RELEASE
+/sha256.c/1.8.2.1/Mon Apr 27 14:47:27 2020//Tnetbsd-9-3-RELEASE
+/sha512.c/1.1.1.9.2.1/Mon Apr 27 14:47:27 2020//Tnetbsd-9-3-RELEASE
+/sha_local.h/1.1.1.1.4.2/Mon Apr 27 14:47:27 2020//Tnetbsd-9-3-RELEASE
+D/asm////

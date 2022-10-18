@@ -1,0 +1,14 @@
+/Strip-N.LC_MAIN.exe.macho-x86_64/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/Strip-N.hello.exe.macho-x86_64/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/Strip-ST.dylib.macho-x86_64/1.1.1.1/Tue Aug  1 19:25:15 2017//Tnetbsd-9-3-RELEASE
+/example.lib/1.1.1.1/Tue Aug  1 19:25:15 2017//Tnetbsd-9-3-RELEASE
+/hello.obj.elf-i386/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/hello.obj.elf-x86_64/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/hello.obj.macho-x86_64/1.1.1.1/Sat Feb 27 22:52:55 2016//Tnetbsd-9-3-RELEASE
+/init-fini.out.elf-x86_64/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/libExample.a.macho-x86_64/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/macho-bad-zero-nsect-for-N_SECT/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/macho-dwarf-x86_64/1.1.1.1/Tue Jul 17 18:35:45 2018//Tnetbsd-9-3-RELEASE
+/test.IRobj-x86_64/1.1.1.1/Sat Feb 27 22:52:55 2016//Tnetbsd-9-3-RELEASE
+/weak.obj.elf-x86_64/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+D

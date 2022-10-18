@@ -1,0 +1,13 @@
+/Makefile/1.7/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/README/1.2/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/args.c/1.14/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/indent.1/1.28/Thu Apr  4 22:02:06 2019//Tnetbsd-9-3-RELEASE
+/indent.c/1.25/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/indent.h/1.1/Thu Apr  4 15:27:35 2019//Tnetbsd-9-3-RELEASE
+/indent_codes.h/1.6/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/indent_globs.h/1.11/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/io.c/1.19/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/lexi.c/1.16/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/parse.c/1.9/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+/pr_comment.c/1.11/Thu Apr  4 15:22:13 2019//Tnetbsd-9-3-RELEASE
+D

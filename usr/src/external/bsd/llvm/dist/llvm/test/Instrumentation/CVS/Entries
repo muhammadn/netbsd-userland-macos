@@ -1,0 +1,10 @@
+/cgprofile.ll/1.1.1.1/Tue Jul 17 18:36:04 2018//Tnetbsd-9-3-RELEASE
+D/AddressSanitizer////
+D/BoundsChecking////
+D/DataFlowSanitizer////
+D/EfficiencySanitizer////
+D/HWAddressSanitizer////
+D/InstrProfiling////
+D/MemorySanitizer////
+D/SanitizerCoverage////
+D/ThreadSanitizer////

@@ -1,0 +1,21 @@
+/clear.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/emplace.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/emplace_hint.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_const_iter.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_iter_db1.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_iter_db2.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_iter_iter_db1.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_iter_iter_db2.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_iter_iter_db3.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_iter_iter_db4.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_key.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/erase_range.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/insert_const_lvalue.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/insert_hint_const_lvalue.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/insert_hint_rvalue.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/insert_init.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/insert_or_assign.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/insert_range.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/insert_rvalue.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/try.emplace.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+D

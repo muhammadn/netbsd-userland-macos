@@ -1,0 +1,16 @@
+/Makefile.am/1.1.1.5/Sat Apr  7 00:15:57 2018//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.10/Sat Apr  7 00:15:57 2018//Tnetbsd-9-3-RELEASE
+/leapsec.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/ntp_prio_q.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/ntp_restrict.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/rc_cmdlength.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/run-leapsec.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/run-ntp_prio_q.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/run-ntp_restrict.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/run-rc_cmdlength.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/run-t-ntp_scanner.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/run-t-ntp_signd.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/t-ntp_scanner.c/1.2/Sat Apr  7 00:19:54 2018//Tnetbsd-9-3-RELEASE
+/t-ntp_signd.c/1.1.1.5/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/testconf.yml/1.1.1.1/Sat Apr  7 00:15:57 2018//Tnetbsd-9-3-RELEASE
+D

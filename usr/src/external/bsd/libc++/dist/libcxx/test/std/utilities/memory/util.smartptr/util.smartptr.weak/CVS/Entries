@@ -1,0 +1,8 @@
+/types.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+D/util.smartptr.ownerless////
+D/util.smartptr.weak.assign////
+D/util.smartptr.weak.const////
+D/util.smartptr.weak.dest////
+D/util.smartptr.weak.mod////
+D/util.smartptr.weak.obs////
+D/util.smartptr.weak.spec////

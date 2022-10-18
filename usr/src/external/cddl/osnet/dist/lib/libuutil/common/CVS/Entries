@@ -1,0 +1,14 @@
+/libuutil.h/1.1.1.2/Mon May 28 20:52:54 2018//Tnetbsd-9-3-RELEASE
+/libuutil_common.h/1.1.1.1/Fri Aug  7 18:32:34 2009//Tnetbsd-9-3-RELEASE
+/libuutil_impl.h/1.1.1.1/Fri Aug  7 18:32:34 2009//Tnetbsd-9-3-RELEASE
+/uu_alloc.c/1.1.1.2/Mon May 28 20:52:54 2018//Tnetbsd-9-3-RELEASE
+/uu_avl.c/1.1.1.2/Mon May 28 20:52:54 2018//Tnetbsd-9-3-RELEASE
+/uu_dprintf.c/1.1.1.2/Mon May 28 20:52:54 2018//Tnetbsd-9-3-RELEASE
+/uu_ident.c/1.1.1.1/Fri Aug  7 18:32:34 2009//Tnetbsd-9-3-RELEASE
+/uu_list.c/1.1.1.1/Fri Aug  7 18:32:35 2009//Tnetbsd-9-3-RELEASE
+/uu_misc.c/1.4/Mon May 28 21:05:06 2018//Tnetbsd-9-3-RELEASE
+/uu_open.c/1.2/Mon Feb 29 16:14:57 2016//Tnetbsd-9-3-RELEASE
+/uu_pname.c/1.1.1.2/Mon May 28 20:52:54 2018//Tnetbsd-9-3-RELEASE
+/uu_string.c/1.1.1.1/Mon May 28 20:52:54 2018//Tnetbsd-9-3-RELEASE
+/uu_strtoint.c/1.1.1.1/Fri Aug  7 18:32:35 2009//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,10 @@
+/Makefile/1.6/Wed Jan 11 12:19:43 2017//Tnetbsd-9-3-RELEASE
+/newfs_udf.8/1.18/Tue Aug  6 12:15:20 2013//Tnetbsd-9-3-RELEASE
+/newfs_udf.c/1.19/Wed Mar  9 19:48:24 2016//Tnetbsd-9-3-RELEASE
+/newfs_udf.h/1.6.2.1/Fri Apr 30 14:07:02 2021//Tnetbsd-9-3-RELEASE
+/udf_create.c/1.26.2.1/Fri Apr 30 14:07:02 2021//Tnetbsd-9-3-RELEASE
+/udf_create.h/1.7/Fri Aug  9 15:11:08 2013//Tnetbsd-9-3-RELEASE
+/udf_write.c/1.9/Fri Jan  2 21:01:12 2015//Tnetbsd-9-3-RELEASE
+/udf_write.h/1.4/Mon Aug  5 20:52:08 2013//Tnetbsd-9-3-RELEASE
+/unicode.h/1.1/Mon Aug  5 14:11:30 2013//Tnetbsd-9-3-RELEASE
+D

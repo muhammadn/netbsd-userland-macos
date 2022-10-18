@@ -1,0 +1,23 @@
+/Makefile.in/1.1.1.1/Tue Feb  9 20:29:11 2016//Tnetbsd-9-3-RELEASE
+/cc.din/1.1.1.1/Tue Feb  9 20:29:11 2016//Tnetbsd-9-3-RELEASE
+/config.h/1.1.1.1/Tue Feb  9 20:29:12 2016//Tnetbsd-9-3-RELEASE
+/driver.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/driver.h/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/driver.man/1.1.1.1/Tue Feb  9 20:29:12 2016//Tnetbsd-9-3-RELEASE
+/list.c/1.1.1.1/Tue Feb  9 20:29:12 2016//Tnetbsd-9-3-RELEASE
+/mkopt.sh/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/opt.c.in/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/options.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/osdefs.h/1.1.1.1/Tue Feb  9 20:29:11 2016//Tnetbsd-9-3-RELEASE
+/path.c/1.1.1.1/Tue Feb  9 20:29:12 2016//Tnetbsd-9-3-RELEASE
+/platform.c/1.1.1.1/Tue Feb  9 20:29:12 2016//Tnetbsd-9-3-RELEASE
+/prog_asm.c/1.1.1.1/Tue Feb  9 20:29:12 2016//Tnetbsd-9-3-RELEASE
+/prog_ccom.c/1.1.1.1/Tue Feb  9 20:29:12 2016//Tnetbsd-9-3-RELEASE
+/prog_cpp.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/prog_cxxcom.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/prog_fcom.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/prog_link.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/target.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/wflag.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+/xalloc.c/1.1.1.1/Tue Feb  9 20:29:13 2016//Tnetbsd-9-3-RELEASE
+D

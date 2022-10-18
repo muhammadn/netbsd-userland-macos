@@ -1,0 +1,26 @@
+/clean.sh/1.1.1.3/Sun Feb 24 18:56:40 2019//Tnetbsd-9-3-RELEASE
+/policy.conf/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/policy.good/1.1.1.2/Wed Jan  9 16:48:15 2019//Tnetbsd-9-3-RELEASE
+/policy.sample/1.1.1.1/Sun Aug 12 12:07:38 2018//Tnetbsd-9-3-RELEASE
+/setup.sh/1.1.1.4/Sat Apr 27 23:47:19 2019//Tnetbsd-9-3-RELEASE
+/testpolicy.py/1.1.1.2/Wed Jan  9 16:48:15 2019//Tnetbsd-9-3-RELEASE
+/tests.sh/1.1.1.3.4.1/Thu Oct 17 19:34:17 2019//Tnetbsd-9-3-RELEASE
+D/01-ksk-inactive////
+D/02-zsk-inactive////
+D/03-ksk-unpublished////
+D/04-zsk-unpublished////
+D/05-ksk-unpub-active////
+D/06-zsk-unpub-active////
+D/07-ksk-ttl////
+D/08-zsk-ttl////
+D/09-no-keys////
+D/10-change-roll////
+D/11-many-simul////
+D/12-many-active////
+D/13-noroll////
+D/14-wrongalg////
+D/15-unspec////
+D/16-wrongalg-unspec////
+D/17-noforce////
+D/18-nonstd-prepub////
+D/19-old-keys////

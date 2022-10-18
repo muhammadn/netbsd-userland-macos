@@ -1,0 +1,22 @@
+/argv0.txt/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/fail.txt/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/lit.cfg/1.1.1.2/Tue Jul 17 18:36:07 2018//Tnetbsd-9-3-RELEASE
+/no-test-line.txt/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/pass.txt/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/requires-any-missing.txt/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/requires-any-present.txt/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/requires-missing.txt/1.1.1.2/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/requires-present.txt/1.1.1.2/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/requires-star.txt/1.1.1.1/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/requires-triple.txt/1.1.1.1/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/unsupported-expr-false.txt/1.1.1.1/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/unsupported-expr-true.txt/1.1.1.1/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/unsupported-star.txt/1.1.1.1/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/xfail-expr-false.txt/1.1.1.1/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/xfail-expr-true.txt/1.1.1.1/Tue Aug  1 19:26:16 2017//Tnetbsd-9-3-RELEASE
+/xfail-feature.txt/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/xfail-target.txt/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/xfail.txt/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/xpass.txt/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+D/external_shell////
+D/unsupported_dir////

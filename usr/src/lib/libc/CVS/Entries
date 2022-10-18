@@ -1,0 +1,44 @@
+/Makefile/1.172/Fri Aug  3 14:01:21 2018//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.19.4.1/Thu Nov 21 18:17:58 2019//Tnetbsd-9-3-RELEASE
+/README/1.7/Wed Feb  8 13:31:36 2017//Tnetbsd-9-3-RELEASE
+/libcincludes.mk/1.2/Sun Aug 10 23:39:08 2014//Tnetbsd-9-3-RELEASE
+/shlib_version/1.284/Tue Jun  4 08:44:08 2019//Tnetbsd-9-3-RELEASE
+D/arch////
+D/atomic////
+D/cdb////
+D/citrus////
+D/compat////
+D/compat-43////
+D/compiler_rt////
+D/db////
+D/dlfcn////
+D/gdtoa////
+D/gen////
+D/gmon////
+D/hash////
+D/iconv////
+D/include////
+D/inet////
+D/isc////
+D/locale////
+D/md////
+D/misc////
+D/nameser////
+D/net////
+D/nls////
+D/quad////
+D/regex////
+D/resolv////
+D/rpc////
+D/softfloat////
+D/ssp////
+D/stdio////
+D/stdlib////
+D/string////
+D/sys////
+D/termios////
+D/thread-stub////
+D/time////
+D/tls////
+D/uuid////
+D/yp////

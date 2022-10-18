@@ -1,0 +1,9 @@
+/__init__.py/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/base.py/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/test.bc/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/test_bitreader.py/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/test_core.py/1.1.1.2/Tue Mar  4 20:55:56 2014//Tnetbsd-9-3-RELEASE
+/test_disassembler.py/1.1.1.2/Sun Jan  5 16:13:34 2014//Tnetbsd-9-3-RELEASE
+/test_file/1.1.1.1/Thu Nov 28 14:18:16 2013//Tnetbsd-9-3-RELEASE
+/test_object.py/1.1.1.2/Fri May 30 18:11:05 2014//Tnetbsd-9-3-RELEASE
+D

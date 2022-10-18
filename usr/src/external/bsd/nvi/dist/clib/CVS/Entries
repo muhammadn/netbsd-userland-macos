@@ -1,0 +1,16 @@
+/bsearch.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/env.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/gethostname.c/1.1.1.1/Fri Nov 22 14:55:12 2013//Tnetbsd-9-3-RELEASE
+/iswblank.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/memchr.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/memset.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/mkstemp.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/mmap.c/1.1.1.1/Fri Nov 22 14:55:12 2013//Tnetbsd-9-3-RELEASE
+/snprintf.c/1.1.1.1/Fri Nov 22 14:55:12 2013//Tnetbsd-9-3-RELEASE
+/strdup.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/strpbrk.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/strsep.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/strtol.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/strtoul.c/1.2/Sun Jan 26 21:43:45 2014//Tnetbsd-9-3-RELEASE
+/vsnprintf.c/1.1.1.1/Fri Nov 22 14:55:12 2013//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,8 @@
+/Makefile/1.5/Tue Feb  5 13:00:03 2019//Tnetbsd-9-3-RELEASE
+/h_io_assist.c/1.8.4.1/Sun Nov 10 12:58:30 2019//Tnetbsd-9-3-RELEASE
+/h_io_assist_asm.S/1.2/Tue Mar 19 19:23:39 2019//Tnetbsd-9-3-RELEASE
+/h_mem_assist.c/1.11.4.2/Mon Nov 25 16:39:29 2019//Tnetbsd-9-3-RELEASE
+/h_mem_assist_asm.S/1.6.4.1/Sun Nov 10 12:58:30 2019//Tnetbsd-9-3-RELEASE
+/t_io_assist.sh/1.1/Tue Feb  5 13:00:03 2019//Tnetbsd-9-3-RELEASE
+/t_mem_assist.sh/1.1/Sun Dec 23 13:35:02 2018//Tnetbsd-9-3-RELEASE
+D

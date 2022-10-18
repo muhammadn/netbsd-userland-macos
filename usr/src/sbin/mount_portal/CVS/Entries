@@ -1,0 +1,13 @@
+/Makefile/1.27/Tue May  9 23:26:49 2017//Tnetbsd-9-3-RELEASE
+/activate.c/1.15/Sat Apr 11 07:36:43 2009//Tnetbsd-9-3-RELEASE
+/conf.c/1.14/Thu May 23 04:34:25 2019//Tnetbsd-9-3-RELEASE
+/mount_portal.8/1.24/Thu May 23 09:15:45 2019//Tnetbsd-9-3-RELEASE
+/pathnames.h/1.6/Thu Aug  7 10:04:30 2003//Tnetbsd-9-3-RELEASE
+/portal.conf/1.4/Tue May  9 21:42:35 2017//Tnetbsd-9-3-RELEASE
+/portald.h/1.10/Sat Dec  5 20:11:02 2009//Tnetbsd-9-3-RELEASE
+/pt_conf.c/1.8/Tue May  9 23:26:49 2017//Tnetbsd-9-3-RELEASE
+/pt_file.c/1.20/Thu May 23 11:13:17 2019//Tnetbsd-9-3-RELEASE
+/pt_filter.c/1.11/Tue Jan  4 23:36:23 2011//Tnetbsd-9-3-RELEASE
+/pt_tcp.c/1.21/Sat Apr 11 07:36:43 2009//Tnetbsd-9-3-RELEASE
+/puffs_portal.c/1.10/Thu May 23 11:13:17 2019//Tnetbsd-9-3-RELEASE
+D/examples////

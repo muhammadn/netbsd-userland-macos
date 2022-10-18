@@ -1,0 +1,10 @@
+/Makefile/1.7/Fri Dec  4 17:20:38 2015//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.1/Tue Nov 30 23:17:27 2010//Tnetbsd-9-3-RELEASE
+D/fsck_ffs////
+D/gpt////
+D/ifconfig////
+D/newfs////
+D/newfs_msdos////
+D/resize_ffs////
+D/route////
+D/sysctl////

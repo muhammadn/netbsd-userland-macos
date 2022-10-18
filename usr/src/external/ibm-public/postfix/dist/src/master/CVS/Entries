@@ -1,0 +1,26 @@
+/Makefile.in/1.1.1.5/Tue Feb 14 01:13:41 2017//Tnetbsd-9-3-RELEASE
+/event_server.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/mail_flow.c/1.1.1.2/Wed Jan  2 18:59:01 2013//Tnetbsd-9-3-RELEASE
+/mail_flow.h/1.1.1.1/Tue Jun 23 10:08:49 2009//Tnetbsd-9-3-RELEASE
+/mail_server.h/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master.h/1.1.1.4/Wed Sep 25 19:06:32 2013//Tnetbsd-9-3-RELEASE
+/master_avail.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_conf.c/1.1.1.2/Wed Jan  2 18:59:01 2013//Tnetbsd-9-3-RELEASE
+/master_ent.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_flow.c/1.1.1.1/Tue Jun 23 10:08:49 2009//Tnetbsd-9-3-RELEASE
+/master_listen.c/1.1.1.2/Wed Sep 25 19:06:32 2013//Tnetbsd-9-3-RELEASE
+/master_monitor.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_proto.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_proto.h/1.1.1.1/Tue Jun 23 10:08:49 2009//Tnetbsd-9-3-RELEASE
+/master_service.c/1.1.1.2/Wed Jan  2 18:59:01 2013//Tnetbsd-9-3-RELEASE
+/master_sig.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_spawn.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_status.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_vars.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_wakeup.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/master_watch.c/1.1.1.1/Tue Jun 23 10:08:49 2009//Tnetbsd-9-3-RELEASE
+/multi_server.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/single_server.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/trigger_server.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,8 @@
+/Makefile/1.13/Sun Aug 11 06:09:29 2013//Tnetbsd-9-3-RELEASE
+/printquota.c/1.6/Thu Mar 24 17:05:46 2011//Tnetbsd-9-3-RELEASE
+/printquota.h/1.5/Thu Mar 24 17:05:46 2011//Tnetbsd-9-3-RELEASE
+/quota.1/1.19/Sat May 12 21:43:09 2012//Tnetbsd-9-3-RELEASE
+/quota.c/1.50/Sun Jul 13 01:46:04 2014//Tnetbsd-9-3-RELEASE
+/quotautil.c/1.6/Mon Jan 30 06:14:43 2012//Tnetbsd-9-3-RELEASE
+/quotautil.h/1.4/Mon Jan 30 06:14:43 2012//Tnetbsd-9-3-RELEASE
+D

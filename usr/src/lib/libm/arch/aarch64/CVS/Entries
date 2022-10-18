@@ -1,0 +1,11 @@
+/e_sqrt.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+/e_sqrtf.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+/fenv.c/1.4.2.1/Sun Dec  8 13:37:46 2019//Tnetbsd-9-3-RELEASE
+/s_fabsf.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+/s_fma.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+/s_fmaf.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+/s_fmax.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+/s_fmaxf.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+/s_fmin.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+/s_fminf.S/1.1/Sun Aug 10 05:47:37 2014//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,23 @@
+/mailq.1/1.1.1.1/Tue Jun 23 10:08:32 2009//Tnetbsd-9-3-RELEASE
+/newaliases.1/1.1.1.1/Tue Jun 23 10:08:32 2009//Tnetbsd-9-3-RELEASE
+/postalias.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postcat.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postconf.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postdrop.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postfix-tls.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postfix.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postkick.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postlock.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postlog.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postmap.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postmulti.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postqueue.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postsuper.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/posttls-finger.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/qmqp-sink.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/qmqp-source.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/qshape.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/sendmail.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/smtp-sink.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/smtp-source.1/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,12 @@
+/Makefile/1.1/Sun Mar  4 04:00:45 2018//Tnetbsd-9-3-RELEASE
+/alpha-mont.S/1.2/Sun Sep 23 13:33:04 2018//Tnetbsd-9-3-RELEASE
+/alphacpuid.S/1.1/Sun Mar  4 04:00:45 2018//Tnetbsd-9-3-RELEASE
+/asm.h/1.1/Sun Mar  4 04:00:45 2018//Tnetbsd-9-3-RELEASE
+/crypto.inc/1.2.2.1/Sun Mar 28 18:21:45 2021//Tnetbsd-9-3-RELEASE
+/des.inc/1.1/Sun Jul 19 23:30:45 2009//Tnetbsd-9-3-RELEASE
+/ghash-alpha.S/1.1/Sun Mar  4 04:00:45 2018//Tnetbsd-9-3-RELEASE
+/modes.inc/1.1/Sun Mar  4 04:00:45 2018//Tnetbsd-9-3-RELEASE
+/regdef.h/1.1/Sun Mar  4 04:00:45 2018//Tnetbsd-9-3-RELEASE
+/sha.inc/1.1/Sun Mar  4 04:00:45 2018//Tnetbsd-9-3-RELEASE
+/sha1-alpha.S/1.1/Sun Mar  4 04:00:45 2018//Tnetbsd-9-3-RELEASE
+D

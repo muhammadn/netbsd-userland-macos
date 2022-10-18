@@ -1,0 +1,54 @@
+/.clang-format/1.1.1.1/Thu Nov 28 14:14:54 2013//Tnetbsd-9-3-RELEASE
+/CMakeLists.txt/1.1.1.10/Tue Jul 17 18:31:26 2018//Tnetbsd-9-3-RELEASE
+/TestRunner.sh/1.1.1.1/Thu Nov 28 14:14:54 2013//Tnetbsd-9-3-RELEASE
+/cxx-sections.data/1.1.1.1/Thu Nov 28 14:14:54 2013//Tnetbsd-9-3-RELEASE
+/lit.cfg.py/1.1.1.1/Tue Jul 17 18:31:26 2018//Tnetbsd-9-3-RELEASE
+/lit.site.cfg.py.in/1.1.1.1/Tue Jul 17 18:31:26 2018//Tnetbsd-9-3-RELEASE
+/make_test_dirs.pl/1.1.1.1/Thu Nov 28 14:14:54 2013//Tnetbsd-9-3-RELEASE
+D/ARCMT////
+D/ASTMerge////
+D/Analysis////
+D/CXX////
+D/CodeCompletion////
+D/CodeGen////
+D/CodeGenCUDA////
+D/CodeGenCXX////
+D/CodeGenCoroutines////
+D/CodeGenObjC////
+D/CodeGenObjCXX////
+D/CodeGenOpenCL////
+D/Coverage////
+D/CoverageMapping////
+D/Driver////
+D/FixIt////
+D/Format////
+D/Frontend////
+D/Headers////
+D/Import////
+D/Index////
+D/Integration////
+D/Layout////
+D/Lexer////
+D/Misc////
+D/Modules////
+D/OpenMP////
+D/PCH////
+D/Parser////
+D/Preprocessor////
+D/Profile////
+D/Refactor////
+D/Rewriter////
+D/Sema////
+D/SemaCUDA////
+D/SemaCXX////
+D/SemaObjC////
+D/SemaObjCXX////
+D/SemaOpenCL////
+D/SemaOpenCLCXX////
+D/SemaTemplate////
+D/TableGen////
+D/Templight////
+D/Tooling////
+D/Unit////
+D/VFS////
+D/clang-rename////

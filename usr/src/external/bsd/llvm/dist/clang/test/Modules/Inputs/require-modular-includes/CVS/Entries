@@ -1,0 +1,18 @@
+/AnotherModule.h/1.1.1.1/Fri May 30 18:14:48 2014//Tnetbsd-9-3-RELEASE
+/AnotherModuleExcluded.h/1.1.1.1/Fri May 30 18:14:48 2014//Tnetbsd-9-3-RELEASE
+/C.h/1.1.1.1/Fri May 30 18:14:48 2014//Tnetbsd-9-3-RELEASE
+/NotFramework.h/1.1.1.1/Fri May 30 18:14:48 2014//Tnetbsd-9-3-RELEASE
+/NotInModule.h/1.1.1.1/Fri May 30 18:14:48 2014//Tnetbsd-9-3-RELEASE
+/module.modulemap/1.1.1.1/Fri May 30 18:14:48 2014//Tnetbsd-9-3-RELEASE
+D/A.framework////
+D/B.framework////
+D/ExcludedFromAnotherModule.framework////
+D/FromAnotherModule.framework////
+D/FromImportedModuleFail.framework////
+D/FromImportedModuleOK.framework////
+D/FromImportedSubModule.framework////
+D/FromNonModularSubframework.framework////
+D/FromSubframework.framework////
+D/FromUmbrella.framework////
+D/IncludeExcluded.framework////
+D/umbrella////

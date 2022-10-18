@@ -1,0 +1,147 @@
+/MAKEDEV.awk/1.26.2.2/Sat Jun 20 16:19:43 2020//Tnetbsd-9-3-RELEASE
+/MAKEDEV.local/1.14/Wed Apr 30 13:10:49 2008//Tnetbsd-9-3-RELEASE
+/MAKEDEV.tmpl/1.205.2.3/Thu Mar 19 19:08:31 2020//Tnetbsd-9-3-RELEASE
+/Makefile/1.438.2.2/Sun Nov 17 07:04:38 2019//Tnetbsd-9-3-RELEASE
+/Makefile.params/1.20.2.1/Fri Nov 22 15:26:28 2019//Tnetbsd-9-3-RELEASE
+/aliases/1.22/Wed Aug 25 15:38:44 2010//Tnetbsd-9-3-RELEASE
+/auto_master/1.1/Tue Jan  9 03:31:14 2018//Tnetbsd-9-3-RELEASE
+/bootptab/1.6/Tue Apr 24 21:55:06 2001//Tnetbsd-9-3-RELEASE
+/changelist/1.25/Tue Jan 27 10:32:18 2009//Tnetbsd-9-3-RELEASE
+/crontab/1.15.102.1/Thu Apr  2 19:11:36 2020//Tnetbsd-9-3-RELEASE
+/csh.cshrc/1.2/Wed May  8 17:19:27 1996//Tnetbsd-9-3-RELEASE
+/csh.login/1.2/Wed May  8 17:19:28 1996//Tnetbsd-9-3-RELEASE
+/csh.logout/1.2/Wed May  8 17:19:31 1996//Tnetbsd-9-3-RELEASE
+/daily/1.93/Sun Sep 23 23:16:34 2018//Tnetbsd-9-3-RELEASE
+/daily.conf/1.4/Sun Oct  1 05:53:01 2000//Tnetbsd-9-3-RELEASE
+/disktab/1.2/Sat Jan 25 18:28:44 2003//Tnetbsd-9-3-RELEASE
+/dm.conf/1.3/Sat Feb 15 10:02:12 1997//Tnetbsd-9-3-RELEASE
+/envsys.conf/1.13/Sat Oct 21 19:43:53 2017//Tnetbsd-9-3-RELEASE
+/floppytab/1.1/Fri Nov 29 16:31:54 1996//Tnetbsd-9-3-RELEASE
+/ftpchroot/1.3/Sat Jan  4 14:03:34 1997//Tnetbsd-9-3-RELEASE
+/ftpusers/1.9/Tue May 30 02:10:01 2006//Tnetbsd-9-3-RELEASE
+/gettytab/1.18/Sun Jan  8 22:23:46 2006//Tnetbsd-9-3-RELEASE
+/gpio.conf/1.2/Sat Nov 19 17:30:09 2011//Tnetbsd-9-3-RELEASE
+/group/1.34.16.1/Sun Nov 10 12:58:31 2019//Tnetbsd-9-3-RELEASE
+/hosts/1.9/Sun Nov 24 07:20:01 2013//Tnetbsd-9-3-RELEASE
+/hosts.equiv/1.3/Wed May 22 01:36:12 1996//Tnetbsd-9-3-RELEASE
+/hosts.lpd/1.2/Sat Jan  4 14:03:36 1997//Tnetbsd-9-3-RELEASE
+/inetd.conf/1.59/Tue Oct 25 17:16:34 2016//Tnetbsd-9-3-RELEASE
+/locate.conf/1.2/Tue Jul 22 17:11:09 2014//Tnetbsd-9-3-RELEASE
+/login.conf/1.7/Thu Mar  1 06:12:09 2018//Tnetbsd-9-3-RELEASE
+/mailer.conf/1.18/Sun Jul 24 08:28:11 2011//Tnetbsd-9-3-RELEASE
+/man.conf/1.37/Thu Mar  1 06:12:09 2018//Tnetbsd-9-3-RELEASE
+/master.passwd/1.50/Mon Jan  9 14:26:58 2017//Tnetbsd-9-3-RELEASE
+/minfree/1.1/Wed Jul 30 22:17:57 1997//Tnetbsd-9-3-RELEASE
+/mkttys/1.1/Sun Jun 20 21:30:26 2004//Tnetbsd-9-3-RELEASE
+/monthly/1.12/Mon Dec 27 03:38:52 2010//Tnetbsd-9-3-RELEASE
+/monthly.conf/1.3/Sun Oct  1 05:53:01 2000//Tnetbsd-9-3-RELEASE
+/motd.beta/1.5/Tue May 28 18:25:23 2019//Tnetbsd-9-3-RELEASE
+/motd.current/1.7/Tue May 28 18:25:23 2019//Tnetbsd-9-3-RELEASE
+/motd.default/1.1/Sun Nov  4 11:09:15 2012//Tnetbsd-9-3-RELEASE
+/motd.rc/1.5/Tue May 28 18:25:23 2019//Tnetbsd-9-3-RELEASE
+/motd.stable/1.5/Tue May 28 18:25:23 2019//Tnetbsd-9-3-RELEASE
+/mrouted.conf/1.5/Tue Jan 21 23:50:05 2003//Tnetbsd-9-3-RELEASE
+/named.conf/1.7.32.1/Fri Mar 27 08:43:42 2020//Tnetbsd-9-3-RELEASE
+/netconfig/1.1/Fri Jun  2 22:54:10 2000//Tnetbsd-9-3-RELEASE
+/networks/1.5/Fri Jul 10 06:22:15 1998//Tnetbsd-9-3-RELEASE
+/newsyslog.conf/1.24/Thu May 16 20:12:35 2019//Tnetbsd-9-3-RELEASE
+/nsswitch.conf/1.6/Sun Oct 25 00:17:06 2009//Tnetbsd-9-3-RELEASE
+/ntp.conf/1.20.16.1/Thu Oct  8 16:53:57 2020//Tnetbsd-9-3-RELEASE
+/passwd.conf/1.3/Fri Dec  3 21:40:04 2010//Tnetbsd-9-3-RELEASE
+/phones/1.4/Sat Feb 15 10:02:21 1997//Tnetbsd-9-3-RELEASE
+/pkgpath.conf/1.1/Wed May  1 05:36:25 2013//Tnetbsd-9-3-RELEASE
+/printcap/1.14/Thu Sep  4 18:22:47 2008//Tnetbsd-9-3-RELEASE
+/profile/1.1/Sat Jun 21 06:07:39 1997//Tnetbsd-9-3-RELEASE
+/protocols/1.30/Thu Jan  3 17:30:06 2019//Tnetbsd-9-3-RELEASE
+/rbootd.conf/1.3/Sun Dec 29 03:30:09 1996//Tnetbsd-9-3-RELEASE
+/rc/1.173/Mon Mar 20 16:02:48 2017//Tnetbsd-9-3-RELEASE
+/rc.conf/1.97/Mon Jul 14 12:29:48 2014//Tnetbsd-9-3-RELEASE
+/rc.local/1.32/Wed Jun 11 17:14:52 2008//Tnetbsd-9-3-RELEASE
+/rc.shutdown/1.9/Mon Jun 25 07:22:45 2012//Tnetbsd-9-3-RELEASE
+/rc.subr/1.103/Sun Sep 23 23:02:39 2018//Tnetbsd-9-3-RELEASE
+/remote/1.8/Wed Apr 25 23:46:12 2001//Tnetbsd-9-3-RELEASE
+/rpc/1.7/Sat May 17 21:37:09 2008//Tnetbsd-9-3-RELEASE
+/security/1.124/Thu Oct  4 11:50:34 2018//Tnetbsd-9-3-RELEASE
+/security.conf/1.8/Sun Oct  1 05:53:03 2000//Tnetbsd-9-3-RELEASE
+/services/1.101.2.1/Thu Oct 10 17:25:47 2019//Tnetbsd-9-3-RELEASE
+/shells/1.3/Sun Dec 29 03:23:07 1996//Tnetbsd-9-3-RELEASE
+/shrc/1.7/Mon Dec 27 03:38:52 2010//Tnetbsd-9-3-RELEASE
+/sysctl.conf/1.8/Sun Sep 25 21:47:22 2011//Tnetbsd-9-3-RELEASE
+/syslog.conf/1.9/Fri Jul 23 03:45:42 2004//Tnetbsd-9-3-RELEASE
+/weekly/1.32/Sun Sep 23 23:12:21 2018//Tnetbsd-9-3-RELEASE
+/weekly.conf/1.3/Sun Oct  1 05:53:03 2000//Tnetbsd-9-3-RELEASE
+/wpa_supplicant.conf/1.1/Sat Jan 12 16:51:54 2019//Tnetbsd-9-3-RELEASE
+/wscons.conf/1.19.46.1/Mon Jul 13 14:22:47 2020//Tnetbsd-9-3-RELEASE
+D/autofs////
+D/bluetooth////
+D/defaults////
+D/etc.aarch64////
+D/etc.acorn32////
+D/etc.algor////
+D/etc.alpha////
+D/etc.amd64////
+D/etc.amiga////
+D/etc.amigappc////
+D/etc.arc////
+D/etc.atari////
+D/etc.bebox////
+D/etc.cats////
+D/etc.cesfic////
+D/etc.cobalt////
+D/etc.dreamcast////
+D/etc.emips////
+D/etc.epoc32////
+D/etc.evbarm////
+D/etc.evbcf////
+D/etc.evbmips////
+D/etc.evbppc////
+D/etc.evbsh3////
+D/etc.ews4800mips////
+D/etc.hp300////
+D/etc.hpcarm////
+D/etc.hpcmips////
+D/etc.hpcsh////
+D/etc.hppa////
+D/etc.i386////
+D/etc.ia64////
+D/etc.ibmnws////
+D/etc.iyonix////
+D/etc.landisk////
+D/etc.luna68k////
+D/etc.mac68k////
+D/etc.macppc////
+D/etc.mipsco////
+D/etc.mmeye////
+D/etc.mvme68k////
+D/etc.mvmeppc////
+D/etc.netwinder////
+D/etc.news68k////
+D/etc.newsmips////
+D/etc.next68k////
+D/etc.ofppc////
+D/etc.or1k////
+D/etc.playstation2////
+D/etc.pmax////
+D/etc.prep////
+D/etc.riscv////
+D/etc.rs6000////
+D/etc.sandpoint////
+D/etc.sbmips////
+D/etc.sgimips////
+D/etc.shark////
+D/etc.sparc////
+D/etc.sparc64////
+D/etc.sun2////
+D/etc.sun3////
+D/etc.vax////
+D/etc.x68k////
+D/etc.zaurus////
+D/iscsi////
+D/mtree////
+D/namedb////
+D/pam.d////
+D/powerd////
+D/rc.d////
+D/root////
+D/skel////
+D/ssh////

@@ -1,0 +1,14 @@
+/MSG00001.bin/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/SetSystemTime.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/arc4wrap.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/getclock.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/messages.h/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/messages.mc/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/messages.rc/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/randfile.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/setpriority.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/syslog.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/termios.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/util_clockstuff.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+/win32_io.c/1.1.1.1/Sat Sep 29 17:28:43 2018//Tnetbsd-9-3-RELEASE
+D

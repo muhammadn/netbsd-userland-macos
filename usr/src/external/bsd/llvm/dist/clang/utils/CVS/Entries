@@ -1,0 +1,22 @@
+/CaptureCmd/1.1.1.1/Thu Nov 28 14:14:48 2013//Tnetbsd-9-3-RELEASE
+/ClangDataFormat.py/1.1.1.1/Thu Nov 28 14:14:48 2013//Tnetbsd-9-3-RELEASE
+/CmpDriver/1.1.1.2/Fri May 30 18:14:50 2014//Tnetbsd-9-3-RELEASE
+/FindSpecRefs/1.1.1.1/Thu Nov 28 14:14:48 2013//Tnetbsd-9-3-RELEASE
+/FuzzTest/1.1.1.1/Thu Nov 28 14:14:48 2013//Tnetbsd-9-3-RELEASE
+/bash-autocomplete.sh/1.1.1.2/Tue Jul 17 18:31:58 2018//Tnetbsd-9-3-RELEASE
+/builtin-defines.c/1.1.1.1/Thu Nov 28 14:14:48 2013//Tnetbsd-9-3-RELEASE
+/clangdiag.py/1.1.1.1/Tue Jul 17 18:31:58 2018//Tnetbsd-9-3-RELEASE
+/find-unused-diagnostics.sh/1.1.1.2/Tue Jul 17 18:31:58 2018//Tnetbsd-9-3-RELEASE
+/modfuzz.py/1.1.1.1/Wed Jan 11 10:33:11 2017//Tnetbsd-9-3-RELEASE
+/token-delta.py/1.1.1.1/Thu Nov 28 14:14:48 2013//Tnetbsd-9-3-RELEASE
+D/ABITest////
+D/CIndex////
+D/ClangVisualizers////
+D/TableGen////
+D/TestUtils////
+D/VtableTest////
+D/analyzer////
+D/check_cfc////
+D/hmaptool////
+D/perf-training////
+D/valgrind////

@@ -1,0 +1,22 @@
+/2010-01-15-UndefValue.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/fma3-jit.ll/1.1.1.2/Sat Feb 27 22:52:39 2016//Tnetbsd-9-3-RELEASE
+/frem.ll/1.1.1.2/Sat Feb 27 22:52:39 2016//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.5/Sat Feb 27 22:52:39 2016//Tnetbsd-9-3-RELEASE
+/mov64zext32.ll/1.1.1.2/Thu Jan 29 19:54:45 2015//Tnetbsd-9-3-RELEASE
+/test-interp-vec-arithm_float.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-arithm_int.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-cast.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-insertelement.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-insertextractvalue.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-loadstore.ll/1.1.1.2/Sat Feb 27 22:52:39 2016//Tnetbsd-9-3-RELEASE
+/test-interp-vec-logical.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-select.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-setcond-fp.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-setcond-int.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-shift.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+/test-interp-vec-shuffle.ll/1.1.1.1/Thu Nov 28 14:18:06 2013//Tnetbsd-9-3-RELEASE
+D/Interpreter////
+D/MCJIT////
+D/OrcLazy////
+D/OrcMCJIT////
+D/RuntimeDyld////

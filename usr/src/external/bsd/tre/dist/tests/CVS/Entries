@@ -1,0 +1,10 @@
+/Makefile.am/1.1.1.2/Fri Nov 17 16:11:12 2017//Tnetbsd-9-3-RELEASE
+/bench.c/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/build-on-hosts.sh/1.1.1.1/Fri Nov 17 16:11:12 2017//Tnetbsd-9-3-RELEASE
+/build-run.sh/1.1.1.1/Fri Nov 17 16:11:12 2017//Tnetbsd-9-3-RELEASE
+/build-tests.sh/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/randtest.c/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/retest.c/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+/test-str-source.c/1.1.1.1/Thu Feb 25 07:33:19 2010//Tnetbsd-9-3-RELEASE
+D/agrep////
+D/build-hosts////

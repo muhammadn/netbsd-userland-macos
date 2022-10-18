@@ -1,0 +1,20 @@
+/Makefile.am/1.3/Thu Apr 15 20:56:32 2010//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.4/Mon Apr 19 08:09:03 2010//Tnetbsd-9-3-RELEASE
+/conffile.c/1.3/Thu Mar 15 04:06:54 2012//Tnetbsd-9-3-RELEASE
+/disk.c/1.9/Tue Sep 30 15:25:18 2014//Tnetbsd-9-3-RELEASE
+/initiator.c/1.9/Fri Nov  1 07:53:34 2013//Tnetbsd-9-3-RELEASE
+/libiscsi.3/1.8/Tue Mar 18 18:20:36 2014//Tnetbsd-9-3-RELEASE
+/md5c.c/1.2/Tue Jun 30 02:44:52 2009//Tnetbsd-9-3-RELEASE
+/md5hl.c/1.3/Sat Nov  5 00:17:19 2011//Tnetbsd-9-3-RELEASE
+/netmask.c/1.2/Tue Jun 30 02:44:52 2009//Tnetbsd-9-3-RELEASE
+/osd_ops.c/1.2/Tue Jun 30 02:44:52 2009//Tnetbsd-9-3-RELEASE
+/parameters.c/1.4/Sat Nov 15 01:15:45 2014//Tnetbsd-9-3-RELEASE
+/protocol.c/1.4/Sat Sep 29 07:18:21 2012//Tnetbsd-9-3-RELEASE
+/snprintf.c/1.2/Tue Jun 30 02:44:52 2009//Tnetbsd-9-3-RELEASE
+/storage.c/1.2/Tue Jun 30 02:44:52 2009//Tnetbsd-9-3-RELEASE
+/strlcpy.c/1.2/Tue Jun 30 02:44:52 2009//Tnetbsd-9-3-RELEASE
+/strtoll.c/1.2/Tue Jun 30 02:44:52 2009//Tnetbsd-9-3-RELEASE
+/target.c/1.9/Sat Nov 15 01:15:45 2014//Tnetbsd-9-3-RELEASE
+/util.c/1.4/Thu Oct 24 19:13:25 2013//Tnetbsd-9-3-RELEASE
+/uuid.c/1.2/Tue Jun 30 02:44:52 2009//Tnetbsd-9-3-RELEASE
+D

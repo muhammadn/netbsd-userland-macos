@@ -1,0 +1,19 @@
+/b64_ntop.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/b64_pton.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/basename.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/fake-rfc2553.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/fake-rfc2553.h/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/inet_aton.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/inet_ntop.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/inet_pton.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/malloc.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/memcmp.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/memcmp.h/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/memmove.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/pselect.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/reallocarray.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/snprintf.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/strlcat.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/strlcpy.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+/strptime.c/1.1.1.1/Sat Jan  7 19:42:02 2017//Tnetbsd-9-3-RELEASE
+D

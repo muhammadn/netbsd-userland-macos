@@ -1,0 +1,11 @@
+/bad-cms.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/bad-int-pad0.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/bad-int-padminus1.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/bad_bio.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/bad_cert.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/bad_generalname.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/high_tag.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/int0.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/int1.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+/intminus1.der/1.1.1.1/Thu Feb  8 20:56:46 2018//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,17 @@
+/ChangeLog/1.1.1.1/Wed Apr 13 18:15:39 2011//Tnetbsd-9-3-RELEASE
+/Makefile.am/1.1.1.4/Sat Jan 28 20:46:52 2017//Tnetbsd-9-3-RELEASE
+/NTMakefile/1.1.1.1/Wed Apr 13 18:15:39 2011//Tnetbsd-9-3-RELEASE
+/otp.c/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp.h/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp_challenge.c/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp_db.c/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp_locl.h/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp_md.c/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp_md.h/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp_parse.c/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp_print.c/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otp_verify.c/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/otptest.c/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/roken_rename.h/1.2/Sat Jan 28 21:31:50 2017//Tnetbsd-9-3-RELEASE
+/version-script.map/1.1.1.1/Wed Apr 13 18:15:40 2011//Tnetbsd-9-3-RELEASE
+D

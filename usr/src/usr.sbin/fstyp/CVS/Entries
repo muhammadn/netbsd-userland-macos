@@ -1,0 +1,12 @@
+/Makefile/1.5/Mon Jun 24 08:27:21 2019//Tnetbsd-9-3-RELEASE
+/cd9660.c/1.1/Tue Jan  9 03:31:15 2018//Tnetbsd-9-3-RELEASE
+/ext2fs.c/1.1/Tue Jan  9 03:31:15 2018//Tnetbsd-9-3-RELEASE
+/fstyp.8/1.2/Tue Jan  9 09:41:29 2018//Tnetbsd-9-3-RELEASE
+/fstyp.c/1.2/Tue Jan  9 10:47:57 2018//Tnetbsd-9-3-RELEASE
+/fstyp.h/1.1/Tue Jan  9 03:31:15 2018//Tnetbsd-9-3-RELEASE
+/msdosfs.c/1.1/Tue Jan  9 03:31:15 2018//Tnetbsd-9-3-RELEASE
+/msdosfs.h/1.1/Tue Jan  9 03:31:15 2018//Tnetbsd-9-3-RELEASE
+/ntfs.c/1.1/Tue Jan  9 03:31:15 2018//Tnetbsd-9-3-RELEASE
+/ufs.c/1.1/Tue Jan  9 03:31:15 2018//Tnetbsd-9-3-RELEASE
+/zfs.c/1.1/Tue Jan  9 03:31:15 2018//Tnetbsd-9-3-RELEASE
+D

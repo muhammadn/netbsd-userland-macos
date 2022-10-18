@@ -1,0 +1,8 @@
+/fabs_ieee754.S/1.1/Fri Jan 17 22:19:46 2014//Tnetbsd-9-3-RELEASE
+/fpgetmask.S/1.7/Fri Aug  2 02:07:00 2013//Tnetbsd-9-3-RELEASE
+/fpgetround.c/1.6/Fri Jan 11 13:55:26 2013//Tnetbsd-9-3-RELEASE
+/fpgetsticky.S/1.6/Fri Jan 11 13:55:26 2013//Tnetbsd-9-3-RELEASE
+/fpsetmask.S/1.7/Thu Jan 23 00:00:16 2014//Tnetbsd-9-3-RELEASE
+/fpsetround.c/1.8/Sun Feb  3 01:50:54 2013//Tnetbsd-9-3-RELEASE
+/fpsetsticky.S/1.6/Fri Jan 11 13:55:26 2013//Tnetbsd-9-3-RELEASE
+D

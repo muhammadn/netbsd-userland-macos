@@ -1,0 +1,13 @@
+/test_deleter.h/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/types.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+D/util.smartptr.getdeleter////
+D/util.smartptr.shared.assign////
+D/util.smartptr.shared.cast////
+D/util.smartptr.shared.cmp////
+D/util.smartptr.shared.const////
+D/util.smartptr.shared.create////
+D/util.smartptr.shared.dest////
+D/util.smartptr.shared.io////
+D/util.smartptr.shared.mod////
+D/util.smartptr.shared.obs////
+D/util.smartptr.shared.spec////

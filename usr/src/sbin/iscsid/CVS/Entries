@@ -1,0 +1,10 @@
+/Makefile/1.6/Sun May 29 13:35:45 2016//Tnetbsd-9-3-RELEASE
+/iscsid.8/1.13/Sun May 29 13:35:45 2016//Tnetbsd-9-3-RELEASE
+/iscsid.h/1.5/Sun May 29 13:35:45 2016//Tnetbsd-9-3-RELEASE
+/iscsid_discover.c/1.5/Sun May 29 13:35:45 2016//Tnetbsd-9-3-RELEASE
+/iscsid_driverif.c/1.8/Sun May 29 13:35:45 2016//Tnetbsd-9-3-RELEASE
+/iscsid_globals.h/1.9/Mon May 30 22:02:41 2016//Tnetbsd-9-3-RELEASE
+/iscsid_lists.c/1.9/Sun May 29 13:35:45 2016//Tnetbsd-9-3-RELEASE
+/iscsid_main.c/1.12/Mon Feb  4 08:21:12 2019//Tnetbsd-9-3-RELEASE
+/iscsid_targets.c/1.6/Sun May 29 13:35:45 2016//Tnetbsd-9-3-RELEASE
+D

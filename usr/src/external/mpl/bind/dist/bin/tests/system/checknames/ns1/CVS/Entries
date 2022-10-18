@@ -1,0 +1,9 @@
+/fail.example.db.in/1.1.1.1/Sun Aug 12 12:07:36 2018//Tnetbsd-9-3-RELEASE
+/fail.update.db.in/1.1.1.1/Sun Aug 12 12:07:36 2018//Tnetbsd-9-3-RELEASE
+/ignore.example.db.in/1.1.1.1/Sun Aug 12 12:07:36 2018//Tnetbsd-9-3-RELEASE
+/ignore.update.db.in/1.1.1.1/Sun Aug 12 12:07:36 2018//Tnetbsd-9-3-RELEASE
+/named.conf.in/1.1.1.2/Wed Jan  9 16:48:15 2019//Tnetbsd-9-3-RELEASE
+/root.db/1.1.1.1/Sun Aug 12 12:07:36 2018//Tnetbsd-9-3-RELEASE
+/warn.example.db.in/1.1.1.1/Sun Aug 12 12:07:36 2018//Tnetbsd-9-3-RELEASE
+/warn.update.db.in/1.1.1.1/Sun Aug 12 12:07:36 2018//Tnetbsd-9-3-RELEASE
+D

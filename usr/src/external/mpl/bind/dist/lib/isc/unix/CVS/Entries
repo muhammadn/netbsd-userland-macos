@@ -1,0 +1,22 @@
+/Makefile.in/1.1.1.2/Wed Jan  9 16:48:19 2019//Tnetbsd-9-3-RELEASE
+/app.c/1.4.4.1/Mon Dec 30 09:43:59 2019//Tnetbsd-9-3-RELEASE
+/dir.c/1.2/Sun Aug 12 13:02:39 2018//Tnetbsd-9-3-RELEASE
+/errno.c/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/errno2result.c/1.4/Sun Apr 28 00:01:15 2019//Tnetbsd-9-3-RELEASE
+/errno2result.h/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/file.c/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/fsaccess.c/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/ifiter_getifaddrs.c/1.4/Sun Feb 24 20:01:31 2019//Tnetbsd-9-3-RELEASE
+/interfaceiter.c/1.4/Sun Feb 24 20:01:31 2019//Tnetbsd-9-3-RELEASE
+/meminfo.c/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/net.c/1.4/Sun Feb 24 20:01:32 2019//Tnetbsd-9-3-RELEASE
+/os.c/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/pk11_api.c/1.2/Sun Aug 12 13:02:39 2018//Tnetbsd-9-3-RELEASE
+/resource.c/1.3.4.1/Thu Oct 17 19:34:21 2019//Tnetbsd-9-3-RELEASE
+/socket.c/1.10.4.2/Thu Oct 17 19:34:21 2019//Tnetbsd-9-3-RELEASE
+/socket_p.h/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/stdio.c/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/stdtime.c/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+/syslog.c/1.2/Sun Aug 12 13:02:39 2018//Tnetbsd-9-3-RELEASE
+/time.c/1.3/Wed Jan  9 16:55:17 2019//Tnetbsd-9-3-RELEASE
+D/include////

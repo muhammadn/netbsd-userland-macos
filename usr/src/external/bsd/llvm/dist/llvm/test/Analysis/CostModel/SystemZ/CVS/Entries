@@ -1,0 +1,17 @@
+/cmp-ext.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/cmpsel.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/div-pow2.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/ext-load.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/fp-arith.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/fp-cast.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/int-arith.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/int-cast.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/intrinsic-cost-crash.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/load_store.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/logical.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/memop-folding-int-arith.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/scalar-cmp-cmp-log-sel.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/shuffle.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/vectorinstrs.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+D

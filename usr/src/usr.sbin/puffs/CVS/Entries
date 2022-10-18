@@ -1,0 +1,25 @@
+/Makefile/1.18/Sun May 21 15:28:43 2017//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.15/Sat Jan 23 21:22:50 2016//Tnetbsd-9-3-RELEASE
+/makerumpmanpages.sh/1.13/Sun Jul 24 08:55:30 2011//Tnetbsd-9-3-RELEASE
+D/mount_9p////
+D/mount_psshfs////
+D/mount_sysctlfs////
+D/rump_au-naturel////
+D/rump_cd9660////
+D/rump_efs////
+D/rump_ext2fs////
+D/rump_fdesc////
+D/rump_ffs////
+D/rump_hfs////
+D/rump_kernfs////
+D/rump_lfs////
+D/rump_msdos////
+D/rump_nfs////
+D/rump_nqmfs////
+D/rump_ntfs////
+D/rump_smbfs////
+D/rump_syspuffs////
+D/rump_sysvbfs////
+D/rump_tmpfs////
+D/rump_udf////
+D/rump_v7fs////

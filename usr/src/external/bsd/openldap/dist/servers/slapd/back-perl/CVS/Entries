@@ -1,0 +1,17 @@
+/Makefile.in/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/README/1.1.1.1/Thu May 22 14:20:36 2008//Tnetbsd-9-3-RELEASE
+/SampleLDAP.pm/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/add.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/asperl_undefs.h/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/bind.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/close.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/compare.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/config.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/delete.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/init.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/modify.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/modrdn.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/perl_back.h/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/proto-perl.h/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/search.c/1.1.1.6.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+D

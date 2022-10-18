@@ -1,0 +1,13 @@
+/Makefile/1.2/Tue Apr  1 21:38:26 2014//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.4/Sun Feb 25 00:16:48 2018//Tnetbsd-9-3-RELEASE
+D/gsstool////
+D/hxtool////
+D/kcc////
+D/kdestroy////
+D/kgetcred////
+D/kinit////
+D/kpasswd////
+D/krb5-config////
+D/kvno////
+D/string2key////
+D/verify_krb5_conf////

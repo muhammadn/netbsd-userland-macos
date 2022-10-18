@@ -1,0 +1,8 @@
+/build.info/1.1.1.1/Thu Feb  8 20:56:52 2018//Tnetbsd-9-3-RELEASE
+/seed.c/1.1.1.5.6.1/Mon Apr 27 14:47:27 2020//Tnetbsd-9-3-RELEASE
+/seed_cbc.c/1.1.1.4/Thu Feb  8 20:56:52 2018//Tnetbsd-9-3-RELEASE
+/seed_cfb.c/1.1.1.4/Thu Feb  8 20:56:52 2018//Tnetbsd-9-3-RELEASE
+/seed_ecb.c/1.1.1.4/Thu Feb  8 20:56:52 2018//Tnetbsd-9-3-RELEASE
+/seed_local.h/1.1.1.1.4.2/Mon Apr 27 14:47:27 2020//Tnetbsd-9-3-RELEASE
+/seed_ofb.c/1.1.1.4/Thu Feb  8 20:56:52 2018//Tnetbsd-9-3-RELEASE
+D

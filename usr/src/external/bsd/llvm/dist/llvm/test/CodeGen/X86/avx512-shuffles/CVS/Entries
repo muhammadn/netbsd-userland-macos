@@ -1,0 +1,14 @@
+/broadcast-scalar-fp.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/broadcast-scalar-int.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/broadcast-vector-fp.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/broadcast-vector-int.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/duplicate-high.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/duplicate-low.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/in_lane_permute.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/partial_permute.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/permute.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/shuffle-interleave.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/shuffle-vec.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/shuffle.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+/unpack.ll/1.1.1.1/Tue Jul 17 18:35:08 2018//Tnetbsd-9-3-RELEASE
+D

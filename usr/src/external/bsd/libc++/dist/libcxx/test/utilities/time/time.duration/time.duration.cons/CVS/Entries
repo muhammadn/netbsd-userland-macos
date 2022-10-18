@@ -1,0 +1,13 @@
+/convert_exact.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/convert_float_to_int.fail.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/convert_inexact.fail.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/convert_inexact.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/convert_int_to_float.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/convert_overflow.pass.cpp/1.1.1.1/Mon Nov 11 23:42:31 2013//Tnetbsd-9-3-RELEASE
+/default.pass.cpp/1.1.1.2/Thu Aug 15 22:38:22 2013//Tnetbsd-9-3-RELEASE
+/rep.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/rep01.fail.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/rep02.fail.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/rep02.pass.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+/rep03.fail.cpp/1.1.1.1/Fri May 17 23:02:33 2013//Tnetbsd-9-3-RELEASE
+D

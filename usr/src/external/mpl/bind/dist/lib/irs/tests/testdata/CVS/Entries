@@ -1,0 +1,18 @@
+/domain.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/nameserver-v4.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/nameserver-v6-scoped.conf/1.1.1.1/Wed Jan  9 16:48:20 2019//Tnetbsd-9-3-RELEASE
+/nameserver-v6.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/options-bad-ndots.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/options-debug.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/options-empty.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/options-ndots.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/options-timeout.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/options-unknown.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/options.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/port.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/resolv.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/search.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/sortlist-v4.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/timeout.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+/unknown.conf/1.1.1.1/Sun Aug 12 12:08:29 2018//Tnetbsd-9-3-RELEASE
+D

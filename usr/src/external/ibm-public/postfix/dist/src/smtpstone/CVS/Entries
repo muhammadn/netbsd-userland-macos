@@ -1,0 +1,18 @@
+/Makefile.in/1.1.1.4/Tue Feb 14 01:13:43 2017//Tnetbsd-9-3-RELEASE
+/hashed-deferred/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/hashed-incoming/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/mx-deliver/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/mx-explode/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/mx-relay/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/performance/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/qmail-deliver/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/qmail-explode/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/qmail-relay/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/qmqp-sink.c/1.2/Tue Feb 14 01:16:48 2017//Tnetbsd-9-3-RELEASE
+/qmqp-source.c/1.2/Tue Feb 14 01:16:48 2017//Tnetbsd-9-3-RELEASE
+/smtp-sink.c/1.2/Tue Feb 14 01:16:48 2017//Tnetbsd-9-3-RELEASE
+/smtp-source.c/1.2/Tue Feb 14 01:16:48 2017//Tnetbsd-9-3-RELEASE
+/throughput/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/vmail-local/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+/vmail-relay/1.1.1.1/Tue Jun 23 10:08:56 2009//Tnetbsd-9-3-RELEASE
+D

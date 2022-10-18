@@ -1,0 +1,5 @@
+/lit.local.cfg/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/merge-across-side-effects.ll/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/non-instr-bitcast.ll/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/propagate-invariance-metadata.ll/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,19 @@
+/lit.local.cfg/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+/version.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+D/filebuf////
+D/filebuf.assign////
+D/filebuf.cons////
+D/filebuf.members////
+D/filebuf.virtuals////
+D/fstream////
+D/fstream.assign////
+D/fstream.cons////
+D/fstream.members////
+D/ifstream////
+D/ifstream.assign////
+D/ifstream.cons////
+D/ifstream.members////
+D/ofstream////
+D/ofstream.assign////
+D/ofstream.cons////
+D/ofstream.members////

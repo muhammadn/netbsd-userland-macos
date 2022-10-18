@@ -1,0 +1,13 @@
+/version.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+D/optional.bad_optional_access////
+D/optional.comp_with_t////
+D/optional.defs////
+D/optional.general////
+D/optional.hash////
+D/optional.inplace////
+D/optional.nullops////
+D/optional.nullopt////
+D/optional.object////
+D/optional.relops////
+D/optional.specalg////
+D/optional.syn////

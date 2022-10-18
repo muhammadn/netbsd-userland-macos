@@ -1,0 +1,19 @@
+/Makefile/1.30/Sun Feb 24 02:43:18 2008//Tnetbsd-9-3-RELEASE
+/cards.c/1.27/Mon Dec 29 10:38:52 2014//Tnetbsd-9-3-RELEASE
+/deck.h/1.9/Sun Feb 24 02:43:18 2008//Tnetbsd-9-3-RELEASE
+/execute.c/1.22/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/getinp.c/1.19/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/houses.c/1.15/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/jail.c/1.10/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/misc.c/1.23/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/monop.6/1.19/Sun Feb 24 03:50:07 2008//Tnetbsd-9-3-RELEASE
+/monop.c/1.27/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/monop.h/1.19/Wed Aug 12 08:10:49 2009//Tnetbsd-9-3-RELEASE
+/morg.c/1.19/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/print.c/1.13/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/prop.c/1.20/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/rent.c/1.9/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/roll.c/1.14/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/spec.c/1.11/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+/trade.c/1.16/Tue Jun 19 05:35:32 2012//Tnetbsd-9-3-RELEASE
+D

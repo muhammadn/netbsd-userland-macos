@@ -1,0 +1,21 @@
+/bad-cookie-badaes.conf/1.1.1.1.2.2/Thu Sep 12 19:18:02 2019//Tnetbsd-9-3-RELEASE
+/bad-cookie-badhex.conf/1.1.1.1/Sun Aug 12 12:07:32 2018//Tnetbsd-9-3-RELEASE
+/bad-cookie-badsha1.conf/1.1.1.1/Sun Aug 12 12:07:32 2018//Tnetbsd-9-3-RELEASE
+/bad-cookie-badsha256.conf/1.1.1.1/Sun Aug 12 12:07:32 2018//Tnetbsd-9-3-RELEASE
+/bad-cookie-badsiphash24.conf/1.1.1.1.2.2/Thu Sep 12 19:18:02 2019//Tnetbsd-9-3-RELEASE
+/bad-cookie-toolong.conf/1.1.1.1/Sun Aug 12 12:07:32 2018//Tnetbsd-9-3-RELEASE
+/clean.sh/1.1.1.2.4.1/Thu Sep 12 19:18:02 2019//Tnetbsd-9-3-RELEASE
+/good-cookie-aes.conf/1.1.1.1.2.2/Thu Sep 12 19:18:02 2019//Tnetbsd-9-3-RELEASE
+/good-cookie-sha1.conf/1.1.1.1/Sun Aug 12 12:07:32 2018//Tnetbsd-9-3-RELEASE
+/good-cookie-sha256.conf/1.1.1.1/Sun Aug 12 12:07:32 2018//Tnetbsd-9-3-RELEASE
+/good-cookie-siphash24.conf/1.1.1.1.2.2/Thu Sep 12 19:18:02 2019//Tnetbsd-9-3-RELEASE
+/setup.sh/1.1.1.2/Wed Jan  9 16:48:17 2019//Tnetbsd-9-3-RELEASE
+/tests.sh/1.1.1.3.4.1/Thu Sep 12 19:18:02 2019//Tnetbsd-9-3-RELEASE
+D/ns1////
+D/ns2////
+D/ns3////
+D/ns4////
+D/ns5////
+D/ns6////
+D/ns7////
+D/ns8////

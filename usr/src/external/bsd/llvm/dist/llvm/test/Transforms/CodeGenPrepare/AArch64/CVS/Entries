@@ -1,0 +1,6 @@
+/free-zext.ll/1.1.1.2/Tue Jul 17 18:34:20 2018//Tnetbsd-9-3-RELEASE
+/large-offset-gep.ll/1.1.1.1/Tue Jul 17 18:34:20 2018//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.1/Sun Aug 10 17:04:36 2014//Tnetbsd-9-3-RELEASE
+/trunc-weird-user.ll/1.1.1.2/Thu Jan 29 19:54:37 2015//Tnetbsd-9-3-RELEASE
+/widen_switch.ll/1.1.1.2/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+D

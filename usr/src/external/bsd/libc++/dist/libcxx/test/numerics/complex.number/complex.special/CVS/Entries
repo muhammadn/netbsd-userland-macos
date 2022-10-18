@@ -1,0 +1,13 @@
+/double_float_explicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/double_float_implicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/double_long_double_explicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/double_long_double_implicit.fail.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/float_double_explicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/float_double_implicit.fail.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/float_long_double_explicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/float_long_double_implicit.fail.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/long_double_double_explicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/long_double_double_implicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/long_double_float_explicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+/long_double_float_implicit.pass.cpp/1.1.1.1/Fri May 17 23:02:34 2013//Tnetbsd-9-3-RELEASE
+D

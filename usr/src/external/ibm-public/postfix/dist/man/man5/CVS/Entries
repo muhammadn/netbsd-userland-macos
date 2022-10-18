@@ -1,0 +1,26 @@
+/access.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/aliases.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/body_checks.5/1.1.1.1/Tue Jun 23 10:08:33 2009//Tnetbsd-9-3-RELEASE
+/bounce.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/canonical.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/cidr_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/generic.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/header_checks.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/ldap_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/lmdb_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/master.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/memcache_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/mysql_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/nisplus_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/pcre_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/pgsql_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postconf.5/1.15/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/postfix-wrapper.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/regexp_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/relocated.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/socketmap_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/sqlite_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/tcp_table.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/transport.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+/virtual.5/1.2/Tue Feb 14 01:16:44 2017//Tnetbsd-9-3-RELEASE
+D

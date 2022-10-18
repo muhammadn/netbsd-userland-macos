@@ -1,0 +1,17 @@
+/Makefile.in/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/TODO/1.1.1.1/Mon Mar  8 02:14:20 2010//Tnetbsd-9-3-RELEASE
+/add.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/attrsets.conf/1.1.1.1/Mon Mar  8 02:14:20 2010//Tnetbsd-9-3-RELEASE
+/back-ndb.h/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/bind.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/compare.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/config.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/delete.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/init.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/modify.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/modrdn.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/ndbio.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/proto-ndb.h/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/search.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+/tools.cpp/1.1.1.5.6.1/Sat Aug 10 06:17:19 2019//Tnetbsd-9-3-RELEASE
+D

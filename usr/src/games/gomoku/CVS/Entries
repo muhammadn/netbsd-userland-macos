@@ -1,0 +1,10 @@
+/Makefile/1.5/Sat Feb  6 23:45:25 2010//Tnetbsd-9-3-RELEASE
+/bdinit.c/1.9/Sat Oct 13 20:57:35 2012//Tnetbsd-9-3-RELEASE
+/bdisp.c/1.17/Sat Mar 22 18:58:57 2014//Tnetbsd-9-3-RELEASE
+/gomoku.6/1.15/Mon Mar 29 04:00:03 2010//Tnetbsd-9-3-RELEASE
+/gomoku.h/1.20/Sat Mar 22 18:58:57 2014//Tnetbsd-9-3-RELEASE
+/main.c/1.27/Sun Jun 12 02:15:26 2016//Tnetbsd-9-3-RELEASE
+/makemove.c/1.11/Wed Aug 12 06:19:17 2009//Tnetbsd-9-3-RELEASE
+/pickmove.c/1.22/Sat Oct 19 17:23:08 2013//Tnetbsd-9-3-RELEASE
+/stoc.c/1.12/Wed Aug 12 06:19:17 2009//Tnetbsd-9-3-RELEASE
+D

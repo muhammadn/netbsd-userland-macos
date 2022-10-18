@@ -1,0 +1,11 @@
+/input_iterator.h/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/test_traits.h/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/types.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+D/string.access////
+D/string.capacity////
+D/string.cons////
+D/string.iterators////
+D/string.modifiers////
+D/string.nonmembers////
+D/string.ops////
+D/string.require////

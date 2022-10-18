@@ -1,0 +1,9 @@
+/Makefile/1.1/Sat Feb 23 14:16:54 2013//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.1/Sat Feb 23 14:16:55 2013//Tnetbsd-9-3-RELEASE
+D/bootstrap////
+D/cli////
+D/engine////
+D/examples////
+D/integration////
+D/store////
+D/utils////

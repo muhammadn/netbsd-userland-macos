@@ -1,0 +1,24 @@
+/alloca.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/assert.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/bytes.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/crypt.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/ctype.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/dirent.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/errno.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/fdset.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/localize.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/param.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/regex.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/setproctitle.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/signal.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/socket.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/stdarg.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/stdlib.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/string.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/sysexits.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/syslog.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/termios.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/time.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/unistd.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+/wait.h/1.1.1.6.6.1/Sat Aug 10 06:17:14 2019//Tnetbsd-9-3-RELEASE
+D

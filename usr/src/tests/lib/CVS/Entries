@@ -1,0 +1,28 @@
+/Makefile/1.31/Sun Dec 23 13:35:02 2018//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.1/Wed Nov  3 16:10:21 2010//Tnetbsd-9-3-RELEASE
+D/csu////
+D/libbluetooth////
+D/libbpfjit////
+D/libc////
+D/libcrypt////
+D/libcurses////
+D/libdes////
+D/libevent////
+D/libexecinfo////
+D/libm////
+D/libnvmm////
+D/libobjc////
+D/libposix////
+D/libppath////
+D/libprop////
+D/libpthread////
+D/librefuse////
+D/librt////
+D/librumpclient////
+D/librumphijack////
+D/libskey////
+D/libsljit////
+D/libtre////
+D/libusbhid////
+D/libutil////
+D/semaphore////

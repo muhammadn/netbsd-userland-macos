@@ -1,0 +1,9 @@
+/build.info/1.1.1.1/Sun Sep 23 13:17:43 2018//Tnetbsd-9-3-RELEASE
+/loader_file.c/1.1.1.1.6.3/Sat Mar 27 14:35:10 2021//Tnetbsd-9-3-RELEASE
+/store_err.c/1.1.1.1/Sun Sep 23 13:17:43 2018//Tnetbsd-9-3-RELEASE
+/store_init.c/1.1.1.1.6.1/Mon Apr 27 14:47:29 2020//Tnetbsd-9-3-RELEASE
+/store_lib.c/1.1.1.1.6.3/Sat Mar 27 14:35:11 2021//Tnetbsd-9-3-RELEASE
+/store_local.h/1.1.1.1.4.2/Mon Apr 27 14:47:29 2020//Tnetbsd-9-3-RELEASE
+/store_register.c/1.1.1.1.6.1/Mon Apr 27 14:47:29 2020//Tnetbsd-9-3-RELEASE
+/store_strings.c/1.1.1.1/Sun Sep 23 13:17:43 2018//Tnetbsd-9-3-RELEASE
+D

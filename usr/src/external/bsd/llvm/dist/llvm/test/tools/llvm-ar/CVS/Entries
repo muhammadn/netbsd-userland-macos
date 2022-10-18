@@ -1,0 +1,12 @@
+/absolute-paths.test/1.1.1.1/Tue Aug  1 19:25:14 2017//Tnetbsd-9-3-RELEASE
+/case-detection.test/1.1.1.1/Tue Jul 17 18:35:46 2018//Tnetbsd-9-3-RELEASE
+/default-add.test/1.1.1.2/Tue Jul 17 18:35:46 2018//Tnetbsd-9-3-RELEASE
+/default-coff.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/default-elf.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/default-macho.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/empty-uid-gid.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/invalid-command-line.test/1.1.1.1/Tue Jul 17 18:35:46 2018//Tnetbsd-9-3-RELEASE
+/mri-delete.test/1.1.1.1/Tue Jul 17 18:35:46 2018//Tnetbsd-9-3-RELEASE
+/override.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/regex-cmd.test/1.1.1.1/Tue Jul 17 18:35:46 2018//Tnetbsd-9-3-RELEASE
+D/Inputs////

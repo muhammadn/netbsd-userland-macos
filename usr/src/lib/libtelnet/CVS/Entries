@@ -1,0 +1,21 @@
+/Makefile/1.37/Sun May 21 15:28:41 2017//Tnetbsd-9-3-RELEASE
+/auth-proto.h/1.16/Fri Dec 14 23:42:39 2018//Tnetbsd-9-3-RELEASE
+/auth.c/1.24/Sun Dec 16 16:06:39 2018//Tnetbsd-9-3-RELEASE
+/auth.h/1.11/Sun Feb  6 05:53:07 2005//Tnetbsd-9-3-RELEASE
+/enc-proto.h/1.10/Sat Jan  5 08:55:58 2019//Tnetbsd-9-3-RELEASE
+/enc_des.c/1.16/Wed Mar 21 05:33:27 2012//Tnetbsd-9-3-RELEASE
+/encrypt.c/1.18/Sat Jan  5 08:55:58 2019//Tnetbsd-9-3-RELEASE
+/encrypt.h/1.9/Mon Jan  9 15:25:33 2012//Tnetbsd-9-3-RELEASE
+/forward.c/1.3/Sun Feb  6 05:53:07 2005//Tnetbsd-9-3-RELEASE
+/genget.c/1.14/Fri Dec 14 23:42:39 2018//Tnetbsd-9-3-RELEASE
+/getent.c/1.11/Wed Mar 21 05:33:27 2012//Tnetbsd-9-3-RELEASE
+/kerberos5.c/1.20/Sat Apr 26 22:10:40 2014//Tnetbsd-9-3-RELEASE
+/key-proto.h/1.6/Sun Feb  6 05:53:07 2005//Tnetbsd-9-3-RELEASE
+/misc-proto.h/1.10/Sun Feb  6 05:53:07 2005//Tnetbsd-9-3-RELEASE
+/misc.c/1.13/Wed Mar 21 05:33:27 2012//Tnetbsd-9-3-RELEASE
+/misc.h/1.10/Fri Dec 14 23:42:39 2018//Tnetbsd-9-3-RELEASE
+/pk.c/1.4/Sat Feb 19 22:55:35 2005//Tnetbsd-9-3-RELEASE
+/pk.h/1.2/Sat Feb 19 22:55:35 2005//Tnetbsd-9-3-RELEASE
+/shlib_version/1.11/Sun Jan 11 03:07:50 2009//Tnetbsd-9-3-RELEASE
+/sra.c/1.11/Mon Jan  9 15:25:34 2012//Tnetbsd-9-3-RELEASE
+D

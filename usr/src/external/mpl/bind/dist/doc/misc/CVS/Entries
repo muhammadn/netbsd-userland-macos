@@ -1,0 +1,25 @@
+/Makefile.in/1.1.1.2/Wed Jan  9 16:48:19 2019//Tnetbsd-9-3-RELEASE
+/delegation-only.zoneopt/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/dnssec/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/docbook-grammars.pl/1.1.1.2/Sun Feb 24 18:56:47 2019//Tnetbsd-9-3-RELEASE
+/docbook-options.pl/1.1.1.2/Sun Feb 24 18:56:47 2019//Tnetbsd-9-3-RELEASE
+/docbook-zoneopt.pl/1.1.1.2/Sun Feb 24 18:56:47 2019//Tnetbsd-9-3-RELEASE
+/format-options.pl/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/forward.zoneopt/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/hint.zoneopt/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/in-view.zoneopt/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/ipv6/1.1.1.2/Wed Jan  9 16:48:19 2019//Tnetbsd-9-3-RELEASE
+/master.zoneopt/1.1.1.2/Wed Jan  9 16:48:19 2019//Tnetbsd-9-3-RELEASE
+/migration/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/migration-4to9/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/mirror.zoneopt/1.1.1.1/Wed Jan  9 16:48:19 2019//Tnetbsd-9-3-RELEASE
+/options/1.1.1.4.4.1/Thu Sep 12 19:18:13 2019//Tnetbsd-9-3-RELEASE
+/redirect.zoneopt/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/rfc-compliance/1.1.1.2.4.1/Thu Sep 12 19:18:13 2019//Tnetbsd-9-3-RELEASE
+/roadmap/1.1.1.2/Sun Feb 24 18:56:47 2019//Tnetbsd-9-3-RELEASE
+/slave.zoneopt/1.1.1.2/Wed Jan  9 16:48:19 2019//Tnetbsd-9-3-RELEASE
+/sort-options.pl/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/static-stub.zoneopt/1.1.1.2/Wed Jan  9 16:48:19 2019//Tnetbsd-9-3-RELEASE
+/stub.zoneopt/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+/tcp-fast-open/1.1.1.1/Sun Aug 12 12:08:06 2018//Tnetbsd-9-3-RELEASE
+D

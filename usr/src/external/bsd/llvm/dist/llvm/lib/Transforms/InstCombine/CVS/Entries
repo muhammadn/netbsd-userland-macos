@@ -1,0 +1,18 @@
+/CMakeLists.txt/1.1.1.4/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/InstCombineAddSub.cpp/1.1.1.11/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/InstCombineAndOrXor.cpp/1.1.1.11/Tue Jul 17 18:33:16 2018//Tnetbsd-9-3-RELEASE
+/InstCombineCalls.cpp/1.1.1.11/Tue Jul 17 18:33:16 2018//Tnetbsd-9-3-RELEASE
+/InstCombineCasts.cpp/1.1.1.12/Tue Jul 17 18:33:16 2018//Tnetbsd-9-3-RELEASE
+/InstCombineCompares.cpp/1.1.1.13/Tue Jul 17 18:33:16 2018//Tnetbsd-9-3-RELEASE
+/InstCombineInternal.h/1.1.1.5/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/InstCombineLoadStoreAlloca.cpp/1.1.1.14/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/InstCombineMulDivRem.cpp/1.1.1.11/Tue Jul 17 18:33:16 2018//Tnetbsd-9-3-RELEASE
+/InstCombinePHI.cpp/1.1.1.9/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/InstCombineSelect.cpp/1.1.1.10/Tue Jul 17 18:33:16 2018//Tnetbsd-9-3-RELEASE
+/InstCombineShifts.cpp/1.1.1.10/Tue Jul 17 18:33:16 2018//Tnetbsd-9-3-RELEASE
+/InstCombineSimplifyDemanded.cpp/1.1.1.8/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/InstCombineTables.td/1.1.1.1/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/InstCombineVectorOps.cpp/1.1.1.9/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/InstructionCombining.cpp/1.1.1.12/Tue Jul 17 18:33:17 2018//Tnetbsd-9-3-RELEASE
+/LLVMBuild.txt/1.1.1.2/Sat Feb 27 22:52:25 2016//Tnetbsd-9-3-RELEASE
+D

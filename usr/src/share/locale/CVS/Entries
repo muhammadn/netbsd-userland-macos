@@ -1,0 +1,9 @@
+/Makefile/1.5/Fri Jan  2 00:20:21 2009//Tnetbsd-9-3-RELEASE
+/Makefile.common/1.1.32.1/Mon Mar 30 18:29:39 2020//Tnetbsd-9-3-RELEASE
+/Makefile.locale/1.4/Mon Aug 19 22:34:41 2013//Tnetbsd-9-3-RELEASE
+/locale.alias/1.12.28.1/Mon Mar 30 18:25:43 2020//Tnetbsd-9-3-RELEASE
+D/ctype////
+D/messages////
+D/monetary////
+D/numeric////
+D/time////

@@ -1,0 +1,10 @@
+/amd64.conf/1.2/Fri Apr  4 16:45:51 2014//Tnetbsd-9-3-RELEASE
+/arm64.conf/1.6/Sun Mar  3 11:44:18 2019//Tnetbsd-9-3-RELEASE
+/armv7.conf/1.35.2.1/Wed Nov 27 13:46:45 2019//Tnetbsd-9-3-RELEASE
+/evbarm.conf/1.33.2.1/Sun Dec  8 14:35:10 2019//Tnetbsd-9-3-RELEASE
+/i386.conf/1.1/Fri Apr  4 16:45:51 2014//Tnetbsd-9-3-RELEASE
+/rpi.conf/1.34/Tue Dec 12 21:00:28 2017//Tnetbsd-9-3-RELEASE
+/rpi_inst.conf/1.11/Thu Dec 14 06:29:15 2017//Tnetbsd-9-3-RELEASE
+/usermode.conf/1.5/Sun Apr 19 18:28:31 2015//Tnetbsd-9-3-RELEASE
+/x86.conf/1.8/Tue Nov 28 02:56:44 2017//Tnetbsd-9-3-RELEASE
+D

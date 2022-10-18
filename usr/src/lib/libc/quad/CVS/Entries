@@ -1,0 +1,19 @@
+/Makefile.inc/1.17/Sat Aug 24 00:51:48 2013//Tnetbsd-9-3-RELEASE
+/fixdfdi.c/1.7/Sun Feb  3 01:48:53 2013//Tnetbsd-9-3-RELEASE
+/fixdfdi_ieee754.c/1.1/Sat Aug 24 00:51:48 2013//Tnetbsd-9-3-RELEASE
+/fixsfdi.c/1.6/Sun Feb  3 01:48:53 2013//Tnetbsd-9-3-RELEASE
+/fixsfdi_ieee754.c/1.1/Sat Aug 24 00:51:48 2013//Tnetbsd-9-3-RELEASE
+/fixunsdfdi.c/1.11/Sun Feb  3 01:48:53 2013//Tnetbsd-9-3-RELEASE
+/fixunsdfdi_ieee754.c/1.1/Sat Aug 24 00:51:48 2013//Tnetbsd-9-3-RELEASE
+/fixunssfdi.c/1.9/Sun Feb  3 01:48:53 2013//Tnetbsd-9-3-RELEASE
+/fixunssfdi_ieee754.c/1.1/Sat Aug 24 00:51:48 2013//Tnetbsd-9-3-RELEASE
+/floatdidf.c/1.10/Sun Feb  3 01:48:53 2013//Tnetbsd-9-3-RELEASE
+/floatdidf_ieee754.c/1.1/Sat Aug 24 00:51:48 2013//Tnetbsd-9-3-RELEASE
+/floatdisf.c/1.10/Sun Feb  3 01:48:53 2013//Tnetbsd-9-3-RELEASE
+/floatdisf_ieee754.c/1.2/Sat Aug 24 00:51:48 2013//Tnetbsd-9-3-RELEASE
+/floatundidf.c/1.4/Sun Feb  3 01:48:53 2013//Tnetbsd-9-3-RELEASE
+/floatundidf_ieee754.c/1.2/Mon Sep 30 19:32:14 2013//Tnetbsd-9-3-RELEASE
+/floatundisf.c/1.4/Sun Feb  3 01:48:53 2013//Tnetbsd-9-3-RELEASE
+/floatundisf_ieee754.c/1.2/Sat Aug 24 00:51:48 2013//Tnetbsd-9-3-RELEASE
+/floatunditf_ieee754.c/1.4/Sun Aug  5 04:28:58 2012//Tnetbsd-9-3-RELEASE
+D/TESTS////

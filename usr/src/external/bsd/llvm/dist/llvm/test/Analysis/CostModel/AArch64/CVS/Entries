@@ -1,0 +1,13 @@
+/bswap.ll/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/div.ll/1.1.1.1/Tue Jul 17 18:35:20 2018//Tnetbsd-9-3-RELEASE
+/div_cte.ll/1.1.1.1/Tue Jul 17 18:35:20 2018//Tnetbsd-9-3-RELEASE
+/free-widening-casts.ll/1.1.1.1/Tue Aug  1 19:26:04 2017//Tnetbsd-9-3-RELEASE
+/gep.ll/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/kryo.ll/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.2/Sun Aug 10 17:04:48 2014//Tnetbsd-9-3-RELEASE
+/select.ll/1.1.1.2/Sat Feb 27 22:53:01 2016//Tnetbsd-9-3-RELEASE
+/shuffle-select.ll/1.1.1.1/Tue Jul 17 18:35:20 2018//Tnetbsd-9-3-RELEASE
+/shuffle-transpose.ll/1.1.1.1/Tue Jul 17 18:35:20 2018//Tnetbsd-9-3-RELEASE
+/store.ll/1.1.1.5/Tue Jul 17 18:35:20 2018//Tnetbsd-9-3-RELEASE
+/vector-reduce.ll/1.1.1.1/Tue Jul 17 18:35:20 2018//Tnetbsd-9-3-RELEASE
+D

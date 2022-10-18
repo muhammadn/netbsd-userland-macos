@@ -1,0 +1,10 @@
+/version.pass.cpp/1.1.1.1/Thu Aug 20 09:31:51 2015//Tnetbsd-9-3-RELEASE
+D/ostream////
+D/ostream.assign////
+D/ostream.cons////
+D/ostream.formatted////
+D/ostream.manip////
+D/ostream.rvalue////
+D/ostream.seeks////
+D/ostream.unformatted////
+D/ostream_sentry////

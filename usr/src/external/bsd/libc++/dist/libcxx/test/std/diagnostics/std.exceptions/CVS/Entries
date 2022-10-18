@@ -1,0 +1,10 @@
+/version.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+D/domain.error////
+D/invalid.argument////
+D/length.error////
+D/logic.error////
+D/out.of.range////
+D/overflow.error////
+D/range.error////
+D/runtime.error////
+D/underflow.error////

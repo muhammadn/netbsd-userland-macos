@@ -1,0 +1,23 @@
+/Makefile.in/1.1.1.7/Tue Feb 14 01:13:41 2017//Tnetbsd-9-3-RELEASE
+/Musings/1.1.1.1/Tue Jun 23 10:08:48 2009//Tnetbsd-9-3-RELEASE
+/alias.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/biff_notify.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/biff_notify.h/1.1.1.1/Tue Jun 23 10:08:48 2009//Tnetbsd-9-3-RELEASE
+/bounce_workaround.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/command.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/deliver_attr.c/1.1.1.1/Tue Jun 23 10:08:48 2009//Tnetbsd-9-3-RELEASE
+/dotforward.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/file.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/forward.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/include.c/1.1.1.2/Wed Jan  2 18:59:00 2013//Tnetbsd-9-3-RELEASE
+/indirect.c/1.1.1.1/Tue Jun 23 10:08:48 2009//Tnetbsd-9-3-RELEASE
+/local.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/local.h/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/local_expand.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/mailbox.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/maildir.c/1.1.1.2/Wed Jan  2 18:59:01 2013//Tnetbsd-9-3-RELEASE
+/recipient.c/1.2/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+/resolve.c/1.1.1.2/Sun Jul  6 19:27:52 2014//Tnetbsd-9-3-RELEASE
+/token.c/1.1.1.1/Tue Jun 23 10:08:49 2009//Tnetbsd-9-3-RELEASE
+/unknown.c/1.6/Tue Feb 14 01:16:45 2017//Tnetbsd-9-3-RELEASE
+D

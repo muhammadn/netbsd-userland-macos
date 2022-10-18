@@ -1,0 +1,12 @@
+/01-test/1.1.1.2.8.1/Mon Jul 13 13:55:41 2020//Tnetbsd-9-3-RELEASE
+/02-dump/1.1.1.1/Fri Mar 31 20:51:16 2017//Tnetbsd-9-3-RELEASE
+/10-wpa_supplicant/1.1.1.4/Tue Jul 30 10:23:02 2019//Tnetbsd-9-3-RELEASE
+/15-timezone/1.1.1.2/Mon Jan 29 11:11:23 2018//Tnetbsd-9-3-RELEASE
+/20-resolv.conf/1.3/Wed Jul 24 09:57:43 2019//Tnetbsd-9-3-RELEASE
+/29-lookup-hostname/1.2/Sat Sep 22 13:17:46 2018//Tnetbsd-9-3-RELEASE
+/30-hostname/1.3/Wed Jun 26 17:47:47 2019//Tnetbsd-9-3-RELEASE
+/50-ntp.conf/1.3/Wed Jul 24 09:57:43 2019//Tnetbsd-9-3-RELEASE
+/50-ypbind.in/1.2/Sat Sep 22 13:17:46 2018//Tnetbsd-9-3-RELEASE
+/dhcpcd-run-hooks.8.in/1.1.1.4/Tue Mar 27 06:14:39 2018//Tnetbsd-9-3-RELEASE
+/dhcpcd-run-hooks.in/1.3.2.1/Sun Jan  5 09:38:28 2020//Tnetbsd-9-3-RELEASE
+D

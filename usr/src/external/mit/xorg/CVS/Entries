@@ -1,0 +1,9 @@
+/Makefile/1.8/Fri Nov 12 17:05:48 2010//Tnetbsd-9-3-RELEASE
+/xorg-pkg-ver.mk/1.10/Thu May 31 09:31:39 2018//Tnetbsd-9-3-RELEASE
+D/bin////
+D/etc////
+D/include////
+D/lib////
+D/server////
+D/share////
+D/tools////

@@ -1,0 +1,16 @@
+/ASTSelection.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/AtomicChange.h/1.1.1.2/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RecursiveSymbolVisitor.h/1.1.1.2/Tue Jul 17 18:32:03 2018//Tnetbsd-9-3-RELEASE
+/RefactoringAction.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringActionRule.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringActionRuleRequirements.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringActionRules.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringActionRulesInternal.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringDiagnostic.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringOption.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringOptionVisitor.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringOptions.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringResultConsumer.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+/RefactoringRuleContext.h/1.1.1.1/Tue Jul 17 18:32:04 2018//Tnetbsd-9-3-RELEASE
+D/Extract////
+D/Rename////

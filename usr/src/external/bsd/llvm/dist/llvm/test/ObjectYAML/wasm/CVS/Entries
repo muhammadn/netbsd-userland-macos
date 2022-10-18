@@ -1,0 +1,20 @@
+/code_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/custom_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/data_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/elem_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/export_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/function_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/global_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/header.yaml/1.1.1.1/Tue Aug  1 19:25:15 2017//Tnetbsd-9-3-RELEASE
+/header_invalid_version.yaml/1.1.1.1/Tue Aug  1 19:25:15 2017//Tnetbsd-9-3-RELEASE
+/import_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/invalid_export.yaml/1.1.1.1/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/invalid_global_weak.yaml/1.1.1.1/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/linking_section.yaml/1.1.1.1/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/memory_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/name_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/start_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/table_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/type_section.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+/weak_symbols.yaml/1.1.1.2/Tue Jul 17 18:34:35 2018//Tnetbsd-9-3-RELEASE
+D

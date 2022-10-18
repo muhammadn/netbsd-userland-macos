@@ -1,0 +1,13 @@
+/TupleFunction.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/alloc_first.h/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/alloc_last.h/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+/empty_member.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+D/tuple.assign////
+D/tuple.cnstr////
+D/tuple.creation////
+D/tuple.elem////
+D/tuple.helper////
+D/tuple.rel////
+D/tuple.special////
+D/tuple.swap////
+D/tuple.traits////

@@ -1,0 +1,6 @@
+/module.map/1.1.1.1/Wed Jan 11 10:38:33 2017//Tnetbsd-9-3-RELEASE
+/pthread.h/1.1.1.1/Wed Jan 11 10:38:33 2017//Tnetbsd-9-3-RELEASE
+/pthread_impl.h/1.1.1.1/Wed Jan 11 10:38:33 2017//Tnetbsd-9-3-RELEASE
+/stdio.h/1.1.1.1/Wed Jan 11 10:38:33 2017//Tnetbsd-9-3-RELEASE
+D/pthread////
+D/tcl-private////

@@ -1,0 +1,21 @@
+/Makefile.am/1.1.1.5/Thu Apr 13 19:17:32 2017//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.11/Sat Apr  7 00:15:51 2018//Tnetbsd-9-3-RELEASE
+/README/1.1.1.1/Sun Dec 13 16:56:32 2009//Tnetbsd-9-3-RELEASE
+/invoke-ntpsnmpd.menu/1.1.1.1/Fri Dec 27 23:31:07 2013//Tnetbsd-9-3-RELEASE
+/invoke-ntpsnmpd.texi/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/netsnmp_daemonize.c/1.6/Sat Apr  7 00:19:53 2018//Tnetbsd-9-3-RELEASE
+/ntpSnmpSubagentObject.c/1.4/Fri Jan  8 21:35:40 2016//Tnetbsd-9-3-RELEASE
+/ntpSnmpSubagentObject.h/1.4/Fri Jan  8 21:35:40 2016//Tnetbsd-9-3-RELEASE
+/ntp_snmp.h/1.5/Fri Jan  8 21:35:40 2016//Tnetbsd-9-3-RELEASE
+/ntpsnmpd-opts.c/1.12/Sat Sep 29 21:52:34 2018//Tnetbsd-9-3-RELEASE
+/ntpsnmpd-opts.def/1.1.1.4/Fri Dec 19 20:37:43 2014//Tnetbsd-9-3-RELEASE
+/ntpsnmpd-opts.h/1.12/Sat Sep 29 21:52:34 2018//Tnetbsd-9-3-RELEASE
+/ntpsnmpd.1ntpsnmpdman/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/ntpsnmpd.1ntpsnmpdmdoc/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/ntpsnmpd.c/1.4/Fri Jan  8 21:35:40 2016//Tnetbsd-9-3-RELEASE
+/ntpsnmpd.html/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/ntpsnmpd.man.in/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/ntpsnmpd.mdoc.in/1.1.1.12/Sat Sep 29 17:28:42 2018//Tnetbsd-9-3-RELEASE
+/ntpsnmpd.texi/1.1.1.1/Fri Dec 27 23:31:07 2013//Tnetbsd-9-3-RELEASE
+/ntpv4-mib.mib/1.1.1.2/Tue Jan 31 21:27:05 2012//Tnetbsd-9-3-RELEASE
+D

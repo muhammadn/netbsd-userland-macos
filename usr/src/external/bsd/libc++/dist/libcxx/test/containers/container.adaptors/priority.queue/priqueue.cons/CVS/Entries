@@ -1,0 +1,17 @@
+/assign_copy.pass.cpp/1.1.1.2/Thu May 15 23:53:11 2014//Tnetbsd-9-3-RELEASE
+/assign_move.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/ctor_comp.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/ctor_comp_container.pass.cpp/1.1.1.2/Thu May 15 23:53:11 2014//Tnetbsd-9-3-RELEASE
+/ctor_comp_rcontainer.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/ctor_copy.pass.cpp/1.1.1.2/Thu May 15 23:53:11 2014//Tnetbsd-9-3-RELEASE
+/ctor_default.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/ctor_iter_iter.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/ctor_iter_iter_comp.pass.cpp/1.1.1.2/Thu May 15 23:53:11 2014//Tnetbsd-9-3-RELEASE
+/ctor_iter_iter_comp_cont.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/ctor_iter_iter_comp_rcont.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/ctor_move.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/default_noexcept.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/dtor_noexcept.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/move_assign_noexcept.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+/move_noexcept.pass.cpp/1.1.1.1/Fri May 17 23:02:31 2013//Tnetbsd-9-3-RELEASE
+D

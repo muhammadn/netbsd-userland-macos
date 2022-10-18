@@ -1,0 +1,14 @@
+/elf-aarch64-mapping-symbols.test/1.1.1.1/Sat Feb 27 22:52:55 2016//Tnetbsd-9-3-RELEASE
+/lit.local.cfg/1.1.1.1/Thu Jan 29 19:54:45 2015//Tnetbsd-9-3-RELEASE
+/mach-print-armv8crypto.test/1.1.1.1/Tue Aug  1 19:25:05 2017//Tnetbsd-9-3-RELEASE
+/macho-fat-arm-disasm.test/1.1.1.1/Tue Jul 17 18:35:51 2018//Tnetbsd-9-3-RELEASE
+/macho-kextbundle.test/1.1.1.1/Tue Aug  1 19:25:05 2017//Tnetbsd-9-3-RELEASE
+/macho-link-opt-hints.test/1.1.1.1/Sat Feb 27 22:52:55 2016//Tnetbsd-9-3-RELEASE
+/macho-print-mrs.test/1.1.1.2/Tue Aug  1 19:25:05 2017//Tnetbsd-9-3-RELEASE
+/macho-print-thread.test/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/macho-private-headers.test/1.1.1.1/Thu Jan 29 19:54:45 2015//Tnetbsd-9-3-RELEASE
+/macho-reloc-addend.test/1.1.1.1/Tue Aug  1 19:25:05 2017//Tnetbsd-9-3-RELEASE
+/macho-symbolized-disassembly.test/1.1.1.2/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/macho-zerofill.s/1.1.1.1/Tue Jul 17 18:35:51 2018//Tnetbsd-9-3-RELEASE
+/pc-rel-targets.test/1.1.1.1/Tue Jul 17 18:35:51 2018//Tnetbsd-9-3-RELEASE
+D/Inputs////

@@ -1,0 +1,13 @@
+/Makefile/1.52.2.1/Wed Aug 21 08:28:53 2019//Tnetbsd-9-3-RELEASE
+/bbinfo.c/1.14/Sun Apr  5 11:55:39 2009//Tnetbsd-9-3-RELEASE
+/evboards.c/1.2.4.1/Sun Sep 22 10:20:16 2019//Tnetbsd-9-3-RELEASE
+/evboards.h/1.1.4.1/Sun Sep 22 10:20:16 2019//Tnetbsd-9-3-RELEASE
+/ext2fs.c/1.9/Sun Jun 23 02:06:06 2013//Tnetbsd-9-3-RELEASE
+/ffs.c/1.32/Sun Jun 23 02:06:06 2013//Tnetbsd-9-3-RELEASE
+/fstypes.c/1.13/Thu Jan 14 16:27:49 2010//Tnetbsd-9-3-RELEASE
+/installboot.8/1.97.2.1/Sat Jun 20 13:51:46 2020//Tnetbsd-9-3-RELEASE
+/installboot.c/1.40/Tue May  7 05:02:42 2019//Tnetbsd-9-3-RELEASE
+/installboot.h/1.40.2.1/Fri Aug 16 19:20:46 2019//Tnetbsd-9-3-RELEASE
+/machines.c/1.40.2.1/Wed Aug 21 08:28:53 2019//Tnetbsd-9-3-RELEASE
+/sum.c/1.5/Thu Jan 14 16:27:49 2010//Tnetbsd-9-3-RELEASE
+D/arch////

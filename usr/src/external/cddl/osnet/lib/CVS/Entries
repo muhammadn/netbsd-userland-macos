@@ -1,0 +1,12 @@
+/Makefile/1.9/Mon May 28 21:05:08 2018//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.5/Thu Aug  4 17:07:23 2016//Tnetbsd-9-3-RELEASE
+D/drti////
+D/libavl////
+D/libctf////
+D/libdtrace////
+D/libnvpair////
+D/libumem////
+D/libuutil////
+D/libzfs////
+D/libzfs_core////
+D/libzpool////

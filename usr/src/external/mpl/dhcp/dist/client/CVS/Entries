@@ -1,0 +1,13 @@
+/Makefile.am/1.1.1.1/Sat Apr  7 22:34:25 2018//Tnetbsd-9-3-RELEASE
+/Makefile.in/1.1.1.1/Sat Apr  7 22:34:25 2018//Tnetbsd-9-3-RELEASE
+/client_tables.c/1.2/Sat Apr  7 22:37:29 2018//Tnetbsd-9-3-RELEASE
+/clparse.c/1.2/Sat Apr  7 22:37:29 2018//Tnetbsd-9-3-RELEASE
+/dhc6.c/1.2/Sat Apr  7 22:37:29 2018//Tnetbsd-9-3-RELEASE
+/dhclient-script.8/1.2/Sat Apr  7 22:37:29 2018//Tnetbsd-9-3-RELEASE
+/dhclient.8/1.2/Sat Apr  7 22:37:29 2018//Tnetbsd-9-3-RELEASE
+/dhclient.c/1.2/Sat Apr  7 22:37:29 2018//Tnetbsd-9-3-RELEASE
+/dhclient.conf.5/1.2/Sat Apr  7 22:37:29 2018//Tnetbsd-9-3-RELEASE
+/dhclient.conf.example/1.1.1.1/Sat Apr  7 22:34:25 2018//Tnetbsd-9-3-RELEASE
+/dhclient.leases.5/1.2/Sat Apr  7 22:37:29 2018//Tnetbsd-9-3-RELEASE
+D/scripts////
+D/tests////

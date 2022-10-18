@@ -1,0 +1,18 @@
+/Makefile/1.11.2.1/Sun Sep  1 10:44:23 2019//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.1/Sat Jun 11 18:03:18 2011//Tnetbsd-9-3-RELEASE
+/gen_ether_subr/1.1/Tue Nov  1 22:36:53 2011//Tnetbsd-9-3-RELEASE
+/h_dns_server.c/1.4/Sat Mar 29 16:10:54 2014//Tnetbsd-9-3-RELEASE
+/h_hostent.c/1.2/Thu Jan  9 02:18:10 2014//Tnetbsd-9-3-RELEASE
+/h_nsd_recurse.c/1.2/Thu Jan 13 02:24:51 2011//Tnetbsd-9-3-RELEASE
+/h_protoent.c/1.2/Thu Apr  7 18:14:09 2011//Tnetbsd-9-3-RELEASE
+/h_servent.c/1.2/Thu Apr  7 18:14:09 2011//Tnetbsd-9-3-RELEASE
+/hosts/1.1/Fri Aug 16 15:29:45 2013//Tnetbsd-9-3-RELEASE
+/resolv.conf/1.1/Thu Jan  9 02:18:10 2014//Tnetbsd-9-3-RELEASE
+/t_ether_aton.c/1.1/Tue Nov  1 22:36:53 2011//Tnetbsd-9-3-RELEASE
+/t_getprotoent.c/1.2/Wed Apr  4 10:03:53 2012//Tnetbsd-9-3-RELEASE
+/t_hostent.sh/1.10/Mon Jan 13 11:08:14 2014//Tnetbsd-9-3-RELEASE
+/t_if_nametoindex.c/1.1/Mon Aug  6 04:50:11 2018//Tnetbsd-9-3-RELEASE
+/t_nsdispatch.sh/1.1/Thu Jan 13 01:56:44 2011//Tnetbsd-9-3-RELEASE
+/t_protoent.sh/1.2/Mon Sep  3 15:32:18 2012//Tnetbsd-9-3-RELEASE
+/t_servent.sh/1.2/Tue Mar  8 08:34:17 2016//Tnetbsd-9-3-RELEASE
+D/getaddrinfo////

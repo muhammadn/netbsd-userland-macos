@@ -1,0 +1,25 @@
+/TSP.idl/1.1.1.1/Mon Jan  7 14:57:24 2019//Tnetbsd-9-3-RELEASE
+/compat11b.h/1.1.1.1/Sat Jan 28 01:36:48 2012//Tnetbsd-9-3-RELEASE
+/platform.h/1.1.1.1/Sat Jan 28 01:36:47 2012//Tnetbsd-9-3-RELEASE
+/tcpa_defines.h/1.1.1.1/Sat Jan 28 01:36:48 2012//Tnetbsd-9-3-RELEASE
+/tcpa_error.h/1.1.1.1/Sat Jan 28 01:36:47 2012//Tnetbsd-9-3-RELEASE
+/tcpa_struct.h/1.1.1.1/Sat Jan 28 01:36:53 2012//Tnetbsd-9-3-RELEASE
+/tcpa_typedef.h/1.1.1.1/Sat Jan 28 01:36:54 2012//Tnetbsd-9-3-RELEASE
+/tcs.h/1.1.1.1/Sat Jan 28 01:36:53 2012//Tnetbsd-9-3-RELEASE
+/tcs_defines.h/1.1.1.1/Sat Jan 28 01:36:47 2012//Tnetbsd-9-3-RELEASE
+/tcs_error.h/1.1.1.1/Sat Jan 28 01:36:47 2012//Tnetbsd-9-3-RELEASE
+/tcs_structs.h/1.1.1.1/Sat Jan 28 01:36:48 2012//Tnetbsd-9-3-RELEASE
+/tcs_typedef.h/1.1.1.1/Sat Jan 28 01:36:54 2012//Tnetbsd-9-3-RELEASE
+/tddl_error.h/1.1.1.1/Sat Jan 28 01:36:47 2012//Tnetbsd-9-3-RELEASE
+/tddlapi_error.h/1.1.1.1/Sat Jan 28 01:36:48 2012//Tnetbsd-9-3-RELEASE
+/tddli.h/1.1.1.1/Sat Jan 28 01:36:51 2012//Tnetbsd-9-3-RELEASE
+/tpm.h/1.1.1.2/Mon Jan  7 14:57:24 2019//Tnetbsd-9-3-RELEASE
+/tpm_error.h/1.1.1.1/Sat Jan 28 01:36:52 2012//Tnetbsd-9-3-RELEASE
+/tpm_ordinal.h/1.1.1.1/Sat Jan 28 01:36:52 2012//Tnetbsd-9-3-RELEASE
+/tspi.h/1.1.1.1/Sat Jan 28 01:36:51 2012//Tnetbsd-9-3-RELEASE
+/tss_defines.h/1.1.1.1/Sat Jan 28 01:36:51 2012//Tnetbsd-9-3-RELEASE
+/tss_error.h/1.1.1.1/Sat Jan 28 01:36:48 2012//Tnetbsd-9-3-RELEASE
+/tss_error_basics.h/1.1.1.1/Sat Jan 28 01:36:47 2012//Tnetbsd-9-3-RELEASE
+/tss_structs.h/1.1.1.1/Sat Jan 28 01:36:47 2012//Tnetbsd-9-3-RELEASE
+/tss_typedef.h/1.1.1.1/Sat Jan 28 01:36:48 2012//Tnetbsd-9-3-RELEASE
+D

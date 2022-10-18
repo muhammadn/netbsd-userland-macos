@@ -1,0 +1,9 @@
+/calls.ll/1.1.1.1/Tue Jul 17 18:35:10 2018//Tnetbsd-9-3-RELEASE
+/guards-verify-call.mir/1.1.1.1/Tue Jul 17 18:35:10 2018//Tnetbsd-9-3-RELEASE
+/guards-verify-tailcall.mir/1.1.1.1/Tue Jul 17 18:35:10 2018//Tnetbsd-9-3-RELEASE
+/jumptables.ll/1.1.1.1/Tue Jul 17 18:35:10 2018//Tnetbsd-9-3-RELEASE
+/long-branch.ll/1.1.1.1/Tue Jul 17 18:35:10 2018//Tnetbsd-9-3-RELEASE
+/long-calls.ll/1.1.1.1/Tue Jul 17 18:35:10 2018//Tnetbsd-9-3-RELEASE
+/unsupported-micromips.ll/1.1.1.1/Tue Jul 17 18:35:10 2018//Tnetbsd-9-3-RELEASE
+/unsupported-mips32.ll/1.1.1.1/Tue Jul 17 18:35:10 2018//Tnetbsd-9-3-RELEASE
+D

@@ -1,0 +1,11 @@
+/test_allocator.h/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+/version.pass.cpp/1.1.1.1/Thu Aug 20 09:31:52 2015//Tnetbsd-9-3-RELEASE
+D/futures.async////
+D/futures.errors////
+D/futures.future_error////
+D/futures.overview////
+D/futures.promise////
+D/futures.shared_future////
+D/futures.state////
+D/futures.tas////
+D/futures.unique_future////

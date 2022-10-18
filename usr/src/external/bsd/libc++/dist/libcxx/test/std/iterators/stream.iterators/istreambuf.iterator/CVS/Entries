@@ -1,0 +1,8 @@
+/types.pass.cpp/1.1.1.1/Thu Aug 20 09:31:53 2015//Tnetbsd-9-3-RELEASE
+D/istreambuf.iterator.cons////
+D/istreambuf.iterator_equal////
+D/istreambuf.iterator_op!=////
+D/istreambuf.iterator_op++////
+D/istreambuf.iterator_op==////
+D/istreambuf.iterator_op_astrk////
+D/istreambuf.iterator_proxy////

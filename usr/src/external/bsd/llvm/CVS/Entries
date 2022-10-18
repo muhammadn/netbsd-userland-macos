@@ -1,0 +1,10 @@
+/Makefile/1.12/Wed Apr  3 15:21:58 2019//Tnetbsd-9-3-RELEASE
+/Makefile.inc/1.88/Thu Apr  4 12:34:31 2019//Tnetbsd-9-3-RELEASE
+/link.mk/1.6/Wed Apr 10 20:32:56 2019//Tnetbsd-9-3-RELEASE
+/tablegen.mk/1.4/Tue Oct 11 13:53:57 2011//Tnetbsd-9-3-RELEASE
+D/bin////
+D/config////
+D/dist////
+D/include////
+D/lib////
+D/librt////

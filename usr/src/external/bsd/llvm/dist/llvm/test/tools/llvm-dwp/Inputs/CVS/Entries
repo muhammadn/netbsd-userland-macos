@@ -1,0 +1,17 @@
+/empty.dwo/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/empty_compressed_section.dwo/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/invalid_compressed.dwo/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/invalid_string_form.dwo/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/multiple_type_sections.dwp/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+/non_cu_top_level.dwo/1.1.1.1/Tue Jan 10 20:48:34 2017//Tnetbsd-9-3-RELEASE
+D/compress////
+D/compressfail////
+D/duplicate////
+D/duplicate_dwo_name////
+D/dwos_list_from_exec////
+D/gcc_type////
+D/invalid_cu_index////
+D/merge////
+D/missing_tu_index////
+D/simple////
+D/type_dedup////

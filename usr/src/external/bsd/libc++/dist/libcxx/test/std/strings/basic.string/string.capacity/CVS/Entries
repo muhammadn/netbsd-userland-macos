@@ -1,0 +1,12 @@
+/capacity.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/clear.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/empty.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/length.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/max_size.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/over_max_size.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/reserve.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/resize_size.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/resize_size_char.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/shrink_to_fit.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+/size.pass.cpp/1.1.1.1/Thu Aug 20 09:31:50 2015//Tnetbsd-9-3-RELEASE
+D
